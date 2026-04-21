@@ -43,9 +43,10 @@
         cursor: pointer;
         position: relative;
         font-size: 16px;
+        --clg-icon-color: #665E5C;
       }
       .icon-rail .rail-item:hover { background: #EFECEA; }
-      .icon-rail .rail-item.active { background: #EFECEA; color: #312B36; }
+      .icon-rail .rail-item.active { background: #EFECEA; color: #312B36; --clg-icon-color: #312B36; }
       .icon-rail .rail-item .notif-dot {
         position: absolute; top: 4px; right: 4px;
         width: 6px; height: 6px; border-radius: 50%;
@@ -277,16 +278,16 @@
         <div class="rail-logo">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z" fill="#F1641E"/><path d="M7.97 7.74c0-.37.04-.6.17-.72.14-.12.42-.17.86-.17h2.84c.77 0 1.36.06 1.76.17.4.12.72.33.96.64l.46.6.36-.04-.12-2.48H7.1v.36c.48.04.78.1.9.2.12.1.18.32.18.66v10.12c0 .34-.06.56-.18.66-.12.1-.42.16-.9.2v.36h8.16l.32-2.64-.38-.04-.42.72c-.26.36-.58.6-.96.72-.38.12-.96.18-1.74.18H9c-.44 0-.72-.06-.86-.17-.13-.12-.17-.35-.17-.72v-4.32h1.96c.46 0 .78.08.96.24.18.16.3.48.38.96h.36v-3.04h-.36c-.08.48-.2.8-.38.96-.18.16-.5.24-.96.24H7.97V7.74z" fill="#fff"/></svg>
         </div>
-        <div class="rail-item" title="Home">🏠</div>
-        <div class="rail-item" title="Orders"><span>📦</span><div class="notif-dot"></div></div>
-        <div class="rail-item" title="Messages"><span>💬</span><div class="notif-dot"></div></div>
-        <div class="rail-item" title="Listings">📋</div>
-        <div class="rail-item" title="Insights">📊</div>
-        <div class="rail-item" title="Marketing">📣</div>
-        <div class="rail-item" title="Finances">🏦</div>
-        <div class="rail-item" title="More">⊞</div>
+        <div class="rail-item" title="Home"><clg-icon name="home" size="smaller"></clg-icon></div>
+        <div class="rail-item" title="Orders"><clg-icon name="orders" size="smaller"></clg-icon><div class="notif-dot"></div></div>
+        <div class="rail-item" title="Messages"><clg-icon name="message" size="smaller"></clg-icon><div class="notif-dot"></div></div>
+        <div class="rail-item" title="Listings"><clg-icon name="list" size="smaller"></clg-icon></div>
+        <div class="rail-item" title="Insights"><clg-icon name="barchart" size="smaller"></clg-icon></div>
+        <div class="rail-item" title="Marketing"><clg-icon name="promoted" size="smaller"></clg-icon></div>
+        <div class="rail-item" title="Finances"><clg-icon name="bank" size="smaller"></clg-icon></div>
+        <div class="rail-item" title="More"><clg-icon name="gridtwo" size="smaller"></clg-icon></div>
         <div class="rail-spacer"></div>
-        <div class="rail-item active" title="Settings">⚙️</div>
+        <div class="rail-item active" title="Settings"><clg-icon name="gear" size="smaller"></clg-icon></div>
         <div class="rail-item" title="Profile"><div class="rail-avatar"></div></div>
       </nav>
 
@@ -296,12 +297,13 @@
         <!-- Top bar -->
         <header class="top-bar">
           <div class="search-trigger">
-            🔍 <span>Search Settings</span>
+            <clg-icon name="search" size="smaller" style="--clg-icon-color:#665E5C"></clg-icon>
+            <span>Search Settings</span>
             <div class="kbd"><span>⌘</span><span>K</span></div>
           </div>
           <div class="top-right">
-            <div class="top-icon">🔔<div class="notif-dot"></div></div>
-            <div class="top-icon">💡</div>
+            <div class="top-icon"><clg-icon name="bell" size="smaller"></clg-icon><div class="notif-dot"></div></div>
+            <div class="top-icon"><clg-icon name="lightbulb" size="smaller"></clg-icon></div>
           </div>
         </header>
 
@@ -363,20 +365,20 @@
               <div class="edu-title">Learn about policies <span style="font-size:14px;">›</span></div>
               <div class="edu-row">
                 <a href="#" class="edu-card">
-                  <div class="edu-icon" style="background:#EDE4F7;">📜</div>
+                  <div class="edu-icon" style="background:#EDE4F7;"><clg-icon name="growth" size="larger" style="--clg-icon-color:#6B4FA0"></clg-icon></div>
                   <div class="edu-body">
                     <h4>The Ultimate Guide to Etsy Policy</h4>
                     <p>Learn why policies are created, how to avoid listing removals, and what we're doing to increase transparency.</p>
                   </div>
-                  <span class="edu-ext">↗</span>
+                  <span class="edu-ext"><clg-icon name="openinnewview" size="smaller" style="--clg-icon-color:#665E5C"></clg-icon></span>
                 </a>
                 <a href="#" class="edu-card">
-                  <div class="edu-icon" style="background:#FDE8D8;">✋</div>
+                  <div class="edu-icon" style="background:#FDE8D8;"><clg-icon name="trust" size="larger" style="--clg-icon-color:#C4640A"></clg-icon></div>
                   <div class="edu-body">
                     <h4>Etsy's Creativity Standards Policy</h4>
                     <p>Understand what can and can't be sold on Etsy, the marketplace for original items from real people.</p>
                   </div>
-                  <span class="edu-ext">↗</span>
+                  <span class="edu-ext"><clg-icon name="openinnewview" size="smaller" style="--clg-icon-color:#665E5C"></clg-icon></span>
                 </a>
               </div>
             </div>
@@ -543,7 +545,11 @@
         let h = '';
         s.actions.forEach(a => {
           const dcls = a.deadline.includes('days left') ? 'crit' : 'info';
-          const icon = a.type === 'verify' ? '👤' : a.type === 'quiz' ? '💡' : '🖼️';
+          const icon = a.type === 'verify'
+            ? '<clg-icon name="userprofile" size="small"></clg-icon>'
+            : a.type === 'quiz'
+            ? '<clg-icon name="lightbulb" size="small"></clg-icon>'
+            : '<clg-icon name="image" size="small"></clg-icon>';
           h += '<div class="action-card">';
           h += `<div class="ac-icon">${icon}</div>`;
           h += '<div class="ac-body">';
