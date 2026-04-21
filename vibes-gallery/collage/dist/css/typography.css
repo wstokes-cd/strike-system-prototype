@@ -1,0 +1,582 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-text-display-larger {
+  font-family: var(--clg-typography-sem-product-display-mobile-larger-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-display-mobile-larger-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-display-mobile-larger-font-size, 59.01px);
+  line-height: var(--clg-typography-sem-product-display-mobile-larger-line-height, 1);
+  letter-spacing: var(--clg-typography-sem-product-display-mobile-larger-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-display-larger {
+    font-family: var(--clg-typography-sem-product-display-desktop-larger-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-display-desktop-larger-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-display-desktop-larger-font-size, 80.99px);
+    line-height: var(--clg-typography-sem-product-display-desktop-larger-line-height, 1);
+    letter-spacing: var(--clg-typography-sem-product-display-desktop-larger-letter-spacing, 0px);
+  }
+}
+
+.wt-text-display-large {
+  font-family: var(--clg-typography-sem-product-display-mobile-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-display-mobile-large-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-display-mobile-large-font-size, 51.01px);
+  line-height: var(--clg-typography-sem-product-display-mobile-large-line-height, 1);
+  letter-spacing: var(--clg-typography-sem-product-display-mobile-large-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-display-large {
+    font-family: var(--clg-typography-sem-product-display-desktop-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-display-desktop-large-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-display-desktop-large-font-size, 71.01px);
+    line-height: var(--clg-typography-sem-product-display-desktop-large-line-height, 1);
+    letter-spacing: var(--clg-typography-sem-product-display-desktop-large-letter-spacing, 0px);
+  }
+}
+
+.wt-text-display {
+  font-family: var(--clg-typography-sem-product-display-mobile-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-display-mobile-base-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-display-mobile-base-font-size, 35.01px);
+  line-height: var(--clg-typography-sem-product-display-mobile-base-line-height, 1.05);
+  letter-spacing: var(--clg-typography-sem-product-display-mobile-base-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-display {
+    font-family: var(--clg-typography-sem-product-display-desktop-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-display-desktop-base-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-display-desktop-base-font-size, 51.01px);
+    line-height: var(--clg-typography-sem-product-display-desktop-base-line-height, 1.05);
+    letter-spacing: var(--clg-typography-sem-product-display-desktop-base-letter-spacing, 0px);
+  }
+}
+
+.wt-text-heading-large {
+  font-family: var(--clg-typography-sem-product-heading-mobile-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-heading-mobile-large-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-heading-mobile-large-font-size, 31.01px);
+  line-height: var(--clg-typography-sem-product-heading-mobile-large-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-product-heading-mobile-large-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-heading-large {
+    font-family: var(--clg-typography-sem-product-heading-desktop-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-heading-desktop-large-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-heading-desktop-large-font-size, 42px);
+    line-height: var(--clg-typography-sem-product-heading-desktop-large-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-product-heading-desktop-large-letter-spacing, 0px);
+  }
+}
+
+.wt-text-heading {
+  font-family: var(--clg-typography-sem-product-heading-mobile-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-heading-mobile-base-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-heading-mobile-base-font-size, 24px);
+  line-height: var(--clg-typography-sem-product-heading-mobile-base-line-height, 1.15);
+  letter-spacing: var(--clg-typography-sem-product-heading-mobile-base-letter-spacing, 0.48px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-heading {
+    font-family: var(--clg-typography-sem-product-heading-desktop-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-heading-desktop-base-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-heading-desktop-base-font-size, 31.01px);
+    line-height: var(--clg-typography-sem-product-heading-desktop-base-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-product-heading-desktop-base-letter-spacing, 0.46515px);
+  }
+}
+
+.wt-text-heading-small {
+  font-family: var(--clg-typography-sem-product-heading-mobile-small-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-heading-mobile-small-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-heading-mobile-small-font-size, 19.01px);
+  line-height: var(--clg-typography-sem-product-heading-mobile-small-line-height, 1.6);
+  letter-spacing: var(--clg-typography-sem-product-heading-mobile-small-letter-spacing, 0.23763px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-heading-small {
+    font-family: var(--clg-typography-sem-product-heading-desktop-small-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-heading-desktop-small-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-heading-desktop-small-font-size, 24.99px);
+    line-height: var(--clg-typography-sem-product-heading-desktop-small-line-height, 1.6);
+    letter-spacing: var(--clg-typography-sem-product-heading-desktop-small-letter-spacing, 0.31238px);
+  }
+}
+
+.wt-text-heading-small--tight {
+  font-family: var(--clg-typography-sem-product-heading-mobile-small-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-product-heading-mobile-small-font-weight, 300);
+  font-size: var(--clg-typography-sem-product-heading-mobile-small-font-size, 19.01px);
+  line-height: var(--clg-typography-sem-product-heading-mobile-small-tight-line-height, 1.2);
+  letter-spacing: var(--clg-typography-sem-product-heading-mobile-small-letter-spacing, 0.23763px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-heading-small--tight {
+    font-family: var(--clg-typography-sem-product-heading-desktop-small-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-product-heading-desktop-small-font-weight, 300);
+    font-size: var(--clg-typography-sem-product-heading-desktop-small-font-size, 24.99px);
+    line-height: var(--clg-typography-sem-product-heading-desktop-small-tight-line-height, 1.2);
+    letter-spacing: var(--clg-typography-sem-product-heading-desktop-small-letter-spacing, 0.31238px);
+  }
+}
+
+.wt-text-title-larger {
+  font-family: var(--clg-typography-sem-product-title-mobile-larger-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-larger-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-larger-font-size, 24px);
+  line-height: var(--clg-typography-sem-product-title-mobile-larger-line-height, 1.35);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-larger-letter-spacing, 0.12px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title-larger {
+    font-family: var(--clg-typography-sem-product-title-desktop-larger-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-larger-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-larger-font-size, 27.01px);
+    line-height: var(--clg-typography-sem-product-title-desktop-larger-line-height, 1.3);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-larger-letter-spacing, 0.13505px);
+  }
+}
+
+.wt-text-title-large {
+  font-family: var(--clg-typography-sem-product-title-mobile-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-large-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-large-font-size, 18px);
+  line-height: var(--clg-typography-sem-product-title-mobile-large-line-height, 1.35);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-large-letter-spacing, 0.09px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title-large {
+    font-family: var(--clg-typography-sem-product-title-desktop-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-large-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-large-font-size, 19.01px);
+    line-height: var(--clg-typography-sem-product-title-desktop-large-line-height, 1.4);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-large-letter-spacing, 0.09505px);
+  }
+}
+
+.wt-text-title-large--tight {
+  font-family: var(--clg-typography-sem-product-title-mobile-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-large-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-large-font-size, 18px);
+  line-height: var(--clg-typography-sem-product-title-mobile-large-tight-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-large-letter-spacing, 0.09px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title-large--tight {
+    font-family: var(--clg-typography-sem-product-title-desktop-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-large-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-large-font-size, 19.01px);
+    line-height: var(--clg-typography-sem-product-title-desktop-large-tight-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-large-letter-spacing, 0.09505px);
+  }
+}
+
+.wt-text-title {
+  font-family: var(--clg-typography-sem-product-title-mobile-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-base-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-base-font-size, 16px);
+  line-height: var(--clg-typography-sem-product-title-mobile-base-line-height, 1.25);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-base-letter-spacing, 0.08px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title {
+    font-family: var(--clg-typography-sem-product-title-desktop-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-base-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-base-font-size, 16px);
+    line-height: var(--clg-typography-sem-product-title-desktop-base-line-height, 1.25);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-base-letter-spacing, 0.08px);
+  }
+}
+
+.wt-text-title-small {
+  font-family: var(--clg-typography-sem-product-title-mobile-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-small-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-small-font-size, 12.99px);
+  line-height: var(--clg-typography-sem-product-title-mobile-small-line-height, 1.4);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-small-letter-spacing, 0.1299px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title-small {
+    font-family: var(--clg-typography-sem-product-title-desktop-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-small-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-small-font-size, 12.99px);
+    line-height: var(--clg-typography-sem-product-title-desktop-small-line-height, 1.4);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-small-letter-spacing, 0.1299px);
+  }
+}
+
+.wt-text-title-small--tight {
+  font-family: var(--clg-typography-sem-product-title-mobile-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-small-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-small-font-size, 12.99px);
+  line-height: var(--clg-typography-sem-product-title-mobile-small-tight-line-height, 1.2);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-small-letter-spacing, 0.1299px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title-small--tight {
+    font-family: var(--clg-typography-sem-product-title-desktop-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-small-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-small-font-size, 12.99px);
+    line-height: var(--clg-typography-sem-product-title-desktop-small-tight-line-height, 1.2);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-small-letter-spacing, 0.1299px);
+  }
+}
+
+.wt-text-title-smallest {
+  font-family: var(--clg-typography-sem-product-title-mobile-smallest-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-title-mobile-smallest-font-weight, 500);
+  font-size: var(--clg-typography-sem-product-title-mobile-smallest-font-size, 11px);
+  line-height: var(--clg-typography-sem-product-title-mobile-smallest-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-product-title-mobile-smallest-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-title-smallest {
+    font-family: var(--clg-typography-sem-product-title-desktop-smallest-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-title-desktop-smallest-font-weight, 500);
+    font-size: var(--clg-typography-sem-product-title-desktop-smallest-font-size, 11px);
+    line-height: var(--clg-typography-sem-product-title-desktop-smallest-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-product-title-desktop-smallest-letter-spacing, 0px);
+  }
+}
+
+.wt-text-body-large {
+  font-family: var(--clg-typography-sem-product-body-mobile-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-large-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-large-font-size, 19.01px);
+  line-height: var(--clg-typography-sem-product-body-mobile-large-line-height, 1.6);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-large-letter-spacing, 0.1901px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body-large {
+    font-family: var(--clg-typography-sem-product-body-desktop-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-large-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-large-font-size, 19.01px);
+    line-height: var(--clg-typography-sem-product-body-desktop-large-line-height, 1.8);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-large-letter-spacing, 0.1901px);
+  }
+}
+
+.wt-text-body-large--tight {
+  font-family: var(--clg-typography-sem-product-body-mobile-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-large-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-large-font-size, 19.01px);
+  line-height: var(--clg-typography-sem-product-body-mobile-large-tight-line-height, 1.2);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-large-letter-spacing, 0.1901px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body-large--tight {
+    font-family: var(--clg-typography-sem-product-body-desktop-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-large-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-large-font-size, 19.01px);
+    line-height: var(--clg-typography-sem-product-body-desktop-large-tight-line-height, 1.4);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-large-letter-spacing, 0.1901px);
+  }
+}
+
+.wt-text-body {
+  font-family: var(--clg-typography-sem-product-body-mobile-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-base-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-base-font-size, 16px);
+  line-height: var(--clg-typography-sem-product-body-mobile-base-line-height, 1.7);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-base-letter-spacing, 0.16px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body {
+    font-family: var(--clg-typography-sem-product-body-desktop-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-base-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-base-font-size, 16px);
+    line-height: var(--clg-typography-sem-product-body-desktop-base-line-height, 1.7);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-base-letter-spacing, 0.16px);
+  }
+}
+
+.wt-text-body--tight {
+  font-family: var(--clg-typography-sem-product-body-mobile-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-base-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-base-font-size, 16px);
+  line-height: var(--clg-typography-sem-product-body-mobile-base-tight-line-height, 1.25);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-base-letter-spacing, 0.16px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body--tight {
+    font-family: var(--clg-typography-sem-product-body-desktop-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-base-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-base-font-size, 16px);
+    line-height: var(--clg-typography-sem-product-body-desktop-base-tight-line-height, 1.5);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-base-letter-spacing, 0.16px);
+  }
+}
+
+.wt-text-body-small {
+  font-family: var(--clg-typography-sem-product-body-mobile-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-small-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-small-font-size, 12.99px);
+  line-height: var(--clg-typography-sem-product-body-mobile-small-line-height, 1.4);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-small-letter-spacing, 0.1299px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body-small {
+    font-family: var(--clg-typography-sem-product-body-desktop-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-small-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-small-font-size, 12.99px);
+    line-height: var(--clg-typography-sem-product-body-desktop-small-line-height, 1.4);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-small-letter-spacing, 0.1299px);
+  }
+}
+
+.wt-text-body-small--tight {
+  font-family: var(--clg-typography-sem-product-body-mobile-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-small-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-small-font-size, 12.99px);
+  line-height: var(--clg-typography-sem-product-body-mobile-small-tight-line-height, 1.2);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-small-letter-spacing, 0.1299px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body-small--tight {
+    font-family: var(--clg-typography-sem-product-body-desktop-small-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-small-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-small-font-size, 12.99px);
+    line-height: var(--clg-typography-sem-product-body-desktop-small-tight-line-height, 1.2);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-small-letter-spacing, 0.1299px);
+  }
+}
+
+.wt-text-body-smaller {
+  font-family: var(--clg-typography-sem-product-body-mobile-smaller-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-smaller-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-smaller-font-size, 12px);
+  line-height: var(--clg-typography-sem-product-body-mobile-smaller-line-height, 1.2);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-smaller-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body-smaller {
+    font-family: var(--clg-typography-sem-product-body-desktop-smaller-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-smaller-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-smaller-font-size, 12px);
+    line-height: var(--clg-typography-sem-product-body-desktop-smaller-line-height, 1.2);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-smaller-letter-spacing, 0px);
+  }
+}
+
+.wt-text-body-smallest {
+  font-family: var(--clg-typography-sem-product-body-mobile-smallest-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-smallest-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-smallest-font-size, 11px);
+  line-height: var(--clg-typography-sem-product-body-mobile-smallest-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-smallest-letter-spacing, 0px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-body-smallest {
+    font-family: var(--clg-typography-sem-product-body-desktop-smallest-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-product-body-desktop-smallest-font-weight, 400);
+    font-size: var(--clg-typography-sem-product-body-desktop-smallest-font-size, 11px);
+    line-height: var(--clg-typography-sem-product-body-desktop-smallest-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-product-body-desktop-smallest-letter-spacing, 0px);
+  }
+}
+
+.wt-text-marketing-display-larger {
+  font-family: var(--clg-typography-sem-marketing-display-mobile-larger-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-marketing-display-mobile-larger-font-weight, 400);
+  font-size: var(--clg-typography-sem-marketing-display-mobile-larger-font-size, 59.01px);
+  line-height: var(--clg-typography-sem-marketing-display-mobile-larger-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-display-mobile-larger-letter-spacing, -1.1802px);
+}
+.wt-text-marketing-display-larger .wt-text-marketing-emphasis {
+  font-family: var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-font-weight, 200);
+  font-size: var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-font-size, 60.89832px);
+  line-height: var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-letter-spacing, 0.60898px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-marketing-display-larger {
+    font-family: var(--clg-typography-sem-marketing-display-desktop-larger-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-marketing-display-desktop-larger-font-weight, 400);
+    font-size: var(--clg-typography-sem-marketing-display-desktop-larger-font-size, 80.99px);
+    line-height: var(--clg-typography-sem-marketing-display-desktop-larger-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-display-desktop-larger-letter-spacing, -1.6198px);
+  }
+  .wt-text-marketing-display-larger .wt-text-marketing-emphasis {
+    font-family: var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-font-weight, 200);
+    font-size: var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-font-size, 83.58168px);
+    line-height: var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-letter-spacing, 0.83582px);
+  }
+}
+
+.wt-text-marketing-display-large {
+  font-family: var(--clg-typography-sem-marketing-display-mobile-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-marketing-display-mobile-large-font-weight, 400);
+  font-size: var(--clg-typography-sem-marketing-display-mobile-large-font-size, 51.01px);
+  line-height: var(--clg-typography-sem-marketing-display-mobile-large-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-display-mobile-large-letter-spacing, -1.0202px);
+}
+.wt-text-marketing-display-large .wt-text-marketing-emphasis {
+  font-family: var(--clg-typography-sem-marketing-display-mobile-emphasis-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-marketing-display-mobile-emphasis-large-font-weight, 200);
+  font-size: var(--clg-typography-sem-marketing-display-mobile-emphasis-large-font-size, 52.64232px);
+  line-height: var(--clg-typography-sem-marketing-display-mobile-emphasis-large-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-display-mobile-emphasis-large-letter-spacing, 0.52642px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-marketing-display-large {
+    font-family: var(--clg-typography-sem-marketing-display-desktop-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-marketing-display-desktop-large-font-weight, 400);
+    font-size: var(--clg-typography-sem-marketing-display-desktop-large-font-size, 71.01px);
+    line-height: var(--clg-typography-sem-marketing-display-desktop-large-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-display-desktop-large-letter-spacing, -1.4202px);
+  }
+  .wt-text-marketing-display-large .wt-text-marketing-emphasis {
+    font-family: var(--clg-typography-sem-marketing-display-desktop-emphasis-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-marketing-display-desktop-emphasis-large-font-weight, 200);
+    font-size: var(--clg-typography-sem-marketing-display-desktop-emphasis-large-font-size, 73.28232px);
+    line-height: var(--clg-typography-sem-marketing-display-desktop-emphasis-large-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-display-desktop-emphasis-large-letter-spacing, 0.73282px);
+  }
+}
+
+.wt-text-marketing-display {
+  font-family: var(--clg-typography-sem-marketing-display-mobile-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-marketing-display-mobile-base-font-weight, 400);
+  font-size: var(--clg-typography-sem-marketing-display-mobile-base-font-size, 35.01px);
+  line-height: var(--clg-typography-sem-marketing-display-mobile-base-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-display-mobile-base-letter-spacing, -0.7002px);
+}
+.wt-text-marketing-display .wt-text-marketing-emphasis {
+  font-family: var(--clg-typography-sem-marketing-display-mobile-emphasis-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-marketing-display-mobile-emphasis-base-font-weight, 200);
+  font-size: var(--clg-typography-sem-marketing-display-mobile-emphasis-base-font-size, 36.13032px);
+  line-height: var(--clg-typography-sem-marketing-display-mobile-emphasis-base-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-display-mobile-emphasis-base-letter-spacing, 0.3613px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-marketing-display {
+    font-family: var(--clg-typography-sem-marketing-display-desktop-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-marketing-display-desktop-base-font-weight, 400);
+    font-size: var(--clg-typography-sem-marketing-display-desktop-base-font-size, 51.01px);
+    line-height: var(--clg-typography-sem-marketing-display-desktop-base-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-display-desktop-base-letter-spacing, -1.0202px);
+  }
+  .wt-text-marketing-display .wt-text-marketing-emphasis {
+    font-family: var(--clg-typography-sem-marketing-display-desktop-emphasis-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-marketing-display-desktop-emphasis-base-font-weight, 200);
+    font-size: var(--clg-typography-sem-marketing-display-desktop-emphasis-base-font-size, 52.64232px);
+    line-height: var(--clg-typography-sem-marketing-display-desktop-emphasis-base-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-display-desktop-emphasis-base-letter-spacing, 0.52642px);
+  }
+}
+
+.wt-text-marketing-heading-large {
+  font-family: var(--clg-typography-sem-marketing-heading-mobile-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-marketing-heading-mobile-large-font-weight, 400);
+  font-size: var(--clg-typography-sem-marketing-heading-mobile-large-font-size, 31.01px);
+  line-height: var(--clg-typography-sem-marketing-heading-mobile-large-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-heading-mobile-large-letter-spacing, -0.6202px);
+}
+.wt-text-marketing-heading-large .wt-text-marketing-emphasis {
+  font-family: var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-font-weight, 200);
+  font-size: var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-font-size, 32.00232px);
+  line-height: var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-letter-spacing, 0.32002px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-marketing-heading-large {
+    font-family: var(--clg-typography-sem-marketing-heading-desktop-large-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-marketing-heading-desktop-large-font-weight, 400);
+    font-size: var(--clg-typography-sem-marketing-heading-desktop-large-font-size, 42px);
+    line-height: var(--clg-typography-sem-marketing-heading-desktop-large-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-heading-desktop-large-letter-spacing, -0.84px);
+  }
+  .wt-text-marketing-heading-large .wt-text-marketing-emphasis {
+    font-family: var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-font-weight, 200);
+    font-size: var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-font-size, 43.344px);
+    line-height: var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-letter-spacing, 0.43344px);
+  }
+}
+
+.wt-text-marketing-heading {
+  font-family: var(--clg-typography-sem-marketing-heading-mobile-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-marketing-heading-mobile-base-font-weight, 400);
+  font-size: var(--clg-typography-sem-marketing-heading-mobile-base-font-size, 24px);
+  line-height: var(--clg-typography-sem-marketing-heading-mobile-base-line-height, 1.1);
+  letter-spacing: var(--clg-typography-sem-marketing-heading-mobile-base-letter-spacing, -0.48px);
+}
+.wt-text-marketing-heading .wt-text-marketing-emphasis {
+  font-family: var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-font-weight, 200);
+  font-size: var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-font-size, 24.768px);
+  line-height: var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-line-height, 1.15);
+  letter-spacing: var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-letter-spacing, 0.24768px);
+}
+@media only screen and (min-width: 640px) {
+  .wt-text-marketing-heading {
+    font-family: var(--clg-typography-sem-marketing-heading-desktop-base-font-family, "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+    font-weight: var(--clg-typography-sem-marketing-heading-desktop-base-font-weight, 400);
+    font-size: var(--clg-typography-sem-marketing-heading-desktop-base-font-size, 31.01px);
+    line-height: var(--clg-typography-sem-marketing-heading-desktop-base-line-height, 1.1);
+    letter-spacing: var(--clg-typography-sem-marketing-heading-desktop-base-letter-spacing, -0.6202px);
+  }
+  .wt-text-marketing-heading .wt-text-marketing-emphasis {
+    font-family: var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-font-family, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Thin", "Droid Serif", "Georgia", "serif");
+    font-weight: var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-font-weight, 200);
+    font-size: var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-font-size, 32.00232px);
+    line-height: var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-line-height, 1.15);
+    letter-spacing: var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-letter-spacing, 0.32002px);
+  }
+}
+
+.wt-text-bubblegum-debug-title-small {
+  font-family: var(--clg-typography-pal-family-serif-light, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-pal-weight-300, 300);
+  line-height: var(--clg-typography-pal-line-height-800, 1.8);
+  letter-spacing: var(--clg-typography-pal-letter-spacing-200, -0.015);
+}
+
+.wt-text-bubblegum-debug-title {
+  font-family: var(--clg-typography-pal-family-serif-light, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-pal-weight-300, 300);
+  line-height: var(--clg-typography-pal-line-height-600, 1.6);
+  letter-spacing: var(--clg-typography-pal-letter-spacing-300, -0.01);
+}
+
+.wt-text-bubblegum-debug-title-large {
+  font-family: var(--clg-typography-pal-family-serif-light, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-pal-weight-300, 300);
+  line-height: var(--clg-typography-pal-line-height-800, 1.8);
+  letter-spacing: var(--clg-typography-pal-letter-spacing-100, -0.02);
+}
+
+.wt-text-denim-debug-title-small {
+  font-family: var(--clg-typography-pal-family-serif-light, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-pal-weight-300, 300);
+  line-height: var(--clg-typography-pal-line-height-800, 1.8);
+  letter-spacing: var(--clg-typography-pal-letter-spacing-200, -0.015);
+}
+
+.wt-text-denim-debug-title {
+  font-family: var(--clg-typography-pal-family-serif-light, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-pal-weight-300, 300);
+  line-height: var(--clg-typography-pal-line-height-600, 1.6);
+  letter-spacing: var(--clg-typography-pal-letter-spacing-300, -0.01);
+}
+
+.wt-text-denim-debug-title-large {
+  font-family: var(--clg-typography-pal-family-serif-light, "Guardian-EgypTT", "Charter", "Charter Bitstream", "Cambria", "Noto Serif Light", "Droid Serif", "Georgia", "serif");
+  font-weight: var(--clg-typography-pal-weight-300, 300);
+  line-height: var(--clg-typography-pal-line-height-800, 1.8);
+  letter-spacing: var(--clg-typography-pal-letter-spacing-100, -0.02);
+}
+
+.wt-text-reddebug-body {
+  font-family: var(--clg-refresh-typography-pal-family-sans-serif-regular, "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif");
+  font-weight: var(--clg-typography-sem-product-body-mobile-base-font-weight, 400);
+  font-size: var(--clg-typography-sem-product-body-mobile-base-font-size, 16px);
+  line-height: var(--clg-typography-sem-product-body-mobile-base-line-height, 1.7);
+  letter-spacing: var(--clg-typography-sem-product-body-mobile-base-letter-spacing, 0.16px);
+}

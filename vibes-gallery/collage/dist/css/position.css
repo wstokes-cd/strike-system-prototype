@@ -1,0 +1,57 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-position-static {
+  position: static !important;
+}
+
+.wt-position-relative {
+  position: relative !important;
+}
+
+.wt-position-absolute {
+  position: absolute !important;
+}
+
+.wt-position-fixed {
+  position: fixed !important;
+  z-index: var(--clg-effect-pal-z-index-700, 70);
+}
+
+.wt-position-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
+.wt-position-top {
+  top: 0 !important;
+}
+
+.wt-position-right {
+  right: 0 !important;
+}
+
+.wt-position-bottom {
+  bottom: 0 !important;
+}
+
+.wt-position-left {
+  left: 0 !important;
+}
+
+.wt-vertical-align-top {
+  vertical-align: top !important;
+}
+
+.wt-vertical-align-middle {
+  vertical-align: middle !important;
+}
+
+.wt-vertical-align-bottom {
+  vertical-align: bottom !important;
+}
+
+.wt-vertical-align-text-top {
+  vertical-align: text-top !important;
+}

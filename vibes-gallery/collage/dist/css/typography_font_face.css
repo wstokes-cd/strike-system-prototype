@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Guardian-EgypTT;
+  src: url("/assets/type/Guardian-EgypTT-Light.woff2") format("woff2"), url("/assets/type/Guardian-EgypTT-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+}
+@font-face {
+  font-family: Guardian-EgypTT;
+  src: url("/assets/type/StagCyr-Light-Web.woff2") format("woff2"), url("/assets/type/StagCyr-Light-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+  unicode-range: U+400-4FF;
+}
+@font-face {
+  font-family: Graphik Webfont;
+  src: url("/assets/type/Graphik-Medium-Web.woff2") format("woff2"), url("/assets/type/Graphik-Medium-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+}
+@font-face {
+  font-family: Graphik Webfont;
+  src: url("/assets/type/GraphikCyr-Medium-Web.woff2") format("woff2"), url("/assets/type/GraphikCyr-Medium-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+  unicode-range: U+400-4FF;
+}
+@font-face {
+  font-family: Graphik Webfont;
+  src: url("/assets/type/Graphik-Regular-Web.woff2") format("woff2"), url("/assets/type/Graphik-Regular-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+}
+@font-face {
+  font-family: Graphik Webfont;
+  src: url("/assets/type/GraphikCyr-Regular-Web.woff2") format("woff2"), url("/assets/type/GraphikCyr-Regular-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+  unicode-range: U+400-4FF;
+}
+@font-face {
+  font-family: Guardian-EgypTT;
+  src: url("/assets/type/Guardian-EgypTT-Thin-It.woff2") format("woff2"), url("/assets/type/Guardian-EgypTT-Thin-It.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+}
+@font-face {
+  font-family: Guardian-EgypTT;
+  src: url("/assets/type/StagCyr-LightItalic-Web.woff2") format("woff2"), url("/assets/type/StagCyr-LightItalic-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+  unicode-range: U+400-4FF;
+}
+@font-face {
+  font-family: ABCDiatype;
+  src: url("/assets/type/Graphik-Regular-Web.woff2") format("woff2"), url("/assets/type/Graphik-Regular-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+}
+@font-face {
+  font-family: ABCOtto;
+  src: url("/assets/type/Guardian-EgypTT-Light.woff2") format("woff2"), url("/assets/type/Guardian-EgypTT-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+}
+@font-face {
+  font-family: ABCDiatype;
+  src: url("/assets/type/Graphik-Regular-Web.woff2") format("woff2"), url("/assets/type/Graphik-Regular-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+}
+@font-face {
+  font-family: ABCOtto;
+  src: url("/assets/type/Guardian-EgypTT-Thin-It.woff2") format("woff2"), url("/assets/type/Guardian-EgypTT-Thin-It.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+}
+@font-face {
+  font-family: ABCOtto;
+  src: url("/assets/type/StagCyr-LightItalic-Web.woff2") format("woff2"), url("/assets/type/StagCyr-LightItalic-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 23%;
+  unicode-range: U+400-4FF;
+}
+@font-face {
+  font-family: ABCDiatype;
+  src: url("/assets/type/GraphikCyr-Regular-Web.woff2") format("woff2"), url("/assets/type/GraphikCyr-Regular-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+  unicode-range: U+400-4FF;
+}
+@font-face {
+  font-family: Graphik Webfont;
+  src: url("/assets/type/Graphik-Medium-Web.woff2") format("woff2"), url("/assets/type/Graphik-Medium-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+}
+@font-face {
+  font-family: Graphik Webfont;
+  src: url("/assets/type/GraphikCyr-Medium-Web.woff2") format("woff2"), url("/assets/type/GraphikCyr-Medium-Web.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%;
+  unicode-range: U+400-4FF;
+}

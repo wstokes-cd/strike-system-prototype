@@ -1,0 +1,233 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+/** Output only the focus state box-shadow property */
+/** Ouputs an entire focus state rule with selectors based on the parameters */
+.wt-card {
+  z-index: 0;
+  border-radius: var(--clg-shape-sem-border-radius-base, 12px);
+}
+.wt-card button.wt-card__button, .wt-card button.wt-card__action-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  padding: 0px;
+  background-color: transparent;
+}
+.wt-card button.wt-card__button:focus-visible, .wt-card button.wt-card__action-button:focus-visible {
+  outline: inherit;
+}
+.wt-card.wt-card--elevated {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px rgba(0, 0, 0, 0.3019607843), 0px 4px 8px 3px rgba(0, 0, 0, 0.1490196078));
+}
+.wt-card select, .wt-card a, .wt-card button, .wt-card input, .wt-card textarea {
+  z-index: var(--clg-effect-pal-z-index-100, 10);
+}
+.wt-card.wt-card--contained .wt-card__inner, .wt-card.wt-card--filled .wt-card__inner, .wt-card.wt-card--elevated .wt-card__inner, .wt-card.wt-card--transparent .wt-card__inner {
+  border-radius: var(--clg-shape-sem-border-radius-base, 12px);
+  overflow: hidden;
+  background: var(--clg-color-sem-background-elevation-0, #FFFFFF);
+}
+.wt-card.wt-card--contained .wt-card__inner {
+  border: var(--clg-shape-sem-border-width-thin, 1px) solid var(--clg-color-sem-border-divider, rgba(14, 14, 14, 0.1803921569));
+}
+.wt-card:before,
+.wt-card a.wt-card__action-link,
+.wt-card button.wt-card__action-button {
+  border-radius: var(--clg-shape-sem-border-radius-base, 12px);
+  transition: opacity 150ms ease-out, inset 200ms cubic-bezier(0.345, 0.115, 0.135, 1.42);
+}
+.wt-card.wt-card--contained:before {
+  transition: opacity 150ms ease-out, transform 200ms ease-in;
+}
+.wt-card.wt-card--transparent:before {
+  border-radius: var(--clg-dimension-pal-spacing-300, 18px);
+}
+.wt-card a.wt-card__action-link,
+.wt-card button.wt-card__action-button,
+.wt-card a.wt-card__link:after,
+.wt-card button.wt-card__button:after, .wt-card:before {
+  inset: 0px;
+  position: absolute;
+}
+.wt-card:before {
+  content: "";
+  opacity: 0;
+  box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px rgba(0, 0, 0, 0.3019607843), 0px 4px 8px 3px rgba(0, 0, 0, 0.1490196078));
+  inset: var(--clg-dimension-pal-spacing-050, 3px);
+  backface-visibility: hidden;
+  z-index: -1;
+}
+.wt-card a.wt-card__action-link,
+.wt-card button.wt-card__action-button {
+  z-index: var(--clg-effect-pal-z-index-100, 10);
+}
+.wt-card.wt-card--elevated .wt-card:before {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px rgba(0, 0, 0, 0.3019607843), 0px 4px 8px 3px rgba(0, 0, 0, 0.1490196078));
+}
+.wt-card.wt-card--transparent .wt-card:before {
+  inset: 0px;
+}
+.wt-card:hover::before, .wt-card.focus-within::before {
+  opacity: 1;
+  inset: 0px;
+}
+.wt-card:focus-within::before {
+  opacity: 1;
+  inset: 0px;
+}
+.wt-card.wt-card--transparent:hover::before, .wt-card.wt-card--transparent.focus-within::before {
+  inset: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+}
+.wt-card.wt-card--transparent:focus-within::before {
+  inset: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+}
+.wt-card.wt-card--transparent:hover .wt-card__inner, .wt-card.wt-card--transparent.focus-within .wt-card__inner {
+  padding: calc(var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+  margin: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+  border-radius: var(--clg-shape-sem-border-radius-larger, 16px);
+}
+.wt-card.wt-card--transparent:focus-within .wt-card__inner {
+  padding: calc(var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+  margin: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+  border-radius: var(--clg-shape-sem-border-radius-larger, 16px);
+}
+.wt-card.wt-card--transparent a.wt-card__action-link, .wt-card.wt-card--transparent button.wt-card__action-button {
+  border-radius: var(--clg-shape-sem-border-radius-larger, 16px);
+}
+.wt-card.wt-card--transparent a.wt-card__action-link:hover, .wt-card.wt-card--transparent a.wt-card__action-link:focus, .wt-card.wt-card--transparent button.wt-card__action-button:hover, .wt-card.wt-card--transparent button.wt-card__action-button:focus {
+  inset: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.3333333333);
+}
+.wt-card:active::before {
+  inset: calc(var(--clg-dimension-pal-spacing-base-unit, 6px) * 0.6666666667);
+}
+.wt-card.wt-card--transparent:active::before {
+  inset: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 0.6666666667);
+}
+body:not(.wt-focus-visible) .wt-card a.wt-card__action-link:focus, body:not(.wt-focus-visible) .wt-card button.wt-card__action-button:focus {
+  outline: 3px solid transparent !important;
+}
+body:not(.wt-focus-visible) .wt-card a.wt-card__action-link:focus, body:not(.wt-focus-visible) .wt-card button.wt-card__action-button:focus {
+  box-shadow: 0 0 0 var(--clg-shape-pal-border-width-200, 2px) var(--clg-color-sem-background-elevation-0, #FFFFFF), 0 0 0 var(--clg-shape-pal-border-width-300, 4px) var(--clg-color-sem-border-focused, #3B67D9) !important;
+}
+.wt-card:hover a.wt-card__link .wt-arrow-link.wt-arrow-link--forward:after,
+.wt-card:hover a.wt-card__link.wt-arrow-link.wt-arrow-link--forward:after, .wt-card:focus-within a.wt-card__link .wt-arrow-link.wt-arrow-link--forward:after,
+.wt-card:focus-within a.wt-card__link.wt-arrow-link.wt-arrow-link--forward:after {
+  transform: translateX(4px);
+}
+.wt-card:hover :not(a .wt-arrow-link, a).wt-arrow-link.wt-arrow-link--forward:after, .wt-card:focus-within :not(a .wt-arrow-link, a).wt-arrow-link.wt-arrow-link--forward:after {
+  transform: translateX(4px);
+}
+.wt-card a.wt-card__link, .wt-card button.wt-card__button {
+  position: static;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+.wt-card a.wt-card__link::after, .wt-card button.wt-card__button::after {
+  content: "";
+}
+.wt-card a.wt-card__link:hover, .wt-card a.wt-card__link:active, .wt-card a.wt-card__link:focus, .wt-card button.wt-card__button:hover, .wt-card button.wt-card__button:active, .wt-card button.wt-card__button:focus {
+  opacity: 1;
+}
+
+.wt-card,
+a.wt-transparent-card,
+div.wt-transparent-card,
+button.wt-transparent-card,
+a.wt-card--transparent,
+div.wt-card--transparent,
+button.wt-card--transparent {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: var(--clg-effect-pal-z-index-100, 10);
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.wt-card:focus-visible,
+a.wt-transparent-card:focus-visible,
+div.wt-transparent-card:focus-visible,
+button.wt-transparent-card:focus-visible,
+a.wt-card--transparent:focus-visible,
+div.wt-card--transparent:focus-visible,
+button.wt-card--transparent:focus-visible {
+  outline: inherit;
+}
+.wt-card img,
+a.wt-transparent-card img,
+div.wt-transparent-card img,
+button.wt-transparent-card img,
+a.wt-card--transparent img,
+div.wt-card--transparent img,
+button.wt-card--transparent img {
+  display: block;
+  width: 100%;
+}
+
+a.wt-transparent-card:before,
+div.wt-transparent-card:before,
+button.wt-transparent-card:before {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: calc(var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.5);
+  top: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.5);
+  right: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.5);
+  bottom: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.5);
+  left: calc(-1 * var(--clg-dimension-pal-spacing-base-unit, 6px) * 1.5);
+  z-index: -1;
+  box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px rgba(0, 0, 0, 0.3019607843), 0px 4px 8px 3px rgba(0, 0, 0, 0.1490196078));
+  background: var(--clg-color-sem-background-elevation-1, #FFFFFF);
+  border: 1px dotted transparent;
+  transform: scale(0.96);
+  transition: transform 200ms cubic-bezier(0.345, 0.115, 0.135, 1.42), opacity 150ms ease-out, border-color 200ms ease-out;
+}
+a.wt-transparent-card:hover, a.wt-transparent-card:focus,
+div.wt-transparent-card:hover,
+div.wt-transparent-card:focus,
+button.wt-transparent-card:hover,
+button.wt-transparent-card:focus {
+  text-decoration: none;
+  color: var(--clg-color-sem-border-active, #222222);
+}
+a.wt-transparent-card:hover:before, a.wt-transparent-card:focus:before,
+div.wt-transparent-card:hover:before,
+div.wt-transparent-card:focus:before,
+button.wt-transparent-card:hover:before,
+button.wt-transparent-card:focus:before {
+  opacity: 1;
+  transform: scale(1);
+}
+a.wt-transparent-card:focus,
+div.wt-transparent-card:focus,
+button.wt-transparent-card:focus {
+  outline: none;
+}
+a.wt-transparent-card:focus:before,
+div.wt-transparent-card:focus:before,
+button.wt-transparent-card:focus:before {
+  border-color: var(--clg-color-app-button-secondary-border, #222222);
+}

@@ -1,0 +1,27 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-shadow-01 {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px rgba(0, 0, 0, 0.3019607843), 0px 4px 8px 3px rgba(0, 0, 0, 0.1490196078));
+}
+
+.wt-shadow-02 {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-4, 0px 1px 5px 0px rgba(0, 0, 0, 0.3019607843), 0px 5px 20px 6px rgba(0, 0, 0, 0.1490196078));
+}
+
+.wt-shadow-elevation-01 {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-1, 0px 1px 2px 0px rgba(0, 0, 0, 0.3019607843), 0px 1px 3px 1px rgba(0, 0, 0, 0.1490196078));
+}
+
+.wt-shadow-elevation-02 {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-2, 0px 1px 2px 0px rgba(0, 0, 0, 0.3019607843), 0px 2px 6px 2px rgba(0, 0, 0, 0.1490196078));
+}
+
+.wt-shadow-elevation-03 {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px rgba(0, 0, 0, 0.3019607843), 0px 4px 8px 3px rgba(0, 0, 0, 0.1490196078));
+}
+
+.wt-shadow-elevation-04 {
+  box-shadow: var(--clg-effect-sem-shadow-elevation-4, 0px 1px 5px 0px rgba(0, 0, 0, 0.3019607843), 0px 5px 20px 6px rgba(0, 0, 0, 0.1490196078));
+}

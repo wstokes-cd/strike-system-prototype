@@ -1,0 +1,282 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 09 Mar 2026 18:08:49 GMT
+ */
+
+[data-clg-theme="refresh"][data-clg-mode="dark"] {
+  --clg-effect-sem-shadow-elevation-4: 0px 12px 20px 0px #150A0405, 0px 16px 24px 2px #150A040A; /* Use as a shadow for elements at elevation 4. Elevation 4 appears to float higher than all other content and is reserved for components that redirect focus away from the main view, such as bottom sheets, modals, and dialogs. Elevation 4 may also be used as a hover transition for elements that start at elevation 3. Whenever effect.sem.shadow.elevation.4 is used color.sem.background.elevation.4 should be implemented as well. */
+  --clg-effect-sem-shadow-elevation-3: 0px 8px 16px 0px #150A0405, 0px 12px 20px 2px #150A040A; /* Use as a shadow for elements at elevation 3. Elevation 3 is used for components that may cover interactive elements and text but are contextually still related to the content of the main view. Examples include alert banners, floating action buttons, floating navigation, and open selects and drop-downs. Whenever effect.sem.shadow.elevation.3 is used color.sem.background.elevation.3 should be implemented as well. */
+  --clg-effect-sem-shadow-elevation-2: 0px 4px 12px 0px #150A0405, 0px 8px 16px 2px #150A040A; /* Use as a shadow for elements at elevation 2. Elevation 2 is primarily used as a hover transition for interactive elements that start at elevation 1. Whenever effect.sem.shadow.elevation.2 is used color.sem.background.elevation.2 should be implemented as well. */
+  --clg-effect-sem-shadow-elevation-1: 0px 2px 8px 0px #150A0405, 0px 4px 12px 2px #150A040A; /* Use as a shadow for elements at elevation 1. Elevation 1 appears just slightly raised above your application's base layer and is primarily used for interactive components such as cards, selects, and buttons. Elements at elevation 1 should not overlap interactive elements or text. Whenever effect.sem.shadow.elevation.1 is used color.sem.background.elevation.1 should be implemented as well. */
+  --clg-effect-app-input-shadow: 0px 0px 0px 0px #00000000;
+  --clg-color-sem-background-surface-expressive-yellow-lightest: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-lighter: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-light: #F1E8C8; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-darker: #664F03; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-dark: #C19502; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-lighter: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-light: #DED3E8;
+  --clg-color-sem-background-surface-expressive-purple-darker: #2F203C; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-dark: #4D3464;
+  --clg-color-sem-background-surface-expressive-green-lightest: #00000000;
+  --clg-color-sem-background-surface-expressive-green-lighter: #00000000;
+  --clg-color-sem-background-surface-expressive-green-light: #D2DBBD;
+  --clg-color-sem-background-surface-expressive-green-darker: #404632;
+  --clg-color-sem-background-surface-expressive-green-dark: #6A7550;
+  --clg-color-sem-background-surface-expressive-blue-light: #D2DFF2; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-blue-darker: #1A224D; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-blue-dark: #545A78; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-pal-transparent-white-075: #967C9821;
+  --clg-color-pal-transparent-white-050: #967C980D;
+  --clg-color-pal-transparent-white-000: #967C9800;
+  --clg-color-pal-transparent-white-950: #FAF8F5FF;
+  --clg-color-pal-transparent-white-900: #EFEAF0FF;
+  --clg-color-pal-transparent-white-800: #E5E1E5F2;
+  --clg-color-pal-transparent-white-700: #DCD5DCF0;
+  --clg-color-pal-transparent-white-600: #DDD4DED9;
+  --clg-color-pal-transparent-white-550: #DBCBDCB5;
+  --clg-color-pal-transparent-white-500: #C0A9C1B8;
+  --clg-color-pal-transparent-white-400: #A490A7A3;
+  --clg-color-pal-transparent-white-350: #9D8AA391;
+  --clg-color-pal-transparent-white-200: #9A8E9F85;
+  --clg-color-pal-transparent-white-150: #A599AE61;
+  --clg-color-pal-transparent-white-100: #7C637E42;
+  --clg-color-pal-transparent-black-075: #110F140D;
+  --clg-color-pal-transparent-black-050: #110F1408;
+  --clg-color-pal-transparent-black-950: #110F14FA;
+  --clg-color-pal-transparent-black-900: #110F14F2;
+  --clg-color-pal-transparent-black-800: #110F14DB;
+  --clg-color-pal-transparent-black-700: #110F14BF;
+  --clg-color-pal-transparent-black-600: #110F14B2;
+  --clg-color-pal-transparent-black-550: #110F14AD;
+  --clg-color-pal-transparent-black-500: #110F149E;
+  --clg-color-pal-transparent-black-400: #110F1480;
+  --clg-color-pal-transparent-black-350: #110F146E;
+  --clg-color-pal-transparent-black-200: #110F1442;
+  --clg-color-pal-transparent-black-150: #110F1430;
+  --clg-color-pal-transparent-black-100: #110F1422;
+  --clg-color-pal-greyscale-075: #EFECEA; /* ice */
+  --clg-color-pal-greyscale-050: #FAF8F5;
+  --clg-color-pal-greyscale-000: #FFFFFF;
+  --clg-color-pal-greyscale-950: #110F14;
+  --clg-color-pal-greyscale-900: #1C181F;
+  --clg-color-pal-greyscale-800: #312B36;
+  --clg-color-pal-greyscale-700: #514956;
+  --clg-color-pal-greyscale-600: #5F5563;
+  --clg-color-pal-greyscale-550: #655969;
+  --clg-color-pal-greyscale-500: #736576;
+  --clg-color-pal-greyscale-450: #00000000;
+  --clg-color-pal-greyscale-400: #928193;
+  --clg-color-pal-greyscale-350: #A596A7;
+  --clg-color-pal-greyscale-250: #00000000;
+  --clg-color-pal-greyscale-200: #C3B9C4;
+  --clg-color-pal-greyscale-150: #D2CBD2;
+  --clg-color-pal-greyscale-100: #DED8DE;
+  --clg-color-app-switch-background: #00000000;
+  --clg-color-app-progress-bar-shop-feedback-fill: #829CEE; /* Use for the filled area of a progress bar when used to visualize shop feedback. */
+  --clg-color-app-progress-bar-shop-feedback-background: #829CEE; /* Use for the filled area of a progress bar when used to visualize shop feedback. */
+  --clg-color-sem-text-on-surface-unavailable-subtle: var(--clg-color-pal-greyscale-500); /* Use for all text or icons placed upon the unavailable subtle surface color. */
+  --clg-color-sem-text-on-surface-subtle: var(--clg-color-pal-greyscale-050); /* Use for all text or icons placed upon a subtle surface color to ensure 4.5:1 contrast. */
+  --clg-color-sem-text-on-surface-strong: var(--clg-color-pal-greyscale-800); /* Use for all text or icons placed upon a strong surface color to ensure 4.5:1 contrast. */
+  --clg-color-sem-text-tertiary: var(--clg-color-pal-transparent-white-600); /* Use for text or an icon to create minimal contrast. Currently only used for native input helper text. */
+  --clg-color-sem-text-star-seller: var(--clg-color-pal-purple-550); /* Use for text associated with sellers who consistently earn 5-star reviews, ship on time, and reply quickly to any messages they receive. */
+  --clg-color-sem-text-secondary: var(--clg-color-pal-greyscale-200); /* Use for text or an icon to reduce visual weight and place it below primary text in the visual hierarchy such as supplementary text for an input label. Secondary text still maintains 4.5:1 contrast against all elevation background colors. */
+  --clg-color-sem-text-recommendation: var(--clg-color-pal-yellow-600); /* Use for text or icons to communicate that Etsy recommends a product such as 'Etsy's pick'. */
+  --clg-color-sem-text-promote: var(--clg-color-pal-green-400); /* Use for text or icons that communicate a promotion or signal value such as 'Sale ends soon'. */
+  --clg-color-sem-text-primary: var(--clg-color-pal-greyscale-050); /* Use for most text and icons in the UI. Primary text has high contrast in both light and dark mode to maximize readability. */
+  --clg-color-sem-text-placeholder: var(--clg-color-pal-transparent-white-550); /* Use for text or an icon that serves as a placeholder such as the placeholder text for a text input. */
+  --clg-color-sem-text-monetary-value: var(--clg-color-pal-green-400); /* Use for text or icons associated with monetary value such as 'Sale ends soon'. */
+  --clg-color-sem-text-disabled: var(--clg-color-pal-greyscale-500); /* Use for text or icons to communicate a disabled state. Currently used in disabled Action Groups and iOS rows. */
+  --clg-color-sem-text-critical: var(--clg-color-pal-red-500); /* Use for text or icons that communicate critical information such as a form error. */
+  --clg-color-sem-text-brand: var(--clg-color-pal-new-orange-500); /* Use for text or logos that represent the Etsy brand. This token intentionally doesn't reference any palette ramp to protect its sovereignty. */
+  --clg-color-sem-text-action: var(--clg-color-pal-blue-350); /* Use for text in transparent actions or links to distinguish actions from regular text. */
+  --clg-color-sem-icon-favorite-light: var(--clg-color-pal-red-500);
+  --clg-color-sem-icon-favorite-inverted: var(--clg-color-pal-red-750); /* Use for rare scenarios where the light and dark values of favorite icons need to be inverted. */
+  --clg-color-sem-icon-favorite-dark: var(--clg-color-pal-red-750);
+  --clg-color-sem-icon-favorite: var(--clg-color-pal-red-500); /* Use for an icon that represents a product the user has favorited. */
+  --clg-color-sem-border-selected: var(--clg-color-pal-greyscale-050); /* Use as a border for a selected element such as a checkbox. */
+  --clg-color-sem-border-selectable: var(--clg-color-pal-greyscale-350);
+  --clg-color-sem-border-placeholder: var(--clg-color-pal-transparent-white-350); /* Use as a border for a transparent container that serves as a placeholder such as the Drop Area of a file upload. */
+  --clg-color-sem-border-focused: var(--clg-color-pal-blue-350); /* Use as a border to highlight focused interactive components. */
+  --clg-color-sem-border-divider: var(--clg-color-pal-greyscale-700); /* Use as a border to separate an element from other elements such as the separating line on iOS Rows. */
+  --clg-color-sem-border-critical: var(--clg-color-pal-red-500); /* Use as a border for elements that communicate critical information such as a text input that contains an error. */
+  --clg-color-sem-border-active: var(--clg-color-pal-greyscale-050); /* Use as a border to communicate an active state such as an active tab or text input. */
+  --clg-color-sem-background-surface-unavailable-subtle: var(--clg-color-pal-greyscale-800); /* Use as a background color for selectable content that is unavailable. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-unavailable-dark: var(--clg-color-pal-greyscale-700);
+  --clg-color-sem-background-surface-trust-light: var(--clg-color-pal-yellow-600); /* Use as a background to content that signals trust such as a Badge that says 'Etsy's pick' or 'Bestseller'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-success-dark: var(--clg-color-pal-green-550);
+  --clg-color-sem-background-surface-selected-subtle: var(--clg-color-pal-transparent-white-100); /* Use as a background to represent a selected state for elements placed on one of the elevation colors. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-selected-strong: var(--clg-color-pal-greyscale-050); /* Use as a background to represent a selected state for elements placed on one of the elevation colors. Strong colors adjust to maintain a high contrast, appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-recommendation-light: var(--clg-color-pal-yellow-600); /* Use as a background to show that Etsy recommends a product such as a badge that says 'Etsy's pick'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-placeholder-subtle: var(--clg-color-pal-transparent-white-075); /* Use as a background to temporarily visualize an element that is intended be replaced such as thumbnails for file uploads or skeleton UI. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-notification-tertiary-strong: var(--clg-color-pal-greyscale-050); /* Use as a background to indicate items that should be noticed without any sense of urgency, such as notification badges for read messages. Strong colors adjust to maintain strong contrast by appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-notification-secondary-strong: var(--clg-color-pal-blue-350); /* Use as a background to alert users to items that should be noticed but with a reduced sense of urgency. Notification secondary strong is primarily used for small elements, like badges, that highlight new product features. Strong colors adjust to ensure strong contrast, appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-notification-primary-strong: var(--clg-color-pal-new-orange-600); /* Use as a background to notify users of important updates, such as notification badges for new messages and changes to their cart. Strong colors adjust to maintain a high contrast, appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-monetary-value-light: var(--clg-color-pal-green-400); /* Use as a background to suggest monetary value such as the background of a badge that says 'Sale ends soon'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-insider-light: var(--clg-color-pal-new-orange-250); /* Used for the background of certain Etsy Insider headers and highlights. */
+  --clg-color-sem-background-surface-informational-subtle: var(--clg-color-pal-greyscale-700); /* Use as the background of emotionally neutral information such as a banner that says 'Our privacy policy has been updated'. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-hovered-subtle: var(--clg-color-pal-transparent-white-050); /* Use as a background for the hovered state of elements that have a background to create subtle contrast against an elevation color. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-highlight-dark: var(--clg-color-pal-blue-500); /* Use as a background to highlight new product features and updates. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-gallery-dark: var(--clg-color-pal-greyscale-950); /* Use as a background for an image gallery, to focus on the content. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-feedback-light: var(--clg-color-pal-blue-350); /* Use as a background for content that requests feedback or suggests a particular action to the user. Light colors will stay light in both light and dark modes. */
+  --clg-color-sem-background-surface-expressive-blue-strong: var(--clg-color-pal-blue-350); /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-critical-subtle: var(--clg-color-pal-red-900); /* Use as a background to communicate critical information such as an error state. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. Critical subtle is primarily used as a background for components that are in an error state. */
+  --clg-color-sem-background-surface-critical-strong: var(--clg-color-pal-red-500); /* Use as a background to communicate critical information such as an error state. Strong colors adjust to maintain a high contrast, appearing darker in light mode and lighter in dark mode. Critical strong is currently used as a background for icons associated with errors. */
+  --clg-color-sem-background-surface-critical-light: var(--clg-color-pal-red-400); /* Use as a background to communicate critical information such as an error state. Light colors will remain light in both light and dark mode. Critical light is primarily used for small elements like badges. */
+  --clg-color-sem-background-surface-critical-dark: var(--clg-color-pal-red-750);
+  --clg-color-sem-background-surface-contrast-strong: var(--clg-color-pal-greyscale-050); /* Use as a background on surfaces that should have the highest level of contrast against an elevation background, such as a primary button or a floating banner that prompts the user to sign in. Strong colors adjust to maintain strong contrast by appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-confirmed-subtle: var(--clg-color-pal-green-650); /* Use as a background for elements that confirm a positive state such as a badge that says 'USPS verified' or a badge that indicates an active listing. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-confirmed-strong: var(--clg-color-pal-green-300); /* Use as a background for elements that confirm a positive state. Strong colors will adjust to maintain strong contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-elevation-neg1: var(--clg-color-pal-greyscale-950); /* Use as a background for your application’s base layer and for any elements that should appear to be transparent when placed on it. */
+  --clg-color-sem-background-elevation-4: var(--clg-color-pal-greyscale-800); /* Use as a background for elements at elevation 4. Elevation 4 appears to float higher than all other content and is reserved for components that redirect focus away from the main view, such as bottom sheets, modals, and dialogs. Elevation 4 may also be used as a hover transition for elements that start at elevation 3. Whenever color.sem.background.elevation.4 is used effect.sem.shadow.elevation.4 should be implemented as well. */
+  --clg-color-sem-background-elevation-3: var(--clg-color-pal-greyscale-800); /* Use as a background for elements at elevation 3. Elevation 3 is used for components that may cover interactive elements and text but are contextually still related to the content of the main view. Examples include alert banners, floating action buttons, floating navigation, and open selects and drop-downs. Whenever color.sem.background.elevation.3 is used effect.sem.shadow.elevation.3 should be implemented as well. */
+  --clg-color-sem-background-elevation-2: var(--clg-color-pal-greyscale-800); /* Use as a background for elements at elevation 2. Elevation 2 is primarily used as a hover transition for interactive elements that start at elevation 1. Whenever color.sem.background.elevation.2 is used effect.sem.shadow.elevation.2 should be implemented as well. */
+  --clg-color-sem-background-elevation-1: var(--clg-color-pal-greyscale-800); /* Use as a background for elements at elevation 1. Elevation 1 appears just slightly raised above your application's base layer and is primarily used for interactive components such as cards, selects, and buttons. Elements at elevation 1 should not overlap interactive elements or text. Whenever color.sem.background.elevation.1 is used effect.sem.shadow.elevation.1 should be implemented as well. */
+  --clg-color-sem-background-elevation-0: var(--clg-color-pal-greyscale-900); /* Use as a background for your application’s base layer and for any elements that should appear to be transparent when placed on it. */
+  --clg-color-app-tooltip-background: var(--clg-color-pal-greyscale-050); /* Use for the background of tooltips. */
+  --clg-color-app-tabs-track-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-tabs-pressed-highlight-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-tabs-inactive-border: var(--clg-color-pal-transparent-white-350);
+  --clg-color-app-tabs-hovered-highlight-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-switch-m2-inactive-foreground: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-switch-m2-inactive-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-switch-m2-active-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-m2-active-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-switch-ios-inactive-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-ios-inactive-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-switch-ios-active-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-ios-active-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-inactive-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-inactive-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-inactive-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-disabled-foreground: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-switch-disabled-border: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-switch-disabled-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-checked-disabled-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-checked-disabled-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-switch-checked-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-checked-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-checked-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-active-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-active-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-active-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-spinner-on-surface-subtle-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-spinner-on-surface-subtle-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-spinner-on-surface-strong-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-spinner-on-surface-strong-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-spinner-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-spinner-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-skeleton-ui-background-idle: var(--clg-color-pal-transparent-white-050); /* Used for loading states throughout the app. */
+  --clg-color-app-skeleton-ui-background-advance: var(--clg-color-pal-transparent-white-075); /* Used for loading states throughout the app. */
+  --clg-color-app-signal-urgency-subtle-text: var(--clg-color-pal-red-500);
+  --clg-color-app-signal-urgency-strong-background: var(--clg-color-pal-red-500);
+  --clg-color-app-signal-strong-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-signal-promote-subtle-text: var(--clg-color-pal-green-400);
+  --clg-color-app-signal-highlight-subtle-text: var(--clg-color-pal-blue-350);
+  --clg-color-app-transparent-gradient-video-player-start: var(--clg-color-pal-transparent-black-000);
+  --clg-color-app-transparent-gradient-start: var(--clg-color-pal-transparent-black-000);
+  --clg-color-app-scroll-overlay-background-start: var(--clg-color-pal-transparent-black-000);
+  --clg-color-app-review-star-filled-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-review-star-filled-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-review-star-border: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-progress-bar-fill: var(--clg-color-pal-greyscale-050); /* Use for the filled area of a progress bar. */
+  --clg-color-app-progress-bar-background: var(--clg-color-pal-greyscale-600); /* Use for the non-filled area of a progress bar. */
+  --clg-color-app-input-search-pressed-background: var(--clg-color-pal-transparent-white-075); /* Use as a background for search inputs. */
+  --clg-color-app-input-search-border: var(--clg-color-pal-greyscale-050); /* Use as a border for search inputs. */
+  --clg-color-app-input-search-background: var(--clg-color-pal-transparent-white-075); /* Use as a background for search inputs. */
+  --clg-color-app-input-hovered-border: var(--clg-color-pal-greyscale-950);
+  --clg-color-app-input-disabled-border: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-indicator-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-image-placeholder-icon: var(--clg-color-pal-greyscale-550); /* Use as the color for the image icon on top of the background for when an image is not available. */
+  --clg-color-app-image-placeholder-background: var(--clg-color-pal-greyscale-700); /* Use as the background color for when an image is not available. */
+  --clg-color-app-chip-swatch-selected-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-chip-selectable-selected-pressed-border: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-chip-selectable-selected-pressed-background: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-chip-selectable-selected-border: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-chip-selectable-selected-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-chip-selectable-pressed-border: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-chip-selectable-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-chip-selectable-disabled-selected-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-chip-selectable-disabled-selected-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-chip-selectable-disabled-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-chip-selectable-border: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-chip-selectable-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-chip-removable-pressed-border: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-chip-removable-pressed-background: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-chip-removable-disabled-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-chip-removable-disabled-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-transparent-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-transparent-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-transparent-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-transparent-on-surface-strong-hovered-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-transparent-on-surface-light-disabled-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-transparent-on-surface-dark-disabled-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-tertiary-pressed-background: var(--clg-color-pal-transparent-white-200);
+  --clg-color-app-button-tertiary-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-white-200);
+  --clg-color-app-button-tertiary-on-surface-subtle-hovered-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-tertiary-on-surface-subtle-text: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-tertiary-on-surface-subtle-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-tertiary-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-black-200);
+  --clg-color-app-button-tertiary-on-surface-strong-hovered-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-tertiary-on-surface-strong-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-tertiary-on-surface-strong-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-tertiary-hovered-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-tertiary-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-tertiary-disabled-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-tertiary-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-secondary-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-secondary-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-secondary-on-surface-subtle-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-secondary-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-secondary-on-surface-strong-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-secondary-disabled-border: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-secondary-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-primary-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-primary-on-surface-subtle-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-primary-on-surface-subtle-hovered-background: var(--clg-color-pal-greyscale-950);
+  --clg-color-app-button-primary-on-surface-subtle-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-on-surface-subtle-background: var(--clg-color-pal-greyscale-000);
+  --clg-color-app-button-primary-on-surface-strong-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-primary-on-surface-strong-hovered-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-primary-on-surface-strong-text: var(--clg-color-pal-greyscale-000);
+  --clg-color-app-button-primary-on-surface-strong-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-hovered-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-primary-disabled-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-disabled-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-icon-transparent-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-transparent-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-transparent-on-surface-strong-hovered-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-transparent-on-surface-light-disabled-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-transparent-on-surface-dark-disabled-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-tertiary-pressed-background: var(--clg-color-pal-transparent-white-200);
+  --clg-color-app-button-icon-tertiary-hovered-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-tertiary-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-tertiary-disabled-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-icon-tertiary-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-icon-secondary-subtle-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-secondary-subtle-disabled-border: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-icon-secondary-subtle-background: var(--clg-color-pal-greyscale-900);
+  --clg-color-app-button-icon-secondary-strong-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-secondary-strong-disabled-border: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-icon-secondary-strong-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-icon-primary-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-icon-primary-hovered-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-icon-primary-disabled-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-icon-primary-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-focused-on-surface-dark-border: var(--clg-color-pal-blue-350);
+  --clg-color-app-button-focused-border: var(--clg-color-pal-blue-350);
+  --clg-color-app-button-favorite-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-brand-icon-success-02-background: var(--clg-color-pal-blue-100);
+  --clg-color-app-brand-icon-marketing-03-background: var(--clg-color-sem-background-surface-expressive-blue-light);
+  --clg-color-app-brand-icon-marketing-02-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-bottom-nav-item-pressed-background: var(--clg-color-pal-transparent-white-150); /* Use for the background of a pressed item/target in the bottom nav. Should match clg.color.app.button.transparent.pressed.background */
+  --clg-color-app-bottom-nav-item-selected-background: var(--clg-color-pal-greyscale-950); /* Use for the background of a selected item/target in the bottom nav. */
+  --clg-color-app-badge-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-input-error-background: var(--clg-color-sem-background-surface-critical-subtle);
+  --clg-color-app-chip-selectable-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-chip-removable-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-chip-removable-background: var(--clg-color-sem-background-surface-selected-strong);
+}

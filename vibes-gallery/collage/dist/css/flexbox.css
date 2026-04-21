@@ -1,0 +1,1042 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+@media only screen and (min-width: 0) {
+  .wt-display-flex-xs {
+    display: flex !important;
+  }
+  .wt-display-inline-flex-xs {
+    display: inline-flex !important;
+  }
+  .wt-flex-xs-none {
+    flex: 0 0 auto !important;
+  }
+  .wt-flex-xs-auto {
+    flex: 1 1 auto !important;
+  }
+  .wt-flex-xs-0 {
+    flex: 0 1 0% !important;
+  }
+  .wt-flex-xs-1 {
+    flex: 1 1 0% !important;
+  }
+  .wt-flex-xs-2 {
+    flex: 2 1 0% !important;
+  }
+  .wt-flex-xs-3 {
+    flex: 3 1 0% !important;
+  }
+  .wt-flex-xs-4 {
+    flex: 4 1 0% !important;
+  }
+  .wt-flex-xs-5 {
+    flex: 5 1 0% !important;
+  }
+  .wt-flex-xs-6 {
+    flex: 6 1 0% !important;
+  }
+  /**
+  * Current flexbox utilities using base6 scaling. These will be deprecated in favor of using the base8 
+  * scaling classes in the future
+  */
+  .wt-flex-gap-xs-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-gap-xs-1 {
+    gap: var(--clg-dimension-pal-spacing-100, 6px) !important;
+  }
+  .wt-flex-gap-xs-2 {
+    gap: var(--clg-dimension-pal-spacing-200, 12px) !important;
+  }
+  .wt-flex-gap-xs-3 {
+    gap: var(--clg-dimension-pal-spacing-300, 18px) !important;
+  }
+  .wt-flex-gap-xs-4 {
+    gap: var(--clg-dimension-pal-spacing-400, 24px) !important;
+  }
+  /**
+  * New flexbox utilities using base8 scaling. These should be used going forward.
+  */
+  .wt-flex-grid-gap-xs-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-grid-gap-xs-025 {
+    gap: var(--clg-dimension-pal-grid-025, 2px) !important;
+  }
+  .wt-flex-grid-gap-xs-050 {
+    gap: var(--clg-dimension-pal-grid-050, 4px) !important;
+  }
+  .wt-flex-grid-gap-xs-100 {
+    gap: var(--clg-dimension-pal-grid-100, 8px) !important;
+  }
+  .wt-flex-grid-gap-xs-200 {
+    gap: var(--clg-dimension-pal-grid-200, 16px) !important;
+  }
+  .wt-flex-grid-gap-xs-300 {
+    gap: var(--clg-dimension-pal-grid-300, 24px) !important;
+  }
+  .wt-flex-grid-gap-xs-400 {
+    gap: var(--clg-dimension-pal-grid-400, 32px) !important;
+  }
+  .wt-flex-grid-gap-xs-500 {
+    gap: var(--clg-dimension-pal-grid-500, 40px) !important;
+  }
+  .wt-flex-grid-gap-xs-600 {
+    gap: var(--clg-dimension-pal-grid-600, 48px) !important;
+  }
+  .wt-flex-grow-xs-0 {
+    flex-grow: 0 !important;
+  }
+  .wt-flex-grow-xs-1 {
+    flex-grow: 1 !important;
+  }
+  .wt-flex-grow-xs-2 {
+    flex-grow: 2 !important;
+  }
+  .wt-flex-grow-xs-3 {
+    flex-grow: 3 !important;
+  }
+  .wt-flex-shrink-xs-0 {
+    flex-shrink: 0 !important;
+  }
+  .wt-flex-shrink-xs-1 {
+    flex-shrink: 1 !important;
+  }
+  .wt-flex-shrink-xs-2 {
+    flex-shrink: 2 !important;
+  }
+  .wt-flex-basis-xs-0 {
+    flex-basis: 0 !important;
+  }
+  .wt-flex-basis-xs-auto {
+    flex-basis: auto !important;
+  }
+  .wt-flex-basis-xs-full {
+    flex-basis: 100% !important;
+  }
+  .wt-order-xs-neg1 {
+    order: -1 !important;
+  }
+  .wt-order-xs-0 {
+    order: 0 !important;
+  }
+  .wt-order-xs-1 {
+    order: 1 !important;
+  }
+  .wt-order-xs-2 {
+    order: 2 !important;
+  }
+  .wt-order-xs-3 {
+    order: 3 !important;
+  }
+  .wt-order-xs-4 {
+    order: 4 !important;
+  }
+  .wt-order-xs-5 {
+    order: 5 !important;
+  }
+  .wt-order-xs-6 {
+    order: 6 !important;
+  }
+  .wt-flex-direction-row-xs {
+    flex-direction: row !important;
+  }
+  .wt-flex-direction-column-xs {
+    flex-direction: column !important;
+  }
+  .wt-flex-direction-row-reverse-xs {
+    flex-direction: row-reverse !important;
+  }
+  .wt-flex-direction-column-reverse-xs {
+    flex-direction: column-reverse !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .wt-display-flex-sm {
+    display: flex !important;
+  }
+  .wt-display-inline-flex-sm {
+    display: inline-flex !important;
+  }
+  .wt-flex-sm-none {
+    flex: 0 0 auto !important;
+  }
+  .wt-flex-sm-auto {
+    flex: 1 1 auto !important;
+  }
+  .wt-flex-sm-0 {
+    flex: 0 1 0% !important;
+  }
+  .wt-flex-sm-1 {
+    flex: 1 1 0% !important;
+  }
+  .wt-flex-sm-2 {
+    flex: 2 1 0% !important;
+  }
+  .wt-flex-sm-3 {
+    flex: 3 1 0% !important;
+  }
+  .wt-flex-sm-4 {
+    flex: 4 1 0% !important;
+  }
+  .wt-flex-sm-5 {
+    flex: 5 1 0% !important;
+  }
+  .wt-flex-sm-6 {
+    flex: 6 1 0% !important;
+  }
+  /**
+  * Current flexbox utilities using base6 scaling. These will be deprecated in favor of using the base8 
+  * scaling classes in the future
+  */
+  .wt-flex-gap-sm-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-gap-sm-1 {
+    gap: var(--clg-dimension-pal-spacing-100, 6px) !important;
+  }
+  .wt-flex-gap-sm-2 {
+    gap: var(--clg-dimension-pal-spacing-200, 12px) !important;
+  }
+  .wt-flex-gap-sm-3 {
+    gap: var(--clg-dimension-pal-spacing-300, 18px) !important;
+  }
+  .wt-flex-gap-sm-4 {
+    gap: var(--clg-dimension-pal-spacing-400, 24px) !important;
+  }
+  /**
+  * New flexbox utilities using base8 scaling. These should be used going forward.
+  */
+  .wt-flex-grid-gap-sm-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-grid-gap-sm-025 {
+    gap: var(--clg-dimension-pal-grid-025, 2px) !important;
+  }
+  .wt-flex-grid-gap-sm-050 {
+    gap: var(--clg-dimension-pal-grid-050, 4px) !important;
+  }
+  .wt-flex-grid-gap-sm-100 {
+    gap: var(--clg-dimension-pal-grid-100, 8px) !important;
+  }
+  .wt-flex-grid-gap-sm-200 {
+    gap: var(--clg-dimension-pal-grid-200, 16px) !important;
+  }
+  .wt-flex-grid-gap-sm-300 {
+    gap: var(--clg-dimension-pal-grid-300, 24px) !important;
+  }
+  .wt-flex-grid-gap-sm-400 {
+    gap: var(--clg-dimension-pal-grid-400, 32px) !important;
+  }
+  .wt-flex-grid-gap-sm-500 {
+    gap: var(--clg-dimension-pal-grid-500, 40px) !important;
+  }
+  .wt-flex-grid-gap-sm-600 {
+    gap: var(--clg-dimension-pal-grid-600, 48px) !important;
+  }
+  .wt-flex-grow-sm-0 {
+    flex-grow: 0 !important;
+  }
+  .wt-flex-grow-sm-1 {
+    flex-grow: 1 !important;
+  }
+  .wt-flex-grow-sm-2 {
+    flex-grow: 2 !important;
+  }
+  .wt-flex-grow-sm-3 {
+    flex-grow: 3 !important;
+  }
+  .wt-flex-shrink-sm-0 {
+    flex-shrink: 0 !important;
+  }
+  .wt-flex-shrink-sm-1 {
+    flex-shrink: 1 !important;
+  }
+  .wt-flex-shrink-sm-2 {
+    flex-shrink: 2 !important;
+  }
+  .wt-flex-basis-sm-0 {
+    flex-basis: 0 !important;
+  }
+  .wt-flex-basis-sm-auto {
+    flex-basis: auto !important;
+  }
+  .wt-flex-basis-sm-full {
+    flex-basis: 100% !important;
+  }
+  .wt-order-sm-neg1 {
+    order: -1 !important;
+  }
+  .wt-order-sm-0 {
+    order: 0 !important;
+  }
+  .wt-order-sm-1 {
+    order: 1 !important;
+  }
+  .wt-order-sm-2 {
+    order: 2 !important;
+  }
+  .wt-order-sm-3 {
+    order: 3 !important;
+  }
+  .wt-order-sm-4 {
+    order: 4 !important;
+  }
+  .wt-order-sm-5 {
+    order: 5 !important;
+  }
+  .wt-order-sm-6 {
+    order: 6 !important;
+  }
+  .wt-flex-direction-row-sm {
+    flex-direction: row !important;
+  }
+  .wt-flex-direction-column-sm {
+    flex-direction: column !important;
+  }
+  .wt-flex-direction-row-reverse-sm {
+    flex-direction: row-reverse !important;
+  }
+  .wt-flex-direction-column-reverse-sm {
+    flex-direction: column-reverse !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .wt-display-flex-md {
+    display: flex !important;
+  }
+  .wt-display-inline-flex-md {
+    display: inline-flex !important;
+  }
+  .wt-flex-md-none {
+    flex: 0 0 auto !important;
+  }
+  .wt-flex-md-auto {
+    flex: 1 1 auto !important;
+  }
+  .wt-flex-md-0 {
+    flex: 0 1 0% !important;
+  }
+  .wt-flex-md-1 {
+    flex: 1 1 0% !important;
+  }
+  .wt-flex-md-2 {
+    flex: 2 1 0% !important;
+  }
+  .wt-flex-md-3 {
+    flex: 3 1 0% !important;
+  }
+  .wt-flex-md-4 {
+    flex: 4 1 0% !important;
+  }
+  .wt-flex-md-5 {
+    flex: 5 1 0% !important;
+  }
+  .wt-flex-md-6 {
+    flex: 6 1 0% !important;
+  }
+  /**
+  * Current flexbox utilities using base6 scaling. These will be deprecated in favor of using the base8 
+  * scaling classes in the future
+  */
+  .wt-flex-gap-md-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-gap-md-1 {
+    gap: var(--clg-dimension-pal-spacing-100, 6px) !important;
+  }
+  .wt-flex-gap-md-2 {
+    gap: var(--clg-dimension-pal-spacing-200, 12px) !important;
+  }
+  .wt-flex-gap-md-3 {
+    gap: var(--clg-dimension-pal-spacing-300, 18px) !important;
+  }
+  .wt-flex-gap-md-4 {
+    gap: var(--clg-dimension-pal-spacing-400, 24px) !important;
+  }
+  /**
+  * New flexbox utilities using base8 scaling. These should be used going forward.
+  */
+  .wt-flex-grid-gap-md-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-grid-gap-md-025 {
+    gap: var(--clg-dimension-pal-grid-025, 2px) !important;
+  }
+  .wt-flex-grid-gap-md-050 {
+    gap: var(--clg-dimension-pal-grid-050, 4px) !important;
+  }
+  .wt-flex-grid-gap-md-100 {
+    gap: var(--clg-dimension-pal-grid-100, 8px) !important;
+  }
+  .wt-flex-grid-gap-md-200 {
+    gap: var(--clg-dimension-pal-grid-200, 16px) !important;
+  }
+  .wt-flex-grid-gap-md-300 {
+    gap: var(--clg-dimension-pal-grid-300, 24px) !important;
+  }
+  .wt-flex-grid-gap-md-400 {
+    gap: var(--clg-dimension-pal-grid-400, 32px) !important;
+  }
+  .wt-flex-grid-gap-md-500 {
+    gap: var(--clg-dimension-pal-grid-500, 40px) !important;
+  }
+  .wt-flex-grid-gap-md-600 {
+    gap: var(--clg-dimension-pal-grid-600, 48px) !important;
+  }
+  .wt-flex-grow-md-0 {
+    flex-grow: 0 !important;
+  }
+  .wt-flex-grow-md-1 {
+    flex-grow: 1 !important;
+  }
+  .wt-flex-grow-md-2 {
+    flex-grow: 2 !important;
+  }
+  .wt-flex-grow-md-3 {
+    flex-grow: 3 !important;
+  }
+  .wt-flex-shrink-md-0 {
+    flex-shrink: 0 !important;
+  }
+  .wt-flex-shrink-md-1 {
+    flex-shrink: 1 !important;
+  }
+  .wt-flex-shrink-md-2 {
+    flex-shrink: 2 !important;
+  }
+  .wt-flex-basis-md-0 {
+    flex-basis: 0 !important;
+  }
+  .wt-flex-basis-md-auto {
+    flex-basis: auto !important;
+  }
+  .wt-flex-basis-md-full {
+    flex-basis: 100% !important;
+  }
+  .wt-order-md-neg1 {
+    order: -1 !important;
+  }
+  .wt-order-md-0 {
+    order: 0 !important;
+  }
+  .wt-order-md-1 {
+    order: 1 !important;
+  }
+  .wt-order-md-2 {
+    order: 2 !important;
+  }
+  .wt-order-md-3 {
+    order: 3 !important;
+  }
+  .wt-order-md-4 {
+    order: 4 !important;
+  }
+  .wt-order-md-5 {
+    order: 5 !important;
+  }
+  .wt-order-md-6 {
+    order: 6 !important;
+  }
+  .wt-flex-direction-row-md {
+    flex-direction: row !important;
+  }
+  .wt-flex-direction-column-md {
+    flex-direction: column !important;
+  }
+  .wt-flex-direction-row-reverse-md {
+    flex-direction: row-reverse !important;
+  }
+  .wt-flex-direction-column-reverse-md {
+    flex-direction: column-reverse !important;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .wt-display-flex-lg {
+    display: flex !important;
+  }
+  .wt-display-inline-flex-lg {
+    display: inline-flex !important;
+  }
+  .wt-flex-lg-none {
+    flex: 0 0 auto !important;
+  }
+  .wt-flex-lg-auto {
+    flex: 1 1 auto !important;
+  }
+  .wt-flex-lg-0 {
+    flex: 0 1 0% !important;
+  }
+  .wt-flex-lg-1 {
+    flex: 1 1 0% !important;
+  }
+  .wt-flex-lg-2 {
+    flex: 2 1 0% !important;
+  }
+  .wt-flex-lg-3 {
+    flex: 3 1 0% !important;
+  }
+  .wt-flex-lg-4 {
+    flex: 4 1 0% !important;
+  }
+  .wt-flex-lg-5 {
+    flex: 5 1 0% !important;
+  }
+  .wt-flex-lg-6 {
+    flex: 6 1 0% !important;
+  }
+  /**
+  * Current flexbox utilities using base6 scaling. These will be deprecated in favor of using the base8 
+  * scaling classes in the future
+  */
+  .wt-flex-gap-lg-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-gap-lg-1 {
+    gap: var(--clg-dimension-pal-spacing-100, 6px) !important;
+  }
+  .wt-flex-gap-lg-2 {
+    gap: var(--clg-dimension-pal-spacing-200, 12px) !important;
+  }
+  .wt-flex-gap-lg-3 {
+    gap: var(--clg-dimension-pal-spacing-300, 18px) !important;
+  }
+  .wt-flex-gap-lg-4 {
+    gap: var(--clg-dimension-pal-spacing-400, 24px) !important;
+  }
+  /**
+  * New flexbox utilities using base8 scaling. These should be used going forward.
+  */
+  .wt-flex-grid-gap-lg-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-grid-gap-lg-025 {
+    gap: var(--clg-dimension-pal-grid-025, 2px) !important;
+  }
+  .wt-flex-grid-gap-lg-050 {
+    gap: var(--clg-dimension-pal-grid-050, 4px) !important;
+  }
+  .wt-flex-grid-gap-lg-100 {
+    gap: var(--clg-dimension-pal-grid-100, 8px) !important;
+  }
+  .wt-flex-grid-gap-lg-200 {
+    gap: var(--clg-dimension-pal-grid-200, 16px) !important;
+  }
+  .wt-flex-grid-gap-lg-300 {
+    gap: var(--clg-dimension-pal-grid-300, 24px) !important;
+  }
+  .wt-flex-grid-gap-lg-400 {
+    gap: var(--clg-dimension-pal-grid-400, 32px) !important;
+  }
+  .wt-flex-grid-gap-lg-500 {
+    gap: var(--clg-dimension-pal-grid-500, 40px) !important;
+  }
+  .wt-flex-grid-gap-lg-600 {
+    gap: var(--clg-dimension-pal-grid-600, 48px) !important;
+  }
+  .wt-flex-grow-lg-0 {
+    flex-grow: 0 !important;
+  }
+  .wt-flex-grow-lg-1 {
+    flex-grow: 1 !important;
+  }
+  .wt-flex-grow-lg-2 {
+    flex-grow: 2 !important;
+  }
+  .wt-flex-grow-lg-3 {
+    flex-grow: 3 !important;
+  }
+  .wt-flex-shrink-lg-0 {
+    flex-shrink: 0 !important;
+  }
+  .wt-flex-shrink-lg-1 {
+    flex-shrink: 1 !important;
+  }
+  .wt-flex-shrink-lg-2 {
+    flex-shrink: 2 !important;
+  }
+  .wt-flex-basis-lg-0 {
+    flex-basis: 0 !important;
+  }
+  .wt-flex-basis-lg-auto {
+    flex-basis: auto !important;
+  }
+  .wt-flex-basis-lg-full {
+    flex-basis: 100% !important;
+  }
+  .wt-order-lg-neg1 {
+    order: -1 !important;
+  }
+  .wt-order-lg-0 {
+    order: 0 !important;
+  }
+  .wt-order-lg-1 {
+    order: 1 !important;
+  }
+  .wt-order-lg-2 {
+    order: 2 !important;
+  }
+  .wt-order-lg-3 {
+    order: 3 !important;
+  }
+  .wt-order-lg-4 {
+    order: 4 !important;
+  }
+  .wt-order-lg-5 {
+    order: 5 !important;
+  }
+  .wt-order-lg-6 {
+    order: 6 !important;
+  }
+  .wt-flex-direction-row-lg {
+    flex-direction: row !important;
+  }
+  .wt-flex-direction-column-lg {
+    flex-direction: column !important;
+  }
+  .wt-flex-direction-row-reverse-lg {
+    flex-direction: row-reverse !important;
+  }
+  .wt-flex-direction-column-reverse-lg {
+    flex-direction: column-reverse !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .wt-display-flex-xl {
+    display: flex !important;
+  }
+  .wt-display-inline-flex-xl {
+    display: inline-flex !important;
+  }
+  .wt-flex-xl-none {
+    flex: 0 0 auto !important;
+  }
+  .wt-flex-xl-auto {
+    flex: 1 1 auto !important;
+  }
+  .wt-flex-xl-0 {
+    flex: 0 1 0% !important;
+  }
+  .wt-flex-xl-1 {
+    flex: 1 1 0% !important;
+  }
+  .wt-flex-xl-2 {
+    flex: 2 1 0% !important;
+  }
+  .wt-flex-xl-3 {
+    flex: 3 1 0% !important;
+  }
+  .wt-flex-xl-4 {
+    flex: 4 1 0% !important;
+  }
+  .wt-flex-xl-5 {
+    flex: 5 1 0% !important;
+  }
+  .wt-flex-xl-6 {
+    flex: 6 1 0% !important;
+  }
+  /**
+  * Current flexbox utilities using base6 scaling. These will be deprecated in favor of using the base8 
+  * scaling classes in the future
+  */
+  .wt-flex-gap-xl-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-gap-xl-1 {
+    gap: var(--clg-dimension-pal-spacing-100, 6px) !important;
+  }
+  .wt-flex-gap-xl-2 {
+    gap: var(--clg-dimension-pal-spacing-200, 12px) !important;
+  }
+  .wt-flex-gap-xl-3 {
+    gap: var(--clg-dimension-pal-spacing-300, 18px) !important;
+  }
+  .wt-flex-gap-xl-4 {
+    gap: var(--clg-dimension-pal-spacing-400, 24px) !important;
+  }
+  /**
+  * New flexbox utilities using base8 scaling. These should be used going forward.
+  */
+  .wt-flex-grid-gap-xl-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-grid-gap-xl-025 {
+    gap: var(--clg-dimension-pal-grid-025, 2px) !important;
+  }
+  .wt-flex-grid-gap-xl-050 {
+    gap: var(--clg-dimension-pal-grid-050, 4px) !important;
+  }
+  .wt-flex-grid-gap-xl-100 {
+    gap: var(--clg-dimension-pal-grid-100, 8px) !important;
+  }
+  .wt-flex-grid-gap-xl-200 {
+    gap: var(--clg-dimension-pal-grid-200, 16px) !important;
+  }
+  .wt-flex-grid-gap-xl-300 {
+    gap: var(--clg-dimension-pal-grid-300, 24px) !important;
+  }
+  .wt-flex-grid-gap-xl-400 {
+    gap: var(--clg-dimension-pal-grid-400, 32px) !important;
+  }
+  .wt-flex-grid-gap-xl-500 {
+    gap: var(--clg-dimension-pal-grid-500, 40px) !important;
+  }
+  .wt-flex-grid-gap-xl-600 {
+    gap: var(--clg-dimension-pal-grid-600, 48px) !important;
+  }
+  .wt-flex-grow-xl-0 {
+    flex-grow: 0 !important;
+  }
+  .wt-flex-grow-xl-1 {
+    flex-grow: 1 !important;
+  }
+  .wt-flex-grow-xl-2 {
+    flex-grow: 2 !important;
+  }
+  .wt-flex-grow-xl-3 {
+    flex-grow: 3 !important;
+  }
+  .wt-flex-shrink-xl-0 {
+    flex-shrink: 0 !important;
+  }
+  .wt-flex-shrink-xl-1 {
+    flex-shrink: 1 !important;
+  }
+  .wt-flex-shrink-xl-2 {
+    flex-shrink: 2 !important;
+  }
+  .wt-flex-basis-xl-0 {
+    flex-basis: 0 !important;
+  }
+  .wt-flex-basis-xl-auto {
+    flex-basis: auto !important;
+  }
+  .wt-flex-basis-xl-full {
+    flex-basis: 100% !important;
+  }
+  .wt-order-xl-neg1 {
+    order: -1 !important;
+  }
+  .wt-order-xl-0 {
+    order: 0 !important;
+  }
+  .wt-order-xl-1 {
+    order: 1 !important;
+  }
+  .wt-order-xl-2 {
+    order: 2 !important;
+  }
+  .wt-order-xl-3 {
+    order: 3 !important;
+  }
+  .wt-order-xl-4 {
+    order: 4 !important;
+  }
+  .wt-order-xl-5 {
+    order: 5 !important;
+  }
+  .wt-order-xl-6 {
+    order: 6 !important;
+  }
+  .wt-flex-direction-row-xl {
+    flex-direction: row !important;
+  }
+  .wt-flex-direction-column-xl {
+    flex-direction: column !important;
+  }
+  .wt-flex-direction-row-reverse-xl {
+    flex-direction: row-reverse !important;
+  }
+  .wt-flex-direction-column-reverse-xl {
+    flex-direction: column-reverse !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .wt-display-flex-tv {
+    display: flex !important;
+  }
+  .wt-display-inline-flex-tv {
+    display: inline-flex !important;
+  }
+  .wt-flex-tv-none {
+    flex: 0 0 auto !important;
+  }
+  .wt-flex-tv-auto {
+    flex: 1 1 auto !important;
+  }
+  .wt-flex-tv-0 {
+    flex: 0 1 0% !important;
+  }
+  .wt-flex-tv-1 {
+    flex: 1 1 0% !important;
+  }
+  .wt-flex-tv-2 {
+    flex: 2 1 0% !important;
+  }
+  .wt-flex-tv-3 {
+    flex: 3 1 0% !important;
+  }
+  .wt-flex-tv-4 {
+    flex: 4 1 0% !important;
+  }
+  .wt-flex-tv-5 {
+    flex: 5 1 0% !important;
+  }
+  .wt-flex-tv-6 {
+    flex: 6 1 0% !important;
+  }
+  /**
+  * Current flexbox utilities using base6 scaling. These will be deprecated in favor of using the base8 
+  * scaling classes in the future
+  */
+  .wt-flex-gap-tv-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-gap-tv-1 {
+    gap: var(--clg-dimension-pal-spacing-100, 6px) !important;
+  }
+  .wt-flex-gap-tv-2 {
+    gap: var(--clg-dimension-pal-spacing-200, 12px) !important;
+  }
+  .wt-flex-gap-tv-3 {
+    gap: var(--clg-dimension-pal-spacing-300, 18px) !important;
+  }
+  .wt-flex-gap-tv-4 {
+    gap: var(--clg-dimension-pal-spacing-400, 24px) !important;
+  }
+  /**
+  * New flexbox utilities using base8 scaling. These should be used going forward.
+  */
+  .wt-flex-grid-gap-tv-0 {
+    gap: 0 !important;
+  }
+  .wt-flex-grid-gap-tv-025 {
+    gap: var(--clg-dimension-pal-grid-025, 2px) !important;
+  }
+  .wt-flex-grid-gap-tv-050 {
+    gap: var(--clg-dimension-pal-grid-050, 4px) !important;
+  }
+  .wt-flex-grid-gap-tv-100 {
+    gap: var(--clg-dimension-pal-grid-100, 8px) !important;
+  }
+  .wt-flex-grid-gap-tv-200 {
+    gap: var(--clg-dimension-pal-grid-200, 16px) !important;
+  }
+  .wt-flex-grid-gap-tv-300 {
+    gap: var(--clg-dimension-pal-grid-300, 24px) !important;
+  }
+  .wt-flex-grid-gap-tv-400 {
+    gap: var(--clg-dimension-pal-grid-400, 32px) !important;
+  }
+  .wt-flex-grid-gap-tv-500 {
+    gap: var(--clg-dimension-pal-grid-500, 40px) !important;
+  }
+  .wt-flex-grid-gap-tv-600 {
+    gap: var(--clg-dimension-pal-grid-600, 48px) !important;
+  }
+  .wt-flex-grow-tv-0 {
+    flex-grow: 0 !important;
+  }
+  .wt-flex-grow-tv-1 {
+    flex-grow: 1 !important;
+  }
+  .wt-flex-grow-tv-2 {
+    flex-grow: 2 !important;
+  }
+  .wt-flex-grow-tv-3 {
+    flex-grow: 3 !important;
+  }
+  .wt-flex-shrink-tv-0 {
+    flex-shrink: 0 !important;
+  }
+  .wt-flex-shrink-tv-1 {
+    flex-shrink: 1 !important;
+  }
+  .wt-flex-shrink-tv-2 {
+    flex-shrink: 2 !important;
+  }
+  .wt-flex-basis-tv-0 {
+    flex-basis: 0 !important;
+  }
+  .wt-flex-basis-tv-auto {
+    flex-basis: auto !important;
+  }
+  .wt-flex-basis-tv-full {
+    flex-basis: 100% !important;
+  }
+  .wt-order-tv-neg1 {
+    order: -1 !important;
+  }
+  .wt-order-tv-0 {
+    order: 0 !important;
+  }
+  .wt-order-tv-1 {
+    order: 1 !important;
+  }
+  .wt-order-tv-2 {
+    order: 2 !important;
+  }
+  .wt-order-tv-3 {
+    order: 3 !important;
+  }
+  .wt-order-tv-4 {
+    order: 4 !important;
+  }
+  .wt-order-tv-5 {
+    order: 5 !important;
+  }
+  .wt-order-tv-6 {
+    order: 6 !important;
+  }
+  .wt-flex-direction-row-tv {
+    flex-direction: row !important;
+  }
+  .wt-flex-direction-column-tv {
+    flex-direction: column !important;
+  }
+  .wt-flex-direction-row-reverse-tv {
+    flex-direction: row-reverse !important;
+  }
+  .wt-flex-direction-column-reverse-tv {
+    flex-direction: column-reverse !important;
+  }
+}
+.wt-flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+
+.wt-flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.wt-flex-wrap-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+
+.wt-justify-content-flex-start {
+  justify-content: flex-start !important;
+}
+
+.wt-justify-content-flex-end {
+  justify-content: flex-end !important;
+}
+
+.wt-justify-content-center {
+  justify-content: center !important;
+}
+
+.wt-justify-content-space-between {
+  justify-content: space-between !important;
+}
+
+.wt-justify-content-space-around {
+  justify-content: space-around !important;
+}
+
+.wt-justify-content-space-evenly {
+  justify-content: space-evenly !important;
+}
+
+.wt-align-items-flex-start {
+  align-items: flex-start !important;
+}
+
+.wt-align-items-flex-end {
+  align-items: flex-end !important;
+}
+
+.wt-align-items-center {
+  align-items: center !important;
+}
+
+.wt-align-items-baseline {
+  align-items: baseline !important;
+}
+
+.wt-align-items-stretch {
+  align-items: stretch !important;
+}
+
+.wt-align-content-flex-start {
+  align-content: flex-start !important;
+}
+
+.wt-align-content-flex-end {
+  align-content: flex-end !important;
+}
+
+.wt-align-content-center {
+  align-content: center !important;
+}
+
+.wt-align-content-space-between {
+  align-content: space-between !important;
+}
+
+.wt-align-content-space-around {
+  align-content: space-around !important;
+}
+
+.wt-align-content-stretch {
+  align-content: space-around !important;
+}
+
+.wt-align-self-flex-start {
+  align-self: flex-start !important;
+}
+
+.wt-align-self-flex-end {
+  align-self: flex-end !important;
+}
+
+.wt-align-self-center {
+  align-self: center !important;
+}
+
+.wt-align-self-baseline {
+  align-self: baseline !important;
+}
+
+.wt-align-self-stretch {
+  align-self: stretch !important;
+}
+
+@media only screen and (min-width: 0) {
+  .wt-flex-sem-gap-card {
+    gap: calc(var(--clg-dimension-pal-grid-050, 4px) + var(--clg-dimension-pal-grid-025, 2px));
+  }
+  .wt-flex-sem-gap-page-margin {
+    gap: var(--clg-dimension-pal-grid-200, 16px);
+  }
+  .wt-flex-sem-gap-page-tight {
+    gap: var(--clg-dimension-pal-grid-300, 24px);
+  }
+  .wt-flex-sem-gap-page-base {
+    gap: var(--clg-dimension-pal-grid-400, 32px);
+  }
+  .wt-flex-sem-gap-page-loose {
+    gap: var(--clg-dimension-pal-grid-800, 64px);
+  }
+}
+@media only screen and (min-width: 900px) {
+  .wt-flex-sem-gap-card {
+    gap: var(--clg-dimension-sem-spacing-card, 18px);
+  }
+  .wt-flex-sem-gap-page-margin {
+    gap: var(--clg-dimension-sem-spacing-page-margin, 32px);
+  }
+  .wt-flex-sem-gap-page-tight {
+    gap: var(--clg-dimension-sem-spacing-page-tight, 48px);
+  }
+  .wt-flex-sem-gap-page-base {
+    gap: var(--clg-dimension-sem-spacing-page-base, 64px);
+  }
+  .wt-flex-sem-gap-page-loose {
+    gap: var(--clg-dimension-sem-spacing-page-loose, 128px);
+  }
+}

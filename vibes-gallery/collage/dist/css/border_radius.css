@@ -1,0 +1,27 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-rounded-01 {
+  border-radius: var(--clg-shape-sem-border-radius-small, 8px) !important;
+}
+
+.wt-rounded-02 {
+  border-radius: var(--clg-shape-sem-border-radius-base, 12px) !important;
+}
+
+.wt-rounded-03 {
+  border-radius: var(--clg-shape-sem-border-radius-larger, 16px) !important;
+}
+
+.wt-rounded-04 {
+  border-radius: var(--clg-shape-sem-border-radius-largest, 24px) !important;
+}
+
+.wt-rounded {
+  border-radius: var(--clg-shape-sem-border-radius-small, 8px) !important;
+}
+
+.wt-circle {
+  border-radius: var(--clg-shape-sem-border-radius-full, 999999px) !important;
+}

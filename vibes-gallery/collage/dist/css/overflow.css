@@ -1,0 +1,47 @@
+.wt-overflow-auto {
+  overflow: auto !important;
+}
+
+.wt-overflow-x-auto {
+  overflow-x: auto !important;
+}
+
+.wt-overflow-y-auto {
+  overflow-y: auto !important;
+}
+
+.wt-overflow-hidden {
+  overflow: hidden !important;
+}
+
+.wt-overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+
+.wt-overflow-y-hidden {
+  overflow-y: hidden !important;
+}
+
+.wt-overflow-visible {
+  overflow: visible !important;
+}
+
+.wt-overflow-x-visible {
+  overflow-x: visible !important;
+}
+
+.wt-overflow-y-visible {
+  overflow-y: visible !important;
+}
+
+.wt-overflow-scroll {
+  overflow: scroll !important;
+}
+
+.wt-overflow-x-scroll {
+  overflow-x: scroll !important;
+}
+
+.wt-overflow-y-scroll {
+  overflow-y: scroll !important;
+}

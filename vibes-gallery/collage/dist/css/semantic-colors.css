@@ -1,0 +1,347 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-sem-text-brand {
+  color: var(--clg-color-sem-text-brand, #F1641E) !important;
+}
+
+.wt-sem-bg-surface-trust-subtle {
+  background-color: var(--clg-color-sem-background-surface-trust-subtle, #F1E8C8) !important;
+}
+
+.wt-sem-bg-surface-selected-subtle {
+  background-color: var(--clg-color-sem-background-surface-selected-subtle, rgba(14, 14, 14, 0.0509803922)) !important;
+}
+
+.wt-sem-bg-surface-expressive-yellow-darker {
+  background-color: var(--clg-color-sem-background-surface-expressive-yellow-darker, #664F03) !important;
+}
+
+.wt-sem-bg-surface-expressive-teal-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-teal-light, #CADADE) !important;
+}
+
+.wt-sem-bg-surface-expressive-teal-darker {
+  background-color: var(--clg-color-sem-background-surface-expressive-teal-darker, #0D424E) !important;
+}
+
+.wt-sem-bg-surface-expressive-teal-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-teal-dark, #789AA2) !important;
+}
+
+.wt-sem-bg-surface-expressive-red-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-red-light, #F7D5DA) !important;
+}
+
+.wt-sem-bg-surface-expressive-red-darker {
+  background-color: var(--clg-color-sem-background-surface-expressive-red-darker, #560920) !important;
+}
+
+.wt-sem-bg-surface-expressive-red-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-red-dark, #93150E) !important;
+}
+
+.wt-sem-bg-surface-expressive-green-darker {
+  background-color: var(--clg-color-sem-background-surface-expressive-green-darker, #404632) !important;
+}
+
+.wt-sem-bg-surface-brand-dark {
+  background-color: var(--clg-color-sem-background-surface-brand-dark, #F1641E) !important;
+}
+
+.wt-sem-text-on-surface-unavailable-subtle {
+  color: var(--clg-color-sem-text-on-surface-unavailable-subtle, #595959) !important;
+}
+
+.wt-sem-text-on-surface-subtle {
+  color: var(--clg-color-sem-text-on-surface-subtle, #222222) !important;
+}
+
+.wt-sem-text-on-surface-strong {
+  color: var(--clg-color-sem-text-on-surface-strong, #FFFFFF) !important;
+}
+
+.wt-sem-text-on-surface-light {
+  color: var(--clg-color-sem-text-on-surface-light, #222222) !important;
+}
+
+.wt-sem-text-on-surface-dark {
+  color: var(--clg-color-sem-text-on-surface-dark, #FFFFFF) !important;
+}
+
+.wt-sem-text-tertiary {
+  color: var(--clg-color-sem-text-tertiary, #757575) !important;
+}
+
+.wt-sem-text-star-seller {
+  color: var(--clg-color-sem-text-star-seller, #9560B8) !important;
+}
+
+.wt-sem-text-secondary {
+  color: var(--clg-color-sem-text-secondary, #595959) !important;
+}
+
+.wt-sem-text-recommendation {
+  color: var(--clg-color-sem-text-recommendation, #814C1D) !important;
+}
+
+.wt-sem-text-promote {
+  color: var(--clg-color-sem-text-promote, #0F743B) !important;
+}
+
+.wt-sem-text-primary {
+  color: var(--clg-color-sem-text-primary, #222222) !important;
+}
+
+.wt-sem-text-placeholder {
+  color: var(--clg-color-sem-text-placeholder, #757575) !important;
+}
+
+.wt-sem-text-monetary-value {
+  color: var(--clg-color-sem-text-monetary-value, #0F743B) !important;
+}
+
+.wt-sem-text-disabled {
+  color: var(--clg-color-sem-text-disabled, #757575) !important;
+}
+
+.wt-sem-text-critical {
+  color: var(--clg-color-sem-text-critical, #9A0027) !important;
+}
+
+.wt-sem-text-action {
+  color: var(--clg-color-sem-text-action, #3B67D9) !important;
+}
+
+.wt-sem-bg-surface-warning-light {
+  background-color: var(--clg-color-sem-background-surface-warning-light, #FDD95C) !important;
+}
+
+.wt-sem-bg-surface-unavailable-subtle {
+  background-color: var(--clg-color-sem-background-surface-unavailable-subtle, #EAEAEA) !important;
+}
+
+.wt-sem-bg-surface-unavailable-dark {
+  background-color: var(--clg-color-sem-background-surface-unavailable-dark, #757575) !important;
+}
+
+.wt-sem-bg-surface-trust-light {
+  background-color: var(--clg-color-sem-background-surface-trust-light, #FCC7A2) !important;
+}
+
+.wt-sem-bg-surface-success-dark {
+  background-color: var(--clg-color-sem-background-surface-success-dark, #0F743B) !important;
+}
+
+.wt-sem-bg-surface-star-seller-light {
+  background-color: var(--clg-color-sem-background-surface-star-seller-light, #E6E1F0) !important;
+}
+
+.wt-sem-bg-surface-star-seller-dark {
+  background-color: var(--clg-color-sem-background-surface-star-seller-dark, #9560B8) !important;
+}
+
+.wt-sem-bg-surface-seller-dark {
+  background-color: var(--clg-color-sem-background-surface-seller-dark, #3B67D9) !important;
+}
+
+.wt-sem-bg-surface-selected-strong {
+  background-color: var(--clg-color-sem-background-surface-selected-strong, #222222) !important;
+}
+
+.wt-sem-bg-surface-recommendation-light {
+  background-color: var(--clg-color-sem-background-surface-recommendation-light, #FCC7A2) !important;
+}
+
+.wt-sem-bg-surface-promote-light {
+  background-color: var(--clg-color-sem-background-surface-promote-light, #A0E193) !important;
+}
+
+.wt-sem-bg-surface-placeholder-subtle {
+  background-color: var(--clg-color-sem-background-surface-placeholder-subtle, rgba(14, 14, 14, 0.0901960784)) !important;
+}
+
+.wt-sem-bg-surface-notification-tertiary-strong {
+  background-color: var(--clg-color-sem-background-surface-notification-tertiary-strong, #222222) !important;
+}
+
+.wt-sem-bg-surface-notification-secondary-strong {
+  background-color: var(--clg-color-sem-background-surface-notification-secondary-strong, #3B67D9) !important;
+}
+
+.wt-sem-bg-surface-notification-secondary-dark {
+  background-color: var(--clg-color-sem-background-surface-notification-secondary-dark, #3B67D9) !important;
+}
+
+.wt-sem-bg-surface-notification-primary-strong {
+  background-color: var(--clg-color-sem-background-surface-notification-primary-strong, #CF4018) !important;
+}
+
+.wt-sem-bg-surface-monetary-value-light {
+  background-color: var(--clg-color-sem-background-surface-monetary-value-light, #A0E193) !important;
+}
+
+.wt-sem-bg-surface-insider-light {
+  background-color: var(--clg-color-sem-background-surface-insider-light, #FFE0C3) !important;
+}
+
+.wt-sem-bg-surface-informational-subtle {
+  background-color: var(--clg-color-sem-background-surface-informational-subtle, #EAEAEA) !important;
+}
+
+.wt-sem-bg-surface-important-dark {
+  background-color: var(--clg-color-sem-background-surface-important-dark, #CF4018) !important;
+}
+
+.wt-sem-bg-surface-hovered-subtle {
+  background-color: var(--clg-color-sem-background-surface-hovered-subtle, rgba(14, 14, 14, 0.031372549)) !important;
+}
+
+.wt-sem-bg-surface-highlight-dark {
+  background-color: var(--clg-color-sem-background-surface-highlight-dark, #3B67D9) !important;
+}
+
+.wt-sem-bg-surface-gallery-dark {
+  background-color: var(--clg-color-sem-background-surface-gallery-dark, #121212) !important;
+}
+
+.wt-sem-bg-surface-feedback-light {
+  background-color: var(--clg-color-sem-background-surface-feedback-light, #CCEBFF) !important;
+}
+
+.wt-sem-bg-surface-expressive-yellow-lightest {
+  background-color: var(--clg-color-sem-background-surface-expressive-yellow-lightest, #FFFBD8) !important;
+}
+
+.wt-sem-bg-surface-expressive-yellow-lighter {
+  background-color: var(--clg-color-sem-background-surface-expressive-yellow-lighter, #FDD95C) !important;
+}
+
+.wt-sem-bg-surface-expressive-yellow-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-yellow-light, #F19D27) !important;
+}
+
+.wt-sem-bg-surface-expressive-yellow-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-yellow-dark, #814C1D) !important;
+}
+
+.wt-sem-bg-surface-expressive-purple-lighter {
+  background-color: var(--clg-color-sem-background-surface-expressive-purple-lighter, #EEE1FF) !important;
+}
+
+.wt-sem-bg-surface-expressive-purple-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-purple-light, #A09BF3) !important;
+}
+
+.wt-sem-bg-surface-expressive-purple-darker {
+  background-color: var(--clg-color-sem-background-surface-expressive-purple-darker, #442587) !important;
+}
+
+.wt-sem-bg-surface-expressive-purple-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-purple-dark, #6F62C6) !important;
+}
+
+.wt-sem-bg-surface-expressive-orange-lightest {
+  background-color: var(--clg-color-sem-background-surface-expressive-orange-lightest, #FFE0C3) !important;
+}
+
+.wt-sem-bg-surface-expressive-orange-lighter {
+  background-color: var(--clg-color-sem-background-surface-expressive-orange-lighter, #F79660) !important;
+}
+
+.wt-sem-bg-surface-expressive-orange-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-orange-light, #F1641E) !important;
+}
+
+.wt-sem-bg-surface-expressive-orange-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-orange-dark, #CF4018) !important;
+}
+
+.wt-sem-bg-surface-expressive-green-lightest {
+  background-color: var(--clg-color-sem-background-surface-expressive-green-lightest, #DFF7AF) !important;
+}
+
+.wt-sem-bg-surface-expressive-green-lighter {
+  background-color: var(--clg-color-sem-background-surface-expressive-green-lighter, #A0E193) !important;
+}
+
+.wt-sem-bg-surface-expressive-green-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-green-light, #4BC46D) !important;
+}
+
+.wt-sem-bg-surface-expressive-green-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-green-dark, #095E31) !important;
+}
+
+.wt-sem-bg-surface-expressive-blue-strong {
+  background-color: var(--clg-color-sem-background-surface-expressive-blue-strong, #3B67D9) !important;
+}
+
+.wt-sem-bg-surface-expressive-blue-light {
+  background-color: var(--clg-color-sem-background-surface-expressive-blue-light, #CCEBFF) !important;
+}
+
+.wt-sem-bg-surface-expressive-blue-darker {
+  background-color: var(--clg-color-sem-background-surface-expressive-blue-darker, #122868) !important;
+}
+
+.wt-sem-bg-surface-expressive-blue-dark {
+  background-color: var(--clg-color-sem-background-surface-expressive-blue-dark, #2638C0) !important;
+}
+
+.wt-sem-bg-surface-critical-subtle {
+  background-color: var(--clg-color-sem-background-surface-critical-subtle, #FFEAF0) !important;
+}
+
+.wt-sem-bg-surface-critical-strong {
+  background-color: var(--clg-color-sem-background-surface-critical-strong, #9A0027) !important;
+}
+
+.wt-sem-bg-surface-critical-light {
+  background-color: var(--clg-color-sem-background-surface-critical-light, #FFEAF0) !important;
+}
+
+.wt-sem-bg-surface-critical-dark {
+  background-color: var(--clg-color-sem-background-surface-critical-dark, #9A0027) !important;
+}
+
+.wt-sem-bg-surface-contrast-strong {
+  background-color: var(--clg-color-sem-background-surface-contrast-strong, #222222) !important;
+}
+
+.wt-sem-bg-surface-confirmed-subtle {
+  background-color: var(--clg-color-sem-background-surface-confirmed-subtle, #DFF7AF) !important;
+}
+
+.wt-sem-bg-surface-confirmed-strong {
+  background-color: var(--clg-color-sem-background-surface-confirmed-strong, #095E31) !important;
+}
+
+.wt-sem-bg-elevation-neg1 {
+  background-color: var(--clg-color-sem-background-elevation-neg1, #FFFFFF) !important;
+}
+
+.wt-sem-bg-elevation-4 {
+  background-color: var(--clg-color-sem-background-elevation-4, #FFFFFF) !important;
+}
+
+.wt-sem-bg-elevation-3 {
+  background-color: var(--clg-color-sem-background-elevation-3, #FFFFFF) !important;
+}
+
+.wt-sem-bg-elevation-2 {
+  background-color: var(--clg-color-sem-background-elevation-2, #FFFFFF) !important;
+}
+
+.wt-sem-bg-elevation-1 {
+  background-color: var(--clg-color-sem-background-elevation-1, #FFFFFF) !important;
+}
+
+.wt-sem-bg-elevation-0 {
+  background-color: var(--clg-color-sem-background-elevation-0, #FFFFFF) !important;
+}
+
+.wt-sem-bg-scrim {
+  background-color: var(--clg-color-sem-background-scrim, rgba(14, 14, 14, 0.568627451)) !important;
+}

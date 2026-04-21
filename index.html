@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account status - Etsy</title>
+    <script src="vibes-gallery/collage/setup.js"></script>
+  </head>
+  <body class="wt-sem-bg-elevation-0">
+
+    <!-- Page layout: left nav + content -->
+    <div class="wt-display-flex-xs wt-max-width-container wt-p-xs-4 wt-p-md-6 wt-flex-gap-xs-6">
+
+      <!-- Left nav (simulating existing settings nav) -->
+      <div style="min-width: 200px;" class="wt-display-none wt-display-block-md">
+        <clg-navigational-list no-divider>
+          <span slot="title" class="wt-text-body-smaller wt-sem-text-secondary">Etsy account settings</span>
+          <clg-navigational-list-item href="#">Your Etsy profile</clg-navigational-list-item>
+          <clg-navigational-list-item href="#">Global preferences</clg-navigational-list-item>
+          <clg-navigational-list-item href="#">Notifications</clg-navigational-list-item>
+          <clg-navigational-list-item href="#">Addresses</clg-navigational-list-item>
+        </clg-navigational-list>
+        <clg-navigational-list no-divider>
+          <span slot="title" class="wt-text-body-smaller wt-sem-text-secondary">Your shop health</span>
+          <clg-navigational-list-item href="#" style="font-weight: 600;">Account status</clg-navigational-list-item>
+          <clg-navigational-list-item href="#">Compliance</clg-navigational-list-item>
+        </clg-navigational-list>
+        <clg-navigational-list no-divider>
+          <span slot="title" class="wt-text-body-smaller wt-sem-text-secondary">Shop finances</span>
+          <clg-navigational-list-item href="#">Finances &amp; billing</clg-navigational-list-item>
+          <clg-navigational-list-item href="#">Legal &amp; tax informations</clg-navigational-list-item>
+        </clg-navigational-list>
+      </div>
+
+      <!-- Main content -->
+      <div class="wt-flex-xs-1">
+        <h1 class="wt-text-heading wt-mb-xs-1">Account status</h1>
+        <p class="wt-text-body-small wt-sem-text-secondary wt-mb-xs-4">
+          This status is affected by any actions that Etsy has taken when your account or content don't follow our standards.
+          <clg-text-link href="#">Learn more about Account status</clg-text-link>
+        </p>
+
+        <!-- ====== ACCOUNT HEALTH MODULE (replaces the gauge) ====== -->
+        <div id="account-health-module" class="wt-rounded-01 wt-b-xs-1 wt-p-xs-4 wt-mb-xs-5">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- ====== ACTION ITEMS (existing page pattern) ====== -->
+        <div id="action-items" class="wt-display-flex-xs wt-flex-direction-column-xs wt-flex-gap-xs-3 wt-mb-xs-5">
+          <!-- Populated by JS -->
+        </div>
+
+        <div>
+          <clg-text-link href="#" icon="end">
+            Learn about policies
+            <clg-icon slot="icon" name="rightarrow"></clg-icon>
+          </clg-text-link>
+        </div>
+
+        <!-- Prototype controls -->
+        <div class="wt-rounded-01 wt-b-xs-1 wt-p-xs-4 wt-sem-bg-surface-informational-subtle wt-mt-xs-6">
+          <p class="wt-text-title-small wt-mb-xs-2">Prototype controls</p>
+          <p class="wt-text-body-small wt-mb-xs-3">Select a scenario to preview what different sellers see.</p>
+          <div class="wt-display-flex-xs wt-flex-gap-xs-2 wt-flex-wrap-xs" id="scenario-buttons"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const TIERS = {
+        'Good standing': { color: 'success', label: 'Good standing' },
+        'Awareness':     { color: 'success', label: 'Awareness' },
+        'Education':     { color: 'warning', label: 'Needs attention' },
+        'Restriction':   { color: 'critical', label: 'Restricted' },
+        'Final Warning': { color: 'critical', label: 'Final warning' },
+        'ROS':           { color: 'critical', label: 'Suspended' },
+      };
+
+      const TIER_DESCRIPTIONS = {
+        'Good standing': 'No recent policy actions on your account.',
+        'Awareness':     'You have a recent policy action. No impact to your shop.',
+        'Education':     'Multiple policy actions on your account. Review them to keep your shop in good standing.',
+        'Restriction':   'You can\'t create new listings until you resolve your outstanding violations.',
+        'Final Warning': 'Your account is at serious risk. Further violations may result in suspension.',
+        'ROS':           'Your account has been suspended due to repeated policy violations.',
+      };
+
+      const RUNWAY_LABELS = { nhm: 'Handmade policy', ip: 'Intellectual property', prohibited: 'Marketplace policies' };
+
+      const SCENARIOS = [
+        {
+          name: 'First NHM strike',
+          nhm: { tier: 'Awareness', pts: 25, strikes: 1, detail: '1 listing removed' },
+          ip: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          actions: [
+            { type: 'appeal', category: 'nhm', title: 'Review and appeal listing removed', sub: 'Your listing was removed due to a Creativity Standards violation', deadline: 'Appeal until Jul 2, 2026', cta: 'View details' },
+          ],
+        },
+        {
+          name: 'NHM pattern',
+          nhm: { tier: 'Education', pts: 75, strikes: 3, detail: '3 listings removed' },
+          ip: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          actions: [
+            { type: 'quiz', category: 'nhm', title: 'Learn about Handmade Policy', sub: 'Complete this course to demonstrate understanding of our handmade requirements', deadline: '10 days left', cta: 'Take quiz' },
+            { type: 'appeal', category: 'nhm', title: 'Review 3 removed listings', sub: 'These listings were removed for not meeting handmade standards', deadline: 'Appeal until Jun 15, 2026', cta: 'View details' },
+          ],
+        },
+        {
+          name: 'IP repeat offender',
+          nhm: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          ip: { tier: 'Education', pts: 100, strikes: 4, detail: '4 DMCA takedowns' },
+          prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          actions: [
+            { type: 'quiz', category: 'ip', title: 'Learn about Intellectual Property Policy', sub: 'Complete this course to understand IP rights on Etsy', deadline: '10 days left', cta: 'Take quiz' },
+            { type: 'appeal', category: 'ip', title: 'Review 4 DMCA takedown notices', sub: 'Your listings were removed following rights holder complaints', deadline: 'Appeal until May 30, 2026', cta: 'View details' },
+          ],
+        },
+        {
+          name: 'Multi-runway (Restriction)',
+          nhm: { tier: 'Education', pts: 50, strikes: 2, detail: '2 listings removed' },
+          ip: { tier: 'Restriction', pts: 225, strikes: 9, detail: '9 DMCA takedowns' },
+          prohibited: { tier: 'Awareness', pts: 34, strikes: 1, detail: '1 listing removed' },
+          actions: [
+            { type: 'verify', category: null, title: 'Verify your identity', sub: 'Due to multiple violations, we need to verify your identity to continue selling', deadline: '2 days left', cta: 'Verify' },
+            { type: 'quiz', category: 'ip', title: 'Learn about Intellectual Property Policy', sub: 'Complete this course to restore new listing creation', deadline: '10 days left', cta: 'Take quiz' },
+            { type: 'appeal', category: 'ip', title: 'Review 9 DMCA takedown notices', sub: 'Your listings were removed following rights holder complaints', deadline: 'Appeal until May 15, 2026', cta: 'View details' },
+          ],
+        },
+        {
+          name: 'Severe counterfeit',
+          nhm: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          ip: { tier: 'Final Warning', pts: 500, strikes: 1, detail: '1 confirmed counterfeit' },
+          prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          actions: [
+            { type: 'appeal', category: 'ip', title: 'Review suspected counterfeit finding', sub: 'Your listings were flagged for suspected counterfeit activity. This is a serious violation.', deadline: 'Appeal until May 20, 2026', cta: 'View details' },
+          ],
+        },
+        {
+          name: 'Bulk NHM sweep',
+          nhm: { tier: 'Restriction', pts: 250, strikes: 10, detail: '10 listings removed' },
+          ip: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
+          actions: [
+            { type: 'quiz', category: 'nhm', title: 'Learn about Handmade Policy', sub: 'Complete this course to restore new listing creation', deadline: '10 days left', cta: 'Take quiz' },
+            { type: 'appeal', category: 'nhm', title: 'Review 10 removed listings', sub: 'These listings were removed in a policy review for not meeting handmade requirements', deadline: 'Appeal until Jun 1, 2026', cta: 'View details' },
+          ],
+        },
+      ];
+
+      function getWorstTier(scenario) {
+        const order = ['Good standing', 'Awareness', 'Education', 'Restriction', 'Final Warning', 'ROS'];
+        const tiers = [scenario.nhm.tier, scenario.ip.tier, scenario.prohibited.tier];
+        let worst = 0;
+        tiers.forEach(t => { const idx = order.indexOf(t); if (idx > worst) worst = idx; });
+        return order[worst];
+      }
+
+      function tierBarColor(tier) {
+        const order = ['Good standing', 'Awareness', 'Education', 'Restriction', 'Final Warning', 'ROS'];
+        const idx = order.indexOf(tier);
+        if (idx <= 1) return 'wt-sem-bg-surface-confirmed-strong';
+        if (idx <= 2) return 'wt-sem-bg-surface-warning-light';
+        return 'wt-sem-bg-surface-critical-strong';
+      }
+
+      function renderTierBar(tier, compact) {
+        const steps = ['Good standing', 'Awareness', 'Education', 'Restriction', 'Final Warning'];
+        const currentIdx = steps.indexOf(tier);
+        if (currentIdx === -1 && tier === 'ROS') return '';
+
+        const height = compact ? '4px' : '6px';
+        const fillClass = tierBarColor(tier);
+        let html = `<div class="wt-display-flex-xs wt-flex-gap-xs-1" style="margin-top: 4px;">`;
+        steps.forEach((_, i) => {
+          const bg = i <= currentIdx ? fillClass : 'wt-sem-bg-surface-placeholder-subtle';
+          html += `<div class="${bg}" style="height: ${height}; flex: 1; border-radius: 3px;"></div>`;
+        });
+        html += '</div>';
+        return html;
+      }
+
+      function renderModule(scenario) {
+        const el = document.getElementById('account-health-module');
+        const worst = getWorstTier(scenario);
+        const info = TIERS[worst];
+        const desc = TIER_DESCRIPTIONS[worst];
+
+        let html = '';
+
+        // Large status pill + description — always shown
+        html += '<div class="wt-display-flex-xs wt-align-items-center wt-flex-gap-xs-3">';
+        html += `<clg-status-indicator color="${info.color}" size="large">${info.label}</clg-status-indicator>`;
+        html += `<p class="wt-text-body-small">${desc}</p>`;
+        html += '</div>';
+
+        // Overall tier bar
+        html += '<div class="wt-mt-xs-3">';
+        html += renderTierBar(worst, false);
+        html += '</div>';
+
+        // Three runway summaries
+        html += '<div class="wt-display-flex-xs wt-flex-gap-xs-4 wt-mt-xs-4 wt-pt-xs-4 wt-bt-xs-1">';
+        const runways = [
+          { key: 'nhm', data: scenario.nhm },
+          { key: 'ip', data: scenario.ip },
+          { key: 'prohibited', data: scenario.prohibited },
+        ];
+
+        runways.forEach(({ key, data }) => {
+          const rInfo = TIERS[data.tier];
+          html += '<div class="wt-flex-xs-1">';
+          html += `<p class="wt-text-body-small wt-text-bold wt-mb-xs-1">${RUNWAY_LABELS[key]}</p>`;
+          html += '<div class="wt-display-flex-xs wt-align-items-center wt-flex-gap-xs-2">';
+          html += `<clg-status-indicator color="${rInfo.color}">${rInfo.label}</clg-status-indicator>`;
+          html += '</div>';
+          html += renderTierBar(data.tier, true);
+          if (data.detail) {
+            html += `<p class="wt-text-body-smaller wt-sem-text-secondary wt-mt-xs-1">${data.detail}</p>`;
+          }
+          html += '</div>';
+        });
+
+        html += '</div>';
+
+        // Alert banner for severe tiers — below the runways
+        if (worst === 'Restriction' || worst === 'Final Warning' || worst === 'ROS') {
+          const msg = worst === 'Final Warning'
+            ? 'Any further violations may result in permanent closure of your shop.'
+            : worst === 'ROS'
+            ? 'Your selling privileges have been revoked.'
+            : 'New listing creation is paused. Complete the actions below to restore full access to your shop.';
+          html += '<div class="wt-mt-xs-4">';
+          html += `<clg-section-alert-banner variant="strong" color="critical" buttons="none">`;
+          html += msg;
+          html += '</clg-section-alert-banner>';
+          html += '</div>';
+        }
+
+        // Refresh timestamp
+        html += '<div class="wt-display-flex-xs wt-justify-content-flex-end wt-mt-xs-3">';
+        html += '<span class="wt-text-body-smaller wt-sem-text-secondary">last refreshed on 04/20/2026</span>';
+        html += '</div>';
+
+        el.innerHTML = html;
+      }
+
+      function renderActions(scenario) {
+        const el = document.getElementById('action-items');
+        if (!scenario.actions || scenario.actions.length === 0) {
+          el.innerHTML = '';
+          return;
+        }
+
+        let html = '';
+        scenario.actions.forEach(action => {
+          // Derive color from the runway tier this action belongs to
+          let indicatorColor = 'success';
+          if (action.category === 'nhm') indicatorColor = TIERS[scenario.nhm.tier].color;
+          else if (action.category === 'ip') indicatorColor = TIERS[scenario.ip.tier].color;
+          else if (action.category === 'prohibited') indicatorColor = TIERS[scenario.prohibited.tier].color;
+          else indicatorColor = TIERS[getWorstTier(scenario)].color;
+
+          html += '<div class="wt-rounded-01 wt-b-xs-1 wt-p-xs-3 wt-display-flex-xs wt-align-items-center wt-flex-gap-xs-3">';
+
+          // Icon area
+          html += '<div>';
+          if (action.type === 'verify') {
+            html += '<clg-icon name="lock" style="font-size: 24px;"></clg-icon>';
+          } else if (action.type === 'quiz') {
+            html += '<clg-icon name="info" style="font-size: 24px;"></clg-icon>';
+          } else {
+            html += '<div class="wt-rounded-01 wt-sem-bg-surface-placeholder-subtle" style="width:40px;height:40px;"></div>';
+          }
+          html += '</div>';
+
+          // Content
+          html += '<div class="wt-flex-xs-1">';
+          html += '<div class="wt-display-flex-xs wt-align-items-center wt-flex-gap-xs-2">';
+          html += `<p class="wt-text-body-small wt-text-bold">${action.title}</p>`;
+          html += `<clg-status-indicator color="${indicatorColor}">${action.deadline}</clg-status-indicator>`;
+          html += '</div>';
+          html += `<p class="wt-text-body-smaller wt-sem-text-secondary">${action.sub}</p>`;
+          html += '</div>';
+
+          // CTA
+          html += '<div>';
+          html += `<clg-button variant="secondary" size="small">${action.cta}</clg-button>`;
+          html += '</div>';
+
+          html += '</div>';
+        });
+
+        el.innerHTML = html;
+      }
+
+      function renderScenario(idx) {
+        const scenario = SCENARIOS[idx];
+        renderModule(scenario);
+        renderActions(scenario);
+        document.querySelectorAll('#scenario-buttons clg-button').forEach((btn, i) => {
+          btn.setAttribute('variant', i === idx ? 'primary' : 'secondary');
+        });
+      }
+
+      function init() {
+        const btnContainer = document.getElementById('scenario-buttons');
+        SCENARIOS.forEach((s, i) => {
+          const btn = document.createElement('clg-button');
+          btn.setAttribute('variant', i === 0 ? 'primary' : 'secondary');
+          btn.setAttribute('size', 'small');
+          btn.textContent = s.name;
+          btn.addEventListener('click', () => renderScenario(i));
+          btnContainer.appendChild(btn);
+        });
+        renderScenario(0);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-z-index-negative-1 {
+  z-index: -1 !important;
+}
+
+.wt-z-index-0 {
+  z-index: 0 !important;
+}
+
+.wt-z-index-1 {
+  z-index: var(--clg-effect-pal-z-index-100, 10) !important;
+}
+
+.wt-z-index-2 {
+  z-index: var(--clg-effect-pal-z-index-200, 20) !important;
+}
+
+.wt-z-index-3 {
+  z-index: var(--clg-effect-pal-z-index-300, 30) !important;
+}
+
+.wt-z-index-4 {
+  z-index: var(--clg-effect-pal-z-index-400, 40) !important;
+}
+
+.wt-z-index-5 {
+  z-index: var(--clg-effect-pal-z-index-500, 50) !important;
+}
+
+.wt-z-index-6 {
+  z-index: var(--clg-effect-pal-z-index-600, 60) !important;
+}
+
+.wt-z-index-7 {
+  z-index: var(--clg-effect-pal-z-index-700, 70) !important;
+}
+
+.wt-z-index-8 {
+  z-index: var(--clg-effect-pal-z-index-800, 80) !important;
+}
+
+.wt-z-index-9 {
+  z-index: var(--clg-effect-pal-z-index-900, 90) !important;
+}
+
+.wt-z-index-10 {
+  z-index: var(--clg-effect-pal-z-index-1000, 100) !important;
+}

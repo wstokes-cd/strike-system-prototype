@@ -1,0 +1,82 @@
+.wt-nudge-t-1,
+.wt-nudge-t-2,
+.wt-nudge-t-3,
+.wt-nudge-t-4,
+.wt-nudge-r-1,
+.wt-nudge-r-2,
+.wt-nudge-r-3,
+.wt-nudge-r-4,
+.wt-nudge-b-1,
+.wt-nudge-b-2,
+.wt-nudge-b-3,
+.wt-nudge-b-4,
+.wt-nudge-l-1,
+.wt-nudge-l-2,
+.wt-nudge-l-3,
+.wt-nudge-l-4 {
+  position: relative;
+}
+
+.wt-nudge-t-1 {
+  top: 1px !important;
+}
+
+.wt-nudge-t-2 {
+  top: 2px !important;
+}
+
+.wt-nudge-t-3 {
+  top: 3px !important;
+}
+
+.wt-nudge-t-4 {
+  top: 4px !important;
+}
+
+.wt-nudge-r-1 {
+  right: 1px !important;
+}
+
+.wt-nudge-r-2 {
+  right: 2px !important;
+}
+
+.wt-nudge-r-3 {
+  right: 3px !important;
+}
+
+.wt-nudge-r-4 {
+  right: 4px !important;
+}
+
+.wt-nudge-b-1 {
+  bottom: 1px !important;
+}
+
+.wt-nudge-b-2 {
+  bottom: 2px !important;
+}
+
+.wt-nudge-b-3 {
+  bottom: 3px !important;
+}
+
+.wt-nudge-b-4 {
+  bottom: 4px !important;
+}
+
+.wt-nudge-l-1 {
+  left: 1px !important;
+}
+
+.wt-nudge-l-2 {
+  left: 2px !important;
+}
+
+.wt-nudge-l-3 {
+  left: 3px !important;
+}
+
+.wt-nudge-l-4 {
+  left: 4px !important;
+}

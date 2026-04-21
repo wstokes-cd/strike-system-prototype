@@ -1,0 +1,491 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-fill-turquoise-dark {
+  fill: var(--clg-color-pal-turquoise-900, #1A3B38) !important;
+}
+
+.wt-stroke-turquoise-dark {
+  stroke: var(--clg-color-pal-turquoise-900, #1A3B38) !important;
+}
+
+.wt-fill-turquoise {
+  fill: var(--clg-color-pal-turquoise-700, #2F766D) !important;
+}
+
+.wt-stroke-turquoise {
+  stroke: var(--clg-color-pal-turquoise-700, #2F766D) !important;
+}
+
+.wt-fill-turquoise-light {
+  fill: var(--clg-color-pal-turquoise-300, #7ED4BD) !important;
+}
+
+.wt-stroke-turquoise-light {
+  stroke: var(--clg-color-pal-turquoise-300, #7ED4BD) !important;
+}
+
+.wt-fill-turquoise-tint {
+  fill: var(--clg-color-pal-turquoise-100, #DDEBE3) !important;
+}
+
+.wt-stroke-turquoise-tint {
+  stroke: var(--clg-color-pal-turquoise-100, #DDEBE3) !important;
+}
+
+.wt-fill-slime-dark {
+  fill: var(--clg-color-pal-slime-900, #1C4A21) !important;
+}
+
+.wt-stroke-slime-dark {
+  stroke: var(--clg-color-pal-slime-900, #1C4A21) !important;
+}
+
+.wt-fill-slime {
+  fill: var(--clg-color-pal-slime-700, #258635) !important;
+}
+
+.wt-stroke-slime {
+  stroke: var(--clg-color-pal-slime-700, #258635) !important;
+}
+
+.wt-fill-slime-light {
+  fill: var(--clg-color-pal-slime-300, #9EC063) !important;
+}
+
+.wt-stroke-slime-light {
+  stroke: var(--clg-color-pal-slime-300, #9EC063) !important;
+}
+
+.wt-fill-slime-tint {
+  fill: var(--clg-color-pal-slime-100, #D4E9D7) !important;
+}
+
+.wt-stroke-slime-tint {
+  stroke: var(--clg-color-pal-slime-100, #D4E9D7) !important;
+}
+
+.wt-fill-lavender-dark {
+  fill: var(--clg-color-pal-lavender-900, #3E1C53) !important;
+}
+
+.wt-stroke-lavender-dark {
+  stroke: var(--clg-color-pal-lavender-900, #3E1C53) !important;
+}
+
+.wt-fill-lavender {
+  fill: var(--clg-color-pal-lavender-700, #654B77) !important;
+}
+
+.wt-stroke-lavender {
+  stroke: var(--clg-color-pal-lavender-700, #654B77) !important;
+}
+
+.wt-fill-lavender-light {
+  fill: var(--clg-color-pal-lavender-300, #9560B8) !important;
+}
+
+.wt-stroke-lavender-light {
+  stroke: var(--clg-color-pal-lavender-300, #9560B8) !important;
+}
+
+.wt-fill-lavender-tint {
+  fill: var(--clg-color-pal-lavender-100, #E6E1F0) !important;
+}
+
+.wt-stroke-lavender-tint {
+  stroke: var(--clg-color-pal-lavender-100, #E6E1F0) !important;
+}
+
+.wt-fill-denim-dark {
+  fill: var(--clg-color-pal-denim-900, #232347) !important;
+}
+
+.wt-stroke-denim-dark {
+  stroke: var(--clg-color-pal-denim-900, #232347) !important;
+}
+
+.wt-fill-denim {
+  fill: var(--clg-color-pal-denim-700, #2F466C) !important;
+}
+
+.wt-stroke-denim {
+  stroke: var(--clg-color-pal-denim-700, #2F466C) !important;
+}
+
+.wt-fill-denim-light {
+  fill: var(--clg-color-pal-denim-300, #4D6BC6) !important;
+}
+
+.wt-stroke-denim-light {
+  stroke: var(--clg-color-pal-denim-300, #4D6BC6) !important;
+}
+
+.wt-fill-denim-tint {
+  fill: var(--clg-color-pal-denim-100, #D7E6F5) !important;
+}
+
+.wt-stroke-denim-tint {
+  stroke: var(--clg-color-pal-denim-100, #D7E6F5) !important;
+}
+
+.wt-fill-bubblegum-dark {
+  fill: var(--clg-color-pal-bubblegum-900, #592642) !important;
+}
+
+.wt-stroke-bubblegum-dark {
+  stroke: var(--clg-color-pal-bubblegum-900, #592642) !important;
+}
+
+.wt-fill-bubblegum {
+  fill: var(--clg-color-pal-bubblegum-700, #B54C82) !important;
+}
+
+.wt-stroke-bubblegum {
+  stroke: var(--clg-color-pal-bubblegum-700, #B54C82) !important;
+}
+
+.wt-fill-bubblegum-light {
+  fill: var(--clg-color-pal-bubblegum-300, #F592B8) !important;
+}
+
+.wt-stroke-bubblegum-light {
+  stroke: var(--clg-color-pal-bubblegum-300, #F592B8) !important;
+}
+
+.wt-fill-bubblegum-tint {
+  fill: var(--clg-color-pal-bubblegum-100, #F5D9E3) !important;
+}
+
+.wt-stroke-bubblegum-tint {
+  stroke: var(--clg-color-pal-bubblegum-100, #F5D9E3) !important;
+}
+
+.wt-fill-brick-dark {
+  fill: var(--clg-color-pal-brick-900, #540D17) !important;
+}
+
+.wt-stroke-brick-dark {
+  stroke: var(--clg-color-pal-brick-900, #540D17) !important;
+}
+
+.wt-fill-brick {
+  fill: var(--clg-color-pal-brick-700, #A61A2E) !important;
+}
+
+.wt-stroke-brick {
+  stroke: var(--clg-color-pal-brick-700, #A61A2E) !important;
+}
+
+.wt-fill-brick-light {
+  fill: var(--clg-color-pal-brick-300, #FD9184) !important;
+}
+
+.wt-stroke-brick-light {
+  stroke: var(--clg-color-pal-brick-300, #FD9184) !important;
+}
+
+.wt-fill-brick-tint {
+  fill: var(--clg-color-pal-brick-100, #FDDCD8) !important;
+}
+
+.wt-stroke-brick-tint {
+  stroke: var(--clg-color-pal-brick-100, #FDDCD8) !important;
+}
+
+.wt-fill-beeswax-dark {
+  fill: var(--clg-color-pal-beeswax-900, #A66800) !important;
+}
+
+.wt-stroke-beeswax-dark {
+  stroke: var(--clg-color-pal-beeswax-900, #A66800) !important;
+}
+
+.wt-fill-beeswax {
+  fill: var(--clg-color-pal-beeswax-700, #FAA129) !important;
+}
+
+.wt-stroke-beeswax {
+  stroke: var(--clg-color-pal-beeswax-700, #FAA129) !important;
+}
+
+.wt-fill-beeswax-light {
+  fill: var(--clg-color-pal-beeswax-300, #FDD95C) !important;
+}
+
+.wt-stroke-beeswax-light {
+  stroke: var(--clg-color-pal-beeswax-300, #FDD95C) !important;
+}
+
+.wt-fill-beeswax-tint {
+  fill: var(--clg-color-pal-beeswax-100, #FDEBD2) !important;
+}
+
+.wt-stroke-beeswax-tint {
+  stroke: var(--clg-color-pal-beeswax-100, #FDEBD2) !important;
+}
+
+.wt-fill-orange-dark {
+  fill: var(--clg-color-pal-orange-900, #CF4018) !important;
+}
+
+.wt-stroke-orange-dark {
+  stroke: var(--clg-color-pal-orange-900, #CF4018) !important;
+}
+
+.wt-fill-orange {
+  fill: var(--clg-color-pal-orange-700, #F1641E) !important;
+}
+
+.wt-stroke-orange {
+  stroke: var(--clg-color-pal-orange-700, #F1641E) !important;
+}
+
+.wt-fill-orange-light {
+  fill: var(--clg-color-pal-orange-300, #FAA077) !important;
+}
+
+.wt-stroke-orange-light {
+  stroke: var(--clg-color-pal-orange-300, #FAA077) !important;
+}
+
+.wt-fill-orange-tint {
+  fill: var(--clg-color-pal-orange-100, #F8EBE6) !important;
+}
+
+.wt-stroke-orange-tint {
+  stroke: var(--clg-color-pal-orange-100, #F8EBE6) !important;
+}
+
+.wt-fill-new-orange-dark {
+  fill: var(--clg-color-pal-new-orange-900, #2D0306) !important;
+}
+
+.wt-stroke-new-orange-dark {
+  stroke: var(--clg-color-pal-new-orange-900, #2D0306) !important;
+}
+
+.wt-fill-new-orange {
+  fill: var(--clg-color-pal-new-orange-700, #901A12) !important;
+}
+
+.wt-stroke-new-orange {
+  stroke: var(--clg-color-pal-new-orange-700, #901A12) !important;
+}
+
+.wt-fill-new-orange-light {
+  fill: var(--clg-color-pal-new-orange-300, #FCC7A2) !important;
+}
+
+.wt-stroke-new-orange-light {
+  stroke: var(--clg-color-pal-new-orange-300, #FCC7A2) !important;
+}
+
+.wt-fill-new-orange-tint {
+  fill: var(--clg-color-pal-new-orange-100, #FFF3E7) !important;
+}
+
+.wt-stroke-new-orange-tint {
+  stroke: var(--clg-color-pal-new-orange-100, #FFF3E7) !important;
+}
+
+.wt-fill-yellow-dark {
+  fill: var(--clg-color-pal-yellow-900, #563213) !important;
+}
+
+.wt-stroke-yellow-dark {
+  stroke: var(--clg-color-pal-yellow-900, #563213) !important;
+}
+
+.wt-fill-yellow {
+  fill: var(--clg-color-pal-yellow-700, #F4A931) !important;
+}
+
+.wt-stroke-yellow {
+  stroke: var(--clg-color-pal-yellow-700, #F4A931) !important;
+}
+
+.wt-fill-yellow-light {
+  fill: var(--clg-color-pal-yellow-300, #FFF4BF) !important;
+}
+
+.wt-stroke-yellow-light {
+  stroke: var(--clg-color-pal-yellow-300, #FFF4BF) !important;
+}
+
+.wt-fill-yellow-tint {
+  fill: var(--clg-color-pal-yellow-100, #FFFDEF) !important;
+}
+
+.wt-stroke-yellow-tint {
+  stroke: var(--clg-color-pal-yellow-100, #FFFDEF) !important;
+}
+
+.wt-fill-purple-dark {
+  fill: var(--clg-color-pal-purple-900, #1B0F36) !important;
+}
+
+.wt-stroke-purple-dark {
+  stroke: var(--clg-color-pal-purple-900, #1B0F36) !important;
+}
+
+.wt-fill-purple {
+  fill: var(--clg-color-pal-purple-700, #52399C) !important;
+}
+
+.wt-stroke-purple {
+  stroke: var(--clg-color-pal-purple-700, #52399C) !important;
+}
+
+.wt-fill-purple-light {
+  fill: var(--clg-color-pal-purple-300, #DAD0FC) !important;
+}
+
+.wt-stroke-purple-light {
+  stroke: var(--clg-color-pal-purple-300, #DAD0FC) !important;
+}
+
+.wt-fill-purple-tint {
+  fill: var(--clg-color-pal-purple-100, #F8F3FF) !important;
+}
+
+.wt-stroke-purple-tint {
+  stroke: var(--clg-color-pal-purple-100, #F8F3FF) !important;
+}
+
+.wt-fill-blue-dark {
+  fill: var(--clg-color-pal-blue-900, #091434) !important;
+}
+
+.wt-stroke-blue-dark {
+  stroke: var(--clg-color-pal-blue-900, #091434) !important;
+}
+
+.wt-fill-blue {
+  fill: var(--clg-color-pal-blue-700, #1F32A2) !important;
+}
+
+.wt-stroke-blue {
+  stroke: var(--clg-color-pal-blue-700, #1F32A2) !important;
+}
+
+.wt-fill-blue-light {
+  fill: var(--clg-color-pal-blue-300, #8DB2EE) !important;
+}
+
+.wt-stroke-blue-light {
+  stroke: var(--clg-color-pal-blue-300, #8DB2EE) !important;
+}
+
+.wt-fill-blue-tint {
+  fill: var(--clg-color-pal-blue-100, #DDF1FF) !important;
+}
+
+.wt-stroke-blue-tint {
+  stroke: var(--clg-color-pal-blue-100, #DDF1FF) !important;
+}
+
+.wt-fill-green-dark {
+  fill: var(--clg-color-pal-green-900, #011D10) !important;
+}
+
+.wt-stroke-green-dark {
+  stroke: var(--clg-color-pal-green-900, #011D10) !important;
+}
+
+.wt-fill-green {
+  fill: var(--clg-color-pal-green-700, #095E31) !important;
+}
+
+.wt-stroke-green {
+  stroke: var(--clg-color-pal-green-700, #095E31) !important;
+}
+
+.wt-fill-green-light {
+  fill: var(--clg-color-pal-green-300, #DFF7AF) !important;
+}
+
+.wt-stroke-green-light {
+  stroke: var(--clg-color-pal-green-300, #DFF7AF) !important;
+}
+
+.wt-fill-green-tint {
+  fill: var(--clg-color-pal-green-100, #FBFFE3) !important;
+}
+
+.wt-stroke-green-tint {
+  stroke: var(--clg-color-pal-green-100, #FBFFE3) !important;
+}
+
+.wt-fill-red-0tint {
+  fill: var(--clg-color-pal-red-1000, #260009) !important;
+}
+
+.wt-stroke-red-0tint {
+  stroke: var(--clg-color-pal-red-1000, #260009) !important;
+}
+
+.wt-fill-red-dark {
+  fill: var(--clg-color-pal-red-900, #73001D) !important;
+}
+
+.wt-stroke-red-dark {
+  stroke: var(--clg-color-pal-red-900, #73001D) !important;
+}
+
+.wt-fill-red {
+  fill: var(--clg-color-pal-red-700, #EC0B43) !important;
+}
+
+.wt-stroke-red {
+  stroke: var(--clg-color-pal-red-700, #EC0B43) !important;
+}
+
+.wt-fill-red-light {
+  fill: var(--clg-color-pal-red-300, #FFDDE6) !important;
+}
+
+.wt-stroke-red-light {
+  stroke: var(--clg-color-pal-red-300, #FFDDE6) !important;
+}
+
+.wt-fill-red-tint {
+  fill: var(--clg-color-pal-red-100, #FFF8FA) !important;
+}
+
+.wt-stroke-red-tint {
+  stroke: var(--clg-color-pal-red-100, #FFF8FA) !important;
+}
+
+.wt-fill-transparent-black {
+  fill: var(--clg-color-pal-transparent-black-700, rgba(14, 14, 14, 0.8)) !important;
+}
+
+.wt-stroke-transparent-black {
+  stroke: var(--clg-color-pal-transparent-black-700, rgba(14, 14, 14, 0.8)) !important;
+}
+
+.wt-fill-transparent-white {
+  fill: var(--clg-color-pal-transparent-white-700, rgba(255, 255, 255, 0.831372549)) !important;
+}
+
+.wt-stroke-transparent-white {
+  stroke: var(--clg-color-pal-transparent-white-700, rgba(255, 255, 255, 0.831372549)) !important;
+}
+
+.wt-fill-greyscale-dark {
+  fill: var(--clg-color-pal-greyscale-900, #0E0E0E) !important;
+}
+
+.wt-stroke-greyscale-dark {
+  stroke: var(--clg-color-pal-greyscale-900, #0E0E0E) !important;
+}
+
+.wt-fill-greyscale {
+  fill: var(--clg-color-pal-greyscale-700, #3E3E3E) !important;
+}
+
+.wt-stroke-greyscale {
+  stroke: var(--clg-color-pal-greyscale-700, #3E3E3E) !important;
+}

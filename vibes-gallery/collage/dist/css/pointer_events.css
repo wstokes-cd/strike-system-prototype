@@ -1,0 +1,7 @@
+.wt-pointer-events-none {
+  pointer-events: none;
+}
+
+.wt-pointer-events-auto {
+  pointer-events: auto;
+}

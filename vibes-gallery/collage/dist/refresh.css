@@ -1,0 +1,1301 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 09 Mar 2026 18:08:48 GMT
+ */
+
+[data-clg-theme="refresh"] {
+  --clg-typography-sem-product-body-desktop-smallest-font-size: 11.01px;
+  --clg-typography-pal-size-075: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-050: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-025: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-000: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-900: 104.99px;
+  --clg-typography-pal-size-875: 94px;
+  --clg-typography-pal-size-850: 83.01px;
+  --clg-typography-pal-size-825: 74px;
+  --clg-typography-pal-size-800: 66px;
+  --clg-typography-pal-size-775: 58px;
+  --clg-typography-pal-size-750: 52px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-725: 46px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-700: 40.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-675: 36px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-650: 32px;
+  --clg-typography-pal-size-625: 28.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-600: 26px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-575: 23.01px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-550: 20px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-525: 18px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-500: 16px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-475: 14px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-450: 12.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-425: 11.01px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-400: 10px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-375: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-350: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-325: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-300: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-275: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-250: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-225: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-200: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-175: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-150: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-125: 8.99px; /* Used to define the font size of a type style. */
+  --clg-typography-pal-size-100: 8.99px; /* 1em equals 16px and is the base size of the modular scale. */
+  --clg-typography-pal-family-sans-serif-semibold: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-medium: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-regular: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-regular: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-light: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-thin-italic: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-effect-sem-shadow-elevation-4: 0px 12px 20px 0px #150A0405, 0px 16px 24px 2px #150A040A; /* Use as a shadow for elements at elevation 4. Elevation 4 appears to float higher than all other content and is reserved for components that redirect focus away from the main view, such as bottom sheets, modals, and dialogs. Elevation 4 may also be used as a hover transition for elements that start at elevation 3. Whenever effect.sem.shadow.elevation.4 is used color.sem.background.elevation.4 should be implemented as well. */
+  --clg-effect-sem-shadow-elevation-3: 0px 8px 16px 0px #150A0405, 0px 12px 20px 2px #150A040A; /* Use as a shadow for elements at elevation 3. Elevation 3 is used for components that may cover interactive elements and text but are contextually still related to the content of the main view. Examples include alert banners, floating action buttons, floating navigation, and open selects and drop-downs. Whenever effect.sem.shadow.elevation.3 is used color.sem.background.elevation.3 should be implemented as well. */
+  --clg-effect-sem-shadow-elevation-2: 0px 4px 12px 0px #150A0405, 0px 8px 16px 2px #150A040A; /* Use as a shadow for elements at elevation 2. Elevation 2 is primarily used as a hover transition for interactive elements that start at elevation 1. Whenever effect.sem.shadow.elevation.2 is used color.sem.background.elevation.2 should be implemented as well. */
+  --clg-effect-sem-shadow-elevation-1: 0px 2px 8px 0px #150A0405, 0px 4px 12px 2px #150A040A; /* Use as a shadow for elements at elevation 1. Elevation 1 appears just slightly raised above your application's base layer and is primarily used for interactive components such as cards, selects, and buttons. Elements at elevation 1 should not overlap interactive elements or text. Whenever effect.sem.shadow.elevation.1 is used color.sem.background.elevation.1 should be implemented as well. */
+  --clg-dimension-sem-icon-core-larger: 32px; /* Use for the width and height of the larger core icons. */
+  --clg-dimension-sem-icon-core-smaller: 16px; /* Use for the width and height of smaller core icons. */
+  --clg-color-sem-background-surface-expressive-yellow-lightest: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-lighter: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-light: #F1E8C8; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-darker: #664F03; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-yellow-dark: #C19502; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-teal-light: #CADADE; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-teal-darker: #0D424E; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-teal-dark: #789AA2; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-red-light: #F7D5DA; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-red-darker: #560920; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-red-dark: #93150E; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-lighter: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-light: #DED3E8; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-darker: #2F203C; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-purple-dark: #4D3464; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-green-lightest: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-green-lighter: #00000000; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-green-light: #D2DBBD; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-green-darker: #404632; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-green-dark: #6A7550; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-blue-light: #D2DFF2; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-blue-darker: #1A224D; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-expressive-blue-dark: #545A78; /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-pal-yellow-075: #FFFCF7;
+  --clg-color-pal-yellow-050: #FFFDFA;
+  --clg-color-pal-yellow-950: #342400;
+  --clg-color-pal-yellow-900: #694800;
+  --clg-color-pal-yellow-850: #996900;
+  --clg-color-pal-yellow-800: #DB9600;
+  --clg-color-pal-yellow-750: #FFB619;
+  --clg-color-pal-yellow-700: #FFBA26;
+  --clg-color-pal-yellow-650: #FFBE33;
+  --clg-color-pal-yellow-600: #FFC340;
+  --clg-color-pal-yellow-550: #FFC74D;
+  --clg-color-pal-yellow-500: #FFCB5A;
+  --clg-color-pal-yellow-450: #FFD373;
+  --clg-color-pal-yellow-400: #FFDB8C;
+  --clg-color-pal-yellow-350: #FFE2A4;
+  --clg-color-pal-yellow-300: #FFEBBF;
+  --clg-color-pal-yellow-250: #FFF3D8;
+  --clg-color-pal-yellow-200: #FFF5E1;
+  --clg-color-pal-yellow-150: #FFF8E8;
+  --clg-color-pal-yellow-100: #FFFAEF;
+  --clg-color-pal-transparent-white-075: #FFFFFF21; /* mimics black on greyscale.900 surface, 13% */
+  --clg-color-pal-transparent-white-050: #FFFFFF08;
+  --clg-color-pal-transparent-white-000: #FFFFFF00;
+  --clg-color-pal-transparent-white-950: #FFFFFFFF;
+  --clg-color-pal-transparent-white-900: #FFFFFFFF;
+  --clg-color-pal-transparent-white-800: #FFFFFFF2; /* mimics ice on greyscale.900 surface, 92% */
+  --clg-color-pal-transparent-white-700: #FFFFFFF0; /* mimics silver on greyscale.900 surface, 83% */
+  --clg-color-pal-transparent-white-600: #FFFFFFD9; /* mimics aluminum on greyscale.900 surface, 62% */
+  --clg-color-pal-transparent-white-550: #FFFFFFB5;
+  --clg-color-pal-transparent-white-500: #FFFFFFB8; /* mimics steel on greyscale.900 surface, 46% */
+  --clg-color-pal-transparent-white-400: #FFFFFFA3;
+  --clg-color-pal-transparent-white-350: #FFFFFF91; /* mimics charcoal on greyscale.900 surface, 35% */
+  --clg-color-pal-transparent-white-200: #FFFFFF85;
+  --clg-color-pal-transparent-white-150: #FFFFFF61; /* mimics soot on greyscale.900 surface, 24% */
+  --clg-color-pal-transparent-white-100: #FFFFFF42;
+  --clg-color-pal-transparent-black-075: #3314000D; /* mimics ice on greyscale.000 surface, 9% */
+  --clg-color-pal-transparent-black-050: #33140008;
+  --clg-color-pal-transparent-black-000: #110F1400;
+  --clg-color-pal-transparent-black-950: #110F14FA;
+  --clg-color-pal-transparent-black-900: #0D0A0FF2;
+  --clg-color-pal-transparent-black-800: #0F0B0ADB; /* mimics black on greyscale.000 surface, 91% */
+  --clg-color-pal-transparent-black-700: #1F1614BF; /* mimics soot on greyscale.000 surface, 80% */
+  --clg-color-pal-transparent-black-600: #1F1714B2; /* mimics charcoal on greyscale.000 surface, 69% */
+  --clg-color-pal-transparent-black-550: #211512AD;
+  --clg-color-pal-transparent-black-500: #2314109E; /* mimics steel on greyscale.000 surface, 57% */
+  --clg-color-pal-transparent-black-400: #27130C80;
+  --clg-color-pal-transparent-black-350: #2610086E; /* mimics aluminum on greyscale.000 surface, 40% */
+  --clg-color-pal-transparent-black-200: #33140042;
+  --clg-color-pal-transparent-black-150: #33140030; /* mimics silver on greyscale.000 surface, 18% */
+  --clg-color-pal-transparent-black-100: #33140022; /* mimics ice on greyscale.000 surface, 9% */
+  --clg-color-pal-teal-075: #F3FAF8;
+  --clg-color-pal-teal-050: #F8FCFB;
+  --clg-color-pal-teal-950: #091512;
+  --clg-color-pal-teal-900: #122B24;
+  --clg-color-pal-teal-850: #1B4036;
+  --clg-color-pal-teal-800: #245648;
+  --clg-color-pal-teal-750: #2E6F5C;
+  --clg-color-pal-teal-700: #398872;
+  --clg-color-pal-teal-650: #44A287;
+  --clg-color-pal-teal-600: #48AD90;
+  --clg-color-pal-teal-550: #5ABA9F;
+  --clg-color-pal-teal-500: #5ABA9F;
+  --clg-color-pal-teal-450: #6CC2A9;
+  --clg-color-pal-teal-400: #7EC9B4;
+  --clg-color-pal-teal-350: #91D1BF;
+  --clg-color-pal-teal-300: #A3D8C9;
+  --clg-color-pal-teal-250: #B6E0D4;
+  --clg-color-pal-teal-200: #C8E8DF;
+  --clg-color-pal-teal-150: #DCF0EA;
+  --clg-color-pal-teal-100: #E7F5F1;
+  --clg-color-pal-red-075: #FEF6F7;
+  --clg-color-pal-red-050: #FEF9FA;
+  --clg-color-pal-red-1000: #230308;
+  --clg-color-pal-red-950: #470611;
+  --clg-color-pal-red-900: #6A0919;
+  --clg-color-pal-red-850: #8E0C21;
+  --clg-color-pal-red-800: #AA0E28;
+  --clg-color-pal-red-750: #C7102F;
+  --clg-color-pal-red-700: #E41336;
+  --clg-color-pal-red-650: #EE2C4C;
+  --clg-color-pal-red-600: #F14C68;
+  --clg-color-pal-red-550: #F37287;
+  --clg-color-pal-red-500: #F58598;
+  --clg-color-pal-red-450: #F79BAA;
+  --clg-color-pal-red-400: #F9B2BE;
+  --clg-color-pal-red-350: #FBC8D1;
+  --clg-color-pal-red-300: #FCE0E4;
+  --clg-color-pal-red-250: #FDE5E9;
+  --clg-color-pal-red-200: #FDECEF;
+  --clg-color-pal-red-150: #FEF2F4;
+  --clg-color-pal-red-100: #FEF6F7;
+  --clg-color-pal-purple-075: #FBF7FA;
+  --clg-color-pal-purple-050: #FDFBFD;
+  --clg-color-pal-purple-950: #180A15;
+  --clg-color-pal-purple-900: #30152B;
+  --clg-color-pal-purple-850: #481F40;
+  --clg-color-pal-purple-800: #602A56;
+  --clg-color-pal-purple-750: #78346B;
+  --clg-color-pal-purple-700: #944185;
+  --clg-color-pal-purple-650: #AE4D9D;
+  --clg-color-pal-purple-600: #BE6AAE;
+  --clg-color-pal-purple-550: #CA86BD;
+  --clg-color-pal-purple-500: #D7A3CD;
+  --clg-color-pal-purple-450: #DDB1D5;
+  --clg-color-pal-purple-400: #E3C0DD;
+  --clg-color-pal-purple-350: #E9CEE4;
+  --clg-color-pal-purple-300: #F0DCEC;
+  --clg-color-pal-purple-250: #F6EAF4;
+  --clg-color-pal-purple-200: #F8EEF6;
+  --clg-color-pal-purple-150: #FAF2F8;
+  --clg-color-pal-purple-100: #FAF4F9;
+  --clg-color-pal-pop-red-light: #00000000;
+  --clg-color-pal-pop-red-dark: #00000000;
+  --clg-color-pal-pop-purple-light: #00000000;
+  --clg-color-pal-pop-purple-dark: #00000000;
+  --clg-color-pal-pop-green-light: #00000000;
+  --clg-color-pal-pop-green-dark: #00000000;
+  --clg-color-pal-pop-blue-light: #00000000;
+  --clg-color-pal-pop-blue-dark: #00000000;
+  --clg-color-pal-pop-yellow: #00000000;
+  --clg-color-pal-pop-teal: #00000000;
+  --clg-color-pal-greyscale-075: #EFECEA; /* ice */
+  --clg-color-pal-greyscale-050: #FAF8F5;
+  --clg-color-pal-greyscale-000: #FFFFFF; /* white */
+  --clg-color-pal-greyscale-950: #110F14;
+  --clg-color-pal-greyscale-900: #1C181F; /* hematite */
+  --clg-color-pal-greyscale-850: #00000000;
+  --clg-color-pal-greyscale-800: #312B36; /* black */
+  --clg-color-pal-greyscale-750: #00000000;
+  --clg-color-pal-greyscale-700: #534D4C; /* soot */
+  --clg-color-pal-greyscale-650: #00000000;
+  --clg-color-pal-greyscale-600: #605957; /* charcoal, darkest color with 3:1 contrast on dark mode. */
+  --clg-color-pal-greyscale-550: #665E5C;
+  --clg-color-pal-greyscale-500: #736B68; /* steel - Lightest possible text on white. */
+  --clg-color-pal-greyscale-450: #00000000;
+  --clg-color-pal-greyscale-400: #928681; /* Use to achieve minimal 3:1 contrast for graphics and borders. This color has 3:1 contrast against all elevations in light mode and 4.3:1 contrast against elevation 4 in dark mode. */
+  --clg-color-pal-greyscale-350: #9F938E; /* aluminum */
+  --clg-color-pal-greyscale-250: #00000000;
+  --clg-color-pal-greyscale-200: #C8BDB7;
+  --clg-color-pal-greyscale-150: #D5CDC8; /* silver - Darkest possible text on DM elevation 4. */
+  --clg-color-pal-greyscale-100: #E0DAD6;
+  --clg-color-pal-green-075: #F8FBF5;
+  --clg-color-pal-green-050: #FCFEFB;
+  --clg-color-pal-green-950: #080C04;
+  --clg-color-pal-green-900: #0F1708;
+  --clg-color-pal-green-850: #17230C;
+  --clg-color-pal-green-800: #1E2D0F;
+  --clg-color-pal-green-750: #253913;
+  --clg-color-pal-green-700: #334D1A;
+  --clg-color-pal-green-650: #406221;
+  --clg-color-pal-green-600: #4E7728;
+  --clg-color-pal-green-550: #4E7728;
+  --clg-color-pal-green-500: #69A036;
+  --clg-color-pal-green-450: #86C34C;
+  --clg-color-pal-green-400: #A3D277;
+  --clg-color-pal-green-350: #B9DD97;
+  --clg-color-pal-green-300: #D2E9BD;
+  --clg-color-pal-green-250: #DBEDCB;
+  --clg-color-pal-green-200: #E3F1D5;
+  --clg-color-pal-green-150: #EAF5E0;
+  --clg-color-pal-green-100: #F1F8EA;
+  --clg-color-pal-blue-075: #F1F4FC;
+  --clg-color-pal-blue-050: #FBFBFE;
+  --clg-color-pal-blue-950: #050A19;
+  --clg-color-pal-blue-900: #0A1533;
+  --clg-color-pal-blue-850: #0F1F4C;
+  --clg-color-pal-blue-800: #142966;
+  --clg-color-pal-blue-750: #193684;
+  --clg-color-pal-blue-700: #1F41A2;
+  --clg-color-pal-blue-650: #254EC1;
+  --clg-color-pal-blue-600: #2754CE;
+  --clg-color-pal-blue-550: #2D5AD7;
+  --clg-color-pal-blue-500: #426BDB;
+  --clg-color-pal-blue-450: #5076DE;
+  --clg-color-pal-blue-400: #6586E2;
+  --clg-color-pal-blue-350: #7C98E6;
+  --clg-color-pal-blue-300: #91A9EA;
+  --clg-color-pal-blue-250: #A8BAEE;
+  --clg-color-pal-blue-200: #BDCCF3;
+  --clg-color-pal-blue-150: #D5DEF7;
+  --clg-color-pal-blue-100: #E2E9FA;
+  --clg-color-app-switch-background: #00000000;
+  --clg-typography-pal-family-serif-bold-italic: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-bold: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-medium-italic: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-medium: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-regular-italic: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-serif-light-italic: "ABCOtto", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-heavy-italic: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-heavy: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-bold-italic: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-bold: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-medium-italic: "ABCDiatype", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+  --clg-typography-pal-family-sans-serif-regular-italic: "Diatype", "-apple-system", "Helvetica Neue", "Arial", "sans-serif";
+  --clg-typography-sem-marketing-heading-mobile-base-font-size: var(--clg-typography-pal-size-250);
+  --clg-typography-sem-marketing-heading-mobile-base-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-heading-mobile-large-font-size: var(--clg-typography-pal-size-350);
+  --clg-typography-sem-marketing-heading-mobile-large-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-heading-mobile-emphasis-base-font-size: calc(var(--clg-typography-pal-size-250) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-heading-mobile-emphasis-base-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-heading-mobile-emphasis-large-font-size: calc(var(--clg-typography-pal-size-350) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-heading-mobile-emphasis-large-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-heading-desktop-base-font-size: var(--clg-typography-pal-size-350);
+  --clg-typography-sem-marketing-heading-desktop-base-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-heading-desktop-large-font-size: var(--clg-typography-pal-size-475);
+  --clg-typography-sem-marketing-heading-desktop-large-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-heading-desktop-emphasis-base-font-size: calc(var(--clg-typography-pal-size-350) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-heading-desktop-emphasis-base-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-heading-desktop-emphasis-large-font-size: calc(var(--clg-typography-pal-size-475) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-heading-desktop-emphasis-large-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-display-mobile-base-font-size: var(--clg-typography-pal-size-400);
+  --clg-typography-sem-marketing-display-mobile-base-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-mobile-large-font-size: var(--clg-typography-pal-size-550);
+  --clg-typography-sem-marketing-display-mobile-large-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-mobile-larger-font-size: var(--clg-typography-pal-size-600);
+  --clg-typography-sem-marketing-display-mobile-larger-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-mobile-emphasis-base-font-size: calc(var(--clg-typography-pal-size-400) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-display-mobile-emphasis-base-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-display-mobile-emphasis-large-font-size: calc(var(--clg-typography-pal-size-550) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-display-mobile-emphasis-large-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-display-mobile-emphasis-larger-font-size: calc(var(--clg-typography-pal-size-600) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-display-mobile-emphasis-larger-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-display-desktop-base-font-size: var(--clg-typography-pal-size-550);
+  --clg-typography-sem-marketing-display-desktop-base-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-desktop-large-font-size: var(--clg-typography-pal-size-700);
+  --clg-typography-sem-marketing-display-desktop-large-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-desktop-larger-font-size: var(--clg-typography-pal-size-750);
+  --clg-typography-sem-marketing-display-desktop-larger-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-desktop-emphasis-base-font-size: calc(var(--clg-typography-pal-size-550) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-display-desktop-emphasis-base-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-display-desktop-emphasis-large-font-size: calc(var(--clg-typography-pal-size-700) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-display-desktop-emphasis-large-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-marketing-display-desktop-emphasis-larger-font-size: calc(var(--clg-typography-pal-size-750) * var(--clg-typography-pal-emphasis-size-100));
+  --clg-typography-sem-marketing-display-desktop-emphasis-larger-font-family: var(--clg-typography-pal-family-serif-thin-italic);
+  --clg-typography-sem-product-body-mobile-smallest-letter-spacing: calc(var(--clg-typography-sem-product-body-mobile-smallest-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-mobile-smallest-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-body-mobile-smallest-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-mobile-smallest-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-smaller-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-mobile-smaller-font-size: var(--clg-typography-pal-size-450);
+  --clg-typography-sem-product-body-mobile-smaller-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-small-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-mobile-small-font-size: var(--clg-typography-pal-size-475);
+  --clg-typography-sem-product-body-mobile-small-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-base-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-mobile-base-font-size: var(--clg-typography-pal-size-500);
+  --clg-typography-sem-product-body-mobile-base-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-large-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-mobile-large-font-size: var(--clg-typography-pal-size-525);
+  --clg-typography-sem-product-body-mobile-large-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-smallest-letter-spacing: calc(var(--clg-typography-sem-product-body-desktop-smallest-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-desktop-smallest-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-desktop-smallest-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-smaller-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-desktop-smaller-font-size: var(--clg-typography-pal-size-450);
+  --clg-typography-sem-product-body-desktop-smaller-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-small-line-height: var(--clg-typography-pal-line-height-300); /* This is the body style on desktop, with the default line height. */
+  --clg-typography-sem-product-body-desktop-small-font-size: var(--clg-typography-pal-size-475);
+  --clg-typography-sem-product-body-desktop-small-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-base-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-desktop-base-font-size: var(--clg-typography-pal-size-500);
+  --clg-typography-sem-product-body-desktop-base-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-large-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-body-desktop-large-font-size: var(--clg-typography-pal-size-550);
+  --clg-typography-sem-product-body-desktop-large-font-family: var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-title-mobile-smallest-letter-spacing: calc(var(--clg-typography-sem-product-title-mobile-smallest-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-mobile-smallest-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-mobile-smallest-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-mobile-smallest-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-mobile-small-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-mobile-small-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-mobile-small-font-size: var(--clg-typography-pal-size-475);
+  --clg-typography-sem-product-title-mobile-small-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-mobile-base-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-mobile-base-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-mobile-base-font-size: var(--clg-typography-pal-size-500);
+  --clg-typography-sem-product-title-mobile-base-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-mobile-large-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-mobile-large-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-mobile-large-font-size: var(--clg-typography-pal-size-525);
+  --clg-typography-sem-product-title-mobile-large-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-mobile-larger-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-mobile-larger-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-mobile-larger-font-size: var(--clg-typography-pal-size-575);
+  --clg-typography-sem-product-title-mobile-larger-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-desktop-smallest-letter-spacing: calc(var(--clg-typography-sem-product-title-desktop-smallest-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-desktop-smallest-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-desktop-smallest-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-desktop-smallest-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-desktop-small-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-desktop-small-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-desktop-small-font-size: var(--clg-typography-pal-size-475);
+  --clg-typography-sem-product-title-desktop-small-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-desktop-base-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-desktop-base-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-desktop-base-font-size: var(--clg-typography-pal-size-500);
+  --clg-typography-sem-product-title-desktop-base-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-desktop-large-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-desktop-large-line-height: var(--clg-typography-pal-line-height-300);
+  --clg-typography-sem-product-title-desktop-large-font-size: var(--clg-typography-pal-size-525);
+  --clg-typography-sem-product-title-desktop-large-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-title-desktop-larger-font-weight: var(--clg-typography-pal-weight-700);
+  --clg-typography-sem-product-title-desktop-larger-font-size: var(--clg-typography-pal-size-600);
+  --clg-typography-sem-product-title-desktop-larger-font-family: var(--clg-typography-pal-family-sans-serif-medium);
+  --clg-typography-sem-product-heading-mobile-small-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-heading-mobile-small-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-heading-mobile-small-font-size: var(--clg-typography-pal-size-525);
+  --clg-typography-sem-product-heading-mobile-small-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-heading-mobile-base-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-heading-mobile-base-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-heading-mobile-base-font-size: var(--clg-typography-pal-size-575);
+  --clg-typography-sem-product-heading-mobile-base-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-heading-mobile-large-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-heading-mobile-large-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-heading-mobile-large-font-size: var(--clg-typography-pal-size-625);
+  --clg-typography-sem-product-heading-mobile-large-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-heading-desktop-small-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-heading-desktop-small-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-heading-desktop-small-font-size: var(--clg-typography-pal-size-600);
+  --clg-typography-sem-product-heading-desktop-small-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-heading-desktop-base-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-heading-desktop-base-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-heading-desktop-base-font-size: var(--clg-typography-pal-size-650);
+  --clg-typography-sem-product-heading-desktop-base-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-heading-desktop-large-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-heading-desktop-large-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-heading-desktop-large-font-size: var(--clg-typography-pal-size-700);
+  --clg-typography-sem-product-heading-desktop-large-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-display-mobile-base-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-display-mobile-base-font-size: var(--clg-typography-pal-size-650);
+  --clg-typography-sem-product-display-mobile-base-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-display-mobile-large-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-display-mobile-large-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-display-mobile-large-font-size: var(--clg-typography-pal-size-750);
+  --clg-typography-sem-product-display-mobile-large-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-display-mobile-larger-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-display-mobile-larger-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-display-mobile-larger-font-size: var(--clg-typography-pal-size-775);
+  --clg-typography-sem-product-display-mobile-larger-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-display-desktop-base-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-display-desktop-base-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-display-desktop-base-font-size: var(--clg-typography-pal-size-750);
+  --clg-typography-sem-product-display-desktop-base-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-display-desktop-large-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-display-desktop-large-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-display-desktop-large-font-size: var(--clg-typography-pal-size-825);
+  --clg-typography-sem-product-display-desktop-large-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-typography-sem-product-display-desktop-larger-font-weight: var(--clg-typography-pal-weight-400);
+  --clg-typography-sem-product-display-desktop-larger-line-height: var(--clg-typography-pal-line-height-050);
+  --clg-typography-sem-product-display-desktop-larger-font-size: var(--clg-typography-pal-size-850);
+  --clg-typography-sem-product-display-desktop-larger-font-family: var(--clg-typography-pal-family-serif-light);
+  --clg-effect-app-sheets-shadow: var(--clg-effect-sem-shadow-elevation-4);
+  --clg-effect-app-input-shadow: 0px 1px 4px 0px inset var(--clg-color-pal-transparent-black-075);
+  --clg-effect-app-dialogs-shadow: var(--clg-effect-sem-shadow-elevation-4);
+  --clg-effect-app-alert-toast-shadow: var(--clg-effect-sem-shadow-elevation-2);
+  --clg-dimension-app-review-star-smaller-size: var(--clg-dimension-sem-icon-core-smaller); /* Use for the smaller size of review stars. */
+  --clg-dimension-app-review-star-larger-size: var(--clg-dimension-sem-icon-core-larger); /* Use for the larger size of review stars. */
+  --clg-color-sem-text-on-surface-unavailable-subtle: var(--clg-color-pal-greyscale-500); /* Use for all text or icons placed upon the unavailable subtle surface color. */
+  --clg-color-sem-text-on-surface-subtle: var(--clg-color-pal-greyscale-800); /* Use for all text or icons placed upon a subtle surface color to ensure 4.5:1 contrast. */
+  --clg-color-sem-text-on-surface-strong: var(--clg-color-pal-greyscale-050); /* Use for all text or icons placed upon a strong surface color to ensure 4.5:1 contrast. */
+  --clg-color-sem-text-on-surface-light: var(--clg-color-pal-greyscale-800); /* Use for all text or icons placed upon a light surface color to ensure 4.5:1 contrast. */
+  --clg-color-sem-text-on-surface-dark: var(--clg-color-pal-greyscale-050); /* Use for all text or icons placed upon a dark surface color to ensure 4.5:1 contrast. */
+  --clg-color-sem-text-tertiary: var(--clg-color-pal-greyscale-500); /* Use for text or an icon to create minimal contrast. Currently only used for native input helper text. */
+  --clg-color-sem-text-star-seller: var(--clg-color-pal-purple-650); /* Use for text associated with sellers who consistently earn 5-star reviews, ship on time, and reply quickly to any messages they receive. */
+  --clg-color-sem-text-secondary: var(--clg-color-pal-greyscale-550); /* Use for text or an icon to reduce visual weight and place it below primary text in the visual hierarchy such as supplementary text for an input label. Secondary text still maintains 4.5:1 contrast against all elevation background colors. */
+  --clg-color-sem-text-recommendation: var(--clg-color-pal-yellow-600); /* Use for text or icons to communicate that Etsy recommends a product such as 'Etsy's pick'. */
+  --clg-color-sem-text-promote: var(--clg-color-pal-green-550); /* Use for text or icons that communicate a promotion or signal value such as 'Sale ends soon'. */
+  --clg-color-sem-text-primary: var(--clg-color-pal-greyscale-800); /* Use for most text and icons in the UI. Primary text has high contrast in both light and dark mode to maximize readability. */
+  --clg-color-sem-text-placeholder: var(--clg-color-pal-greyscale-500); /* Use for text or an icon that serves as a placeholder such as the placeholder text for a text input. */
+  --clg-color-sem-text-monetary-value: var(--clg-color-pal-green-550); /* Use for text or icons associated with monetary value such as 'Sale ends soon'. */
+  --clg-color-sem-text-disabled: var(--clg-color-pal-greyscale-500); /* Use for text or icons to communicate a disabled state. Currently used in disabled Action Groups and iOS rows. */
+  --clg-color-sem-text-critical: var(--clg-color-pal-red-750); /* Use for text or icons that communicate critical information such as a form error. */
+  --clg-color-sem-text-brand: var(--clg-color-pal-new-orange-500); /* Use for text or logos that represent the Etsy brand. This token intentionally doesn't reference any palette ramp to protect its sovereignty. */
+  --clg-color-sem-text-action: var(--clg-color-pal-blue-500); /* Use for text in transparent actions or links to distinguish actions from regular text. */
+  --clg-color-sem-icon-review: var(--clg-color-pal-yellow-600); /* Use for an icon that represents reviews. */
+  --clg-color-sem-icon-favorite-light: var(--clg-color-pal-red-500); /* Use only in scenarios where a favorite icon should remain light in both light and dark mode. */
+  --clg-color-sem-icon-favorite-inverted: var(--clg-color-pal-red-500); /* Use for rare scenarios where the light and dark values of favorite icons need to be inverted. */
+  --clg-color-sem-icon-favorite-dark: var(--clg-color-pal-red-750); /* Use only in scenarios where a favorite icon should remain dark in both light and dark mode. */
+  --clg-color-sem-icon-favorite: var(--clg-color-pal-red-750); /* Use for an icon that represents a product the user has favorited. */
+  --clg-color-sem-border-selected: var(--clg-color-pal-greyscale-800); /* Use as a border for a selected element such as a checkbox. */
+  --clg-color-sem-border-selectable: var(--clg-color-pal-greyscale-400); /* Use as a border for anything that is selectable such as checkboxes, radios, chips, and selectable panels. This color may also be used for any interactive component to achieve a 3:1 contrast ratio against any elevation background color. */
+  --clg-color-sem-border-placeholder: var(--clg-color-pal-transparent-black-350); /* Use as a border for a transparent container that serves as a placeholder such as the Drop Area of a file upload. */
+  --clg-color-sem-border-focused: var(--clg-color-pal-blue-500); /* Use as a border to highlight focused interactive components. */
+  --clg-color-sem-border-divider: var(--clg-color-pal-greyscale-100); /* Use as a border to separate an element from other elements such as the separating line on iOS Rows. */
+  --clg-color-sem-border-critical: var(--clg-color-pal-red-750); /* Use as a border for elements that communicate critical information such as a text input that contains an error. */
+  --clg-color-sem-border-active: var(--clg-color-pal-greyscale-800); /* Use as a border to communicate an active state such as an active tab or text input. */
+  --clg-color-sem-background-surface-warning-light: var(--clg-color-pal-yellow-600); /* Use as the background for content that warns users of an issue such as an alert banner that says 'Make sure to verify your shop!'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-unavailable-subtle: var(--clg-color-pal-greyscale-075); /* Use as a background color for selectable content that is unavailable. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-unavailable-dark: var(--clg-color-pal-greyscale-500); /* Use as a background color to replace background colors in elements such as badges when they are placed upon the unavailable subtle surface color and represent selectable content that is no longer available. */
+  --clg-color-sem-background-surface-trust-light: var(--clg-color-pal-yellow-600); /* Use as a background to content that signals trust such as a Badge that says 'Etsy's pick' or 'Bestseller'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-success-dark: var(--clg-color-pal-green-550); /* Use as a background to communicate a successful outcome such as a successful form submission. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-star-seller-light: var(--clg-color-pal-purple-550); /* Use as a background for elements associated with sellers who consistently earn 5-star reviews, ship on time, and reply quickly to any messages they receive. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-star-seller-dark: var(--clg-color-pal-purple-650); /* Use as a background for elements associated with sellers who consistently earn 5-star reviews, ship on time, and reply quickly to any messages they receive. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-seller-dark: var(--clg-color-pal-blue-500); /* Use as a background for elements that represent a seller on Etsy. This token is currently used throughout the Etsy Seller App to highlight selections and shop feedback. */
+  --clg-color-sem-background-surface-selected-subtle: var(--clg-color-pal-transparent-black-100); /* Use as a background to represent a selected state for elements placed on one of the elevation colors. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-selected-strong: var(--clg-color-pal-greyscale-800); /* Use as a background to represent a selected state for elements placed on one of the elevation colors. Strong colors adjust to maintain a high contrast, appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-recommendation-light: var(--clg-color-pal-yellow-600); /* Use as a background to show that Etsy recommends a product such as a badge that says 'Etsy's pick'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-promote-light: var(--clg-color-pal-green-400); /* Use as a background for content that communicates a promotion or signals value such as a badge that says 'Sale ends soon'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-placeholder-subtle: var(--clg-color-pal-transparent-black-075); /* Use as a background to temporarily visualize an element that is intended be replaced such as thumbnails for file uploads or skeleton UI. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-notification-tertiary-strong: var(--clg-color-pal-greyscale-800); /* Use as a background to indicate items that should be noticed without any sense of urgency, such as notification badges for read messages. Strong colors adjust to maintain strong contrast by appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-notification-secondary-strong: var(--clg-color-pal-blue-500); /* Use as a background to alert users to items that should be noticed but with a reduced sense of urgency. Notification secondary strong is primarily used for small elements, like badges, that highlight new product features. Strong colors adjust to ensure strong contrast, appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-notification-secondary-dark: var(--clg-color-pal-blue-500); /* Use as a background to inform users about items that should be noticed but with a reduced sense of urgency. Notification secondary dark is mainly used for larger elements, such as banners, to highlight new product features. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-notification-primary-strong: var(--clg-color-pal-new-orange-600); /* Use as a background to notify users of important updates, such as notification badges for new messages and changes to their cart. Strong colors adjust to maintain a high contrast, appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-monetary-value-light: var(--clg-color-pal-green-400); /* Use as a background to suggest monetary value such as the background of a badge that says 'Sale ends soon'. Light colors will remain light in both light and dark mode. */
+  --clg-color-sem-background-surface-insider-light: var(--clg-color-pal-new-orange-250); /* Used for the background of certain Etsy Insider headers and highlights. */
+  --clg-color-sem-background-surface-informational-subtle: var(--clg-color-pal-greyscale-075); /* Use as the background of emotionally neutral information such as a banner that says 'Our privacy policy has been updated'. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-hovered-subtle: var(--clg-color-pal-transparent-black-050); /* Use as a background for the hovered state of elements that have a background to create subtle contrast against an elevation color. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-highlight-dark: var(--clg-color-pal-blue-500); /* Use as a background to highlight new product features and updates. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-gallery-dark: var(--clg-color-pal-greyscale-950); /* Use as a background for an image gallery, to focus on the content. Dark colors will stay dark in both light and dark modes. */
+  --clg-color-sem-background-surface-feedback-light: var(--clg-color-pal-blue-350); /* Use as a background for content that requests feedback or suggests a particular action to the user. Light colors will stay light in both light and dark modes. */
+  --clg-color-sem-background-surface-expressive-blue-strong: var(--clg-color-pal-blue-500); /* Use expressive surface colors to convey themes in in-product marketing experiences or reach our to DS/Brand for approval to use. */
+  --clg-color-sem-background-surface-critical-subtle: var(--clg-color-pal-red-200); /* Use as a background to communicate critical information such as an error state. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. Critical subtle is primarily used as a background for components that are in an error state. */
+  --clg-color-sem-background-surface-critical-strong: var(--clg-color-pal-red-750); /* Use as a background to communicate critical information such as an error state. Strong colors adjust to maintain a high contrast, appearing darker in light mode and lighter in dark mode. Critical strong is currently used as a background for icons associated with errors. */
+  --clg-color-sem-background-surface-critical-light: var(--clg-color-pal-red-200); /* Use as a background to communicate critical information such as an error state. Light colors will remain light in both light and dark mode. Critical light is primarily used for small elements like badges. */
+  --clg-color-sem-background-surface-critical-dark: var(--clg-color-pal-red-750); /* Use as a background to communicate critical information such as an error state. Dark colors will stay dark in both light and dark modes. Critical dark is primarily used for large elements like banners. */
+  --clg-color-sem-background-surface-contrast-strong: var(--clg-color-pal-greyscale-800); /* Use as a background on surfaces that should have the highest level of contrast against an elevation background, such as a primary button or a floating banner that prompts the user to sign in. Strong colors adjust to maintain strong contrast by appearing darker in light mode and lighter in dark mode. */
+  --clg-color-sem-background-surface-confirmed-subtle: var(--clg-color-pal-green-300); /* Use as a background for elements that confirm a positive state such as a badge that says 'USPS verified' or a badge that indicates an active listing. Subtle colors will adjust to maintain subtle contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-confirmed-strong: var(--clg-color-pal-green-700); /* Use as a background for elements that confirm a positive state. Strong colors will adjust to maintain strong contrast with elevation colors in light and dark mode. */
+  --clg-color-sem-background-surface-brand-dark: var(--clg-color-pal-new-orange-500); /* Use as a background for elements that represent the Etsy brand. Text, of any color, should not be used on this background color. */
+  --clg-color-sem-background-elevation-neg1: var(--clg-color-pal-greyscale-075); /* Use as a background for your application’s base layer and for any elements that should appear to be transparent when placed on it. */
+  --clg-color-sem-background-elevation-4: var(--clg-color-pal-greyscale-000); /* Use as a background for elements at elevation 4. Elevation 4 appears to float higher than all other content and is reserved for components that redirect focus away from the main view, such as bottom sheets, modals, and dialogs. Elevation 4 may also be used as a hover transition for elements that start at elevation 3. Whenever color.sem.background.elevation.4 is used effect.sem.shadow.elevation.4 should be implemented as well. */
+  --clg-color-sem-background-elevation-3: var(--clg-color-pal-greyscale-000); /* Use as a background for elements at elevation 3. Elevation 3 is used for components that may cover interactive elements and text but are contextually still related to the content of the main view. Examples include alert banners, floating action buttons, floating navigation, and open selects and drop-downs. Whenever color.sem.background.elevation.3 is used effect.sem.shadow.elevation.3 should be implemented as well. */
+  --clg-color-sem-background-elevation-2: var(--clg-color-pal-greyscale-000); /* Use as a background for elements at elevation 2. Elevation 2 is primarily used as a hover transition for interactive elements that start at elevation 1. Whenever color.sem.background.elevation.2 is used effect.sem.shadow.elevation.2 should be implemented as well. */
+  --clg-color-sem-background-elevation-1: var(--clg-color-pal-greyscale-000); /* Use as a background for elements at elevation 1. Elevation 1 appears just slightly raised above your application's base layer and is primarily used for interactive components such as cards, selects, and buttons. Elements at elevation 1 should not overlap interactive elements or text. Whenever color.sem.background.elevation.1 is used effect.sem.shadow.elevation.1 should be implemented as well. */
+  --clg-color-sem-background-elevation-0: var(--clg-color-pal-greyscale-050); /* Use as a background for your application’s base layer and for any elements that should appear to be transparent when placed on it. */
+  --clg-color-sem-background-scrim: var(--clg-color-pal-transparent-black-500); /* Use as a background for a container that darkens the UI to draw focus to another element that sits on top of the UI such as a sheet or dialog. */
+  --clg-color-app-tooltip-background: var(--clg-color-pal-greyscale-800); /* Use for the background of tooltips. */
+  --clg-color-app-text-selection-background: var(--clg-color-pal-greyscale-400); /* Use as the background color for when a text is selected. */
+  --clg-color-app-tabs-track-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-tabs-pressed-highlight-background: var(--clg-color-pal-greyscale-200);
+  --clg-color-app-tabs-inactive-border: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-tabs-hovered-highlight-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-tabs-hovered-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-switch-m2-inactive-foreground: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-switch-m2-inactive-background: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-switch-m2-active-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-m2-active-background: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-switch-ios-inactive-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-ios-inactive-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-switch-ios-active-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-ios-active-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-inactive-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-inactive-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-inactive-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-disabled-foreground: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-switch-disabled-border: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-switch-disabled-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-checked-disabled-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-checked-disabled-border: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-switch-checked-disabled-background: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-switch-checked-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-checked-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-checked-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-active-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-switch-active-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-active-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-switch-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-spinner-on-surface-subtle-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-spinner-on-surface-subtle-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-spinner-on-surface-strong-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-spinner-on-surface-strong-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-spinner-on-surface-light-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-spinner-on-surface-light-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-spinner-on-surface-dark-foreground: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-spinner-on-surface-dark-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-spinner-foreground: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-spinner-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-skeleton-ui-background-idle: var(--clg-color-pal-transparent-black-050); /* Used for loading states throughout the app. */
+  --clg-color-app-skeleton-ui-background-advance: var(--clg-color-pal-transparent-black-075); /* Used for loading states throughout the app. */
+  --clg-color-app-signal-urgency-subtle-text: var(--clg-color-pal-red-750);
+  --clg-color-app-signal-urgency-strong-background: var(--clg-color-pal-red-500);
+  --clg-color-app-signal-urgency-text: var(--clg-color-pal-red-750);
+  --clg-color-app-signal-strong-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-signal-promote-subtle-text: var(--clg-color-pal-green-550);
+  --clg-color-app-signal-promote-text: var(--clg-color-pal-green-550);
+  --clg-color-app-signal-highlight-subtle-text: var(--clg-color-pal-blue-500);
+  --clg-color-app-signal-highlight-text: var(--clg-color-pal-blue-500);
+  --clg-color-app-signal-ad-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-signal-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-transparent-gradient-video-player-end: var(--clg-color-pal-transparent-black-900);
+  --clg-color-app-transparent-gradient-video-player-start: var(--clg-color-pal-transparent-black-000);
+  --clg-color-app-transparent-gradient-start: var(--clg-color-pal-transparent-white-000);
+  --clg-color-app-scroll-overlay-background-start: var(--clg-color-pal-transparent-white-000);
+  --clg-color-app-review-star-filled-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-review-star-filled-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-review-star-border: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-progress-bar-unselected-fill: var(--clg-color-pal-greyscale-350); /* Use for the filled area of a selectable progress bar that isn't selected. */
+  --clg-color-app-progress-bar-shop-feedback-fill: var(--clg-color-sem-background-surface-expressive-blue-light); /* Use for the filled area of a progress bar when used to visualize shop feedback. */
+  --clg-color-app-progress-bar-shop-feedback-background: var(--clg-color-sem-background-surface-expressive-blue-light); /* Use for the filled area of a progress bar when used to visualize shop feedback. */
+  --clg-color-app-progress-bar-selected-review-stars-background: var(--clg-color-pal-yellow-100); /* Use for the non-filled area of a selected progress bar when used to visualize review stars. */
+  --clg-color-app-progress-bar-review-stars-fill: var(--clg-color-pal-yellow-700); /* Use for the filled area of a progress bar when used to visualize review stars. */
+  --clg-color-app-progress-bar-fill: var(--clg-color-pal-greyscale-800); /* Use for the filled area of a progress bar. */
+  --clg-color-app-progress-bar-background: var(--clg-color-pal-greyscale-150); /* Use for the non-filled area of a progress bar. */
+  --clg-color-app-input-selectable-border: var(--clg-color-pal-greyscale-400); /* Use as a border for a selectable input such as a checkbox or radiobutton. */
+  --clg-color-app-input-search-pressed-background: var(--clg-color-pal-greyscale-050); /* Use as a background for search inputs. */
+  --clg-color-app-input-search-border: var(--clg-color-pal-greyscale-800); /* Use as a border for search inputs. */
+  --clg-color-app-input-search-background: var(--clg-color-pal-greyscale-050); /* Use as a background for search inputs. */
+  --clg-color-app-input-hovered-border: var(--clg-color-pal-transparent-black-500);
+  --clg-color-app-indicator-success-background: var(--clg-color-pal-green-550);
+  --clg-color-app-indicator-critical-background: var(--clg-color-pal-red-750);
+  --clg-color-app-indicator-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-image-placeholder-icon: var(--clg-color-pal-greyscale-150); /* Use as the color for the image icon on top of the background for when an image is not available. */
+  --clg-color-app-image-placeholder-background: var(--clg-color-pal-greyscale-075); /* Use as the background color for when an image is not available. */
+  --clg-color-app-chip-swatch-selected-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-chip-swatch-border: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-chip-selectable-selected-pressed-border: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-chip-selectable-selected-pressed-background: var(--clg-color-pal-greyscale-550);
+  --clg-color-app-chip-selectable-selected-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-chip-selectable-selected-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-chip-selectable-pressed-border: var(--clg-color-pal-greyscale-200);
+  --clg-color-app-chip-selectable-pressed-background: var(--clg-color-pal-greyscale-200);
+  --clg-color-app-chip-selectable-disabled-selected-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-chip-selectable-disabled-border: var(--clg-color-pal-transparent-white-000);
+  --clg-color-app-chip-selectable-disabled-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-chip-selectable-border: var(--clg-color-pal-greyscale-100);
+  --clg-color-app-chip-selectable-background: var(--clg-color-pal-greyscale-100);
+  --clg-color-app-chip-removable-pressed-border: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-chip-removable-pressed-background: var(--clg-color-pal-greyscale-550);
+  --clg-color-app-chip-removable-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-carousel-dots-v2-progress-bar-background: var(--clg-color-pal-transparent-white-350);
+  --clg-color-app-carousel-dots-v2-inactive-background: var(--clg-color-pal-greyscale-000);
+  --clg-color-app-carousel-dots-v2-active-background: var(--clg-color-pal-greyscale-000); /* Use as a background for an active carousel dot. */
+  --clg-color-app-carousel-dots-on-image-inactive-border: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-carousel-dots-on-image-inactive-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-carousel-dots-on-image-active-border: var(--clg-color-pal-transparent-white-800);
+  --clg-color-app-carousel-dots-on-image-active-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-transparent-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-transparent-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-transparent-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-transparent-on-surface-strong-hovered-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-transparent-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-transparent-on-surface-light-hovered-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-transparent-on-surface-light-disabled-background: var(--clg-color-app-button-transparent-on-surface-strong-background);
+  --clg-color-app-button-transparent-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-transparent-on-surface-dark-hovered-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-transparent-on-surface-dark-disabled-background: var(--clg-color-app-button-transparent-on-surface-strong-background);
+  --clg-color-app-button-transparent-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-text-secondary-on-surface-light-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-text-secondary-on-surface-light-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-text-secondary-on-surface-dark-disabled-text: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-button-text-secondary-on-surface-dark-text: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-text-primary-on-surface-light-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-text-primary-on-surface-light-text: var(--clg-color-pal-blue-500);
+  --clg-color-app-button-text-primary-on-surface-dark-disabled-text: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-button-text-primary-on-surface-dark-text: var(--clg-color-pal-blue-350);
+  --clg-color-app-button-tertiary-pressed-background: var(--clg-color-pal-transparent-black-200);
+  --clg-color-app-button-tertiary-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-black-200);
+  --clg-color-app-button-tertiary-on-surface-subtle-hovered-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-tertiary-on-surface-subtle-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-tertiary-on-surface-subtle-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-tertiary-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-white-200);
+  --clg-color-app-button-tertiary-on-surface-strong-hovered-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-tertiary-on-surface-strong-text: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-tertiary-on-surface-strong-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-tertiary-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-200);
+  --clg-color-app-button-tertiary-on-surface-light-hovered-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-tertiary-on-surface-light-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-tertiary-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-200);
+  --clg-color-app-button-tertiary-on-surface-dark-hovered-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-tertiary-on-surface-dark-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-tertiary-hovered-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-tertiary-disabled-text: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-button-tertiary-disabled-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-tertiary-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-selectable-filter-border: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-button-selectable-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-secondary-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-secondary-on-surface-subtle-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-subtle-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-subtle-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-secondary-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-secondary-on-surface-strong-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-strong-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-strong-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-secondary-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-secondary-on-surface-light-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-light-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-light-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-secondary-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-secondary-on-surface-dark-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-dark-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-on-surface-dark-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-secondary-disabled-text: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-secondary-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-primary-on-surface-subtle-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-primary-on-surface-subtle-hovered-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-primary-on-surface-subtle-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-primary-on-surface-subtle-text: var(--clg-color-pal-greyscale-000);
+  --clg-color-app-button-primary-on-surface-subtle-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-on-surface-strong-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-primary-on-surface-strong-hovered-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-button-primary-on-surface-strong-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-primary-on-surface-strong-text: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-on-surface-strong-background: var(--clg-color-pal-greyscale-000);
+  --clg-color-app-button-primary-on-surface-light-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-primary-on-surface-light-hovered-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-primary-on-surface-light-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-primary-on-surface-light-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-on-surface-dark-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-primary-on-surface-dark-hovered-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-button-primary-on-surface-dark-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-primary-on-surface-dark-background: var(--clg-color-pal-greyscale-000);
+  --clg-color-app-button-primary-hovered-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-primary-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-transparent-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-transparent-on-surface-strong-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-transparent-on-surface-strong-hovered-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-icon-transparent-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-transparent-on-surface-light-hovered-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-transparent-on-surface-light-disabled-background: var(--clg-color-app-button-icon-transparent-on-surface-strong-background);
+  --clg-color-app-button-icon-transparent-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-transparent-on-surface-dark-hovered-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-icon-transparent-on-surface-dark-disabled-background: var(--clg-color-app-button-icon-transparent-on-surface-strong-background);
+  --clg-color-app-button-icon-transparent-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-tertiary-pressed-background: var(--clg-color-pal-transparent-black-200);
+  --clg-color-app-button-icon-tertiary-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-200);
+  --clg-color-app-button-icon-tertiary-on-surface-light-hovered-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-tertiary-on-surface-light-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-200);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-hovered-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-background: var(--clg-color-pal-transparent-white-075);
+  --clg-color-app-button-icon-tertiary-hovered-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-tertiary-disabled-icon: var(--clg-color-pal-greyscale-350);
+  --clg-color-app-button-icon-tertiary-disabled-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-tertiary-background: var(--clg-color-pal-transparent-black-075);
+  --clg-color-app-button-icon-secondary-subtle-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-border: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-border: var(--clg-color-pal-greyscale-400);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-background: var(--clg-color-pal-greyscale-900);
+  --clg-color-app-button-icon-secondary-subtle-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-subtle-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-subtle-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-icon-secondary-strong-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-pressed-background: var(--clg-color-pal-transparent-black-150);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-pressed-background: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-border: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-icon-secondary-strong-disabled-icon: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-strong-disabled-border: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-secondary-strong-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-icon-primary-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-icon-primary-on-surface-light-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-icon-primary-on-surface-light-hovered-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-button-icon-primary-on-surface-light-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-primary-on-surface-light-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-icon-primary-on-surface-dark-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-icon-primary-on-surface-dark-hovered-background: var(--clg-color-pal-greyscale-075);
+  --clg-color-app-button-icon-primary-on-surface-dark-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-primary-on-surface-dark-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-button-icon-primary-hovered-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-icon-primary-disabled-background: var(--clg-color-pal-greyscale-500);
+  --clg-color-app-button-icon-primary-background: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-button-focused-on-surface-light-border: var(--clg-color-pal-blue-500); /* Use as a border to highlight focused buttons on light surfaces. */
+  --clg-color-app-button-focused-on-surface-dark-border: var(--clg-color-pal-blue-500); /* Use as a border to highlight focused buttons on dark surfaces. */
+  --clg-color-app-button-focused-border: var(--clg-color-pal-blue-500);
+  --clg-color-app-button-favorite-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-favorite-on-surface-light-pressed-background: var(--clg-color-pal-greyscale-150);
+  --clg-color-app-button-favorite-on-surface-light-border: var(--clg-color-pal-greyscale-100);
+  --clg-color-app-button-favorite-on-surface-dark-pressed-background: var(--clg-color-pal-greyscale-600);
+  --clg-color-app-button-favorite-on-surface-dark-border: var(--clg-color-pal-transparent-white-150);
+  --clg-color-app-brand-icon-success-02-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-brand-icon-marketing-03-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-brand-icon-marketing-02-background: var(--clg-color-pal-orange-100);
+  --clg-color-app-bottom-nav-item-pressed-background: var(--clg-color-pal-transparent-black-150); /* Use for the background of a pressed item/target in the bottom nav. Should match clg.color.app.button.transparent.pressed.background */
+  --clg-color-app-bottom-nav-item-selected-background: var(--clg-color-pal-greyscale-075); /* Use for the background of a selected item/target in the bottom nav. */
+  --clg-color-app-badge-monetary-value-text: var(--clg-color-pal-green-550); /* Use for text or icons to suggest monetary value on a badge. Only use for badges with the default white background. */
+  --clg-color-app-badge-critical-text: var(--clg-color-pal-red-850); /* Use for text or icons to communicate a critical message on a badge. Only use for badges with the default white background. */
+  --clg-color-app-badge-ad-background: var(--clg-color-pal-greyscale-700);
+  --clg-color-app-badge-border: var(--clg-color-pal-greyscale-800);
+  --clg-color-app-badge-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-alert-toast-critical-icon-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-alert-banner-strong-icon-background: var(--clg-color-pal-greyscale-050);
+  --clg-color-app-alert-pressed: var(--clg-color-pal-greyscale-150);
+  --clg-typography-pal-family-serif-letter-spacing: var(--clg-typography-pal-letter-spacing-025);
+  --clg-typography-pal-family-sans-serif-letter-spacing: var(--clg-typography-pal-letter-spacing-300);
+  --clg-typography-sem-marketing-heading-mobile-base-letter-spacing: calc(var(--clg-typography-sem-marketing-heading-mobile-base-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-heading-mobile-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-mobile-large-letter-spacing: calc(var(--clg-typography-sem-marketing-heading-mobile-large-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-heading-mobile-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-mobile-emphasis-base-letter-spacing: calc((var(--clg-typography-sem-marketing-heading-mobile-base-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-heading-mobile-emphasis-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-mobile-emphasis-large-letter-spacing: calc((var(--clg-typography-sem-marketing-heading-mobile-large-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-heading-mobile-emphasis-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-desktop-base-letter-spacing: calc(var(--clg-typography-sem-marketing-heading-desktop-base-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-heading-desktop-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-desktop-large-letter-spacing: calc(var(--clg-typography-sem-marketing-heading-desktop-large-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-heading-desktop-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-desktop-emphasis-base-letter-spacing: calc((var(--clg-typography-sem-marketing-heading-desktop-base-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-heading-desktop-emphasis-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-heading-desktop-emphasis-large-letter-spacing: calc((var(--clg-typography-sem-marketing-heading-desktop-large-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-heading-desktop-emphasis-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-mobile-base-letter-spacing: calc(var(--clg-typography-sem-marketing-display-mobile-base-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-display-mobile-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-mobile-large-letter-spacing: calc(var(--clg-typography-sem-marketing-display-mobile-large-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-display-mobile-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-mobile-larger-letter-spacing: calc(var(--clg-typography-sem-marketing-display-mobile-larger-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-display-mobile-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-mobile-emphasis-base-letter-spacing: calc((var(--clg-typography-sem-marketing-display-mobile-base-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-display-mobile-emphasis-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-mobile-emphasis-large-letter-spacing: calc((var(--clg-typography-sem-marketing-display-mobile-large-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-display-mobile-emphasis-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-mobile-emphasis-larger-letter-spacing: calc((var(--clg-typography-sem-marketing-display-mobile-larger-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-display-mobile-emphasis-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-desktop-base-letter-spacing: calc(var(--clg-typography-sem-marketing-display-desktop-base-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-display-desktop-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-desktop-large-letter-spacing: calc(var(--clg-typography-sem-marketing-display-desktop-large-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-display-desktop-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-desktop-larger-letter-spacing: calc(var(--clg-typography-sem-marketing-display-desktop-larger-font-size) * var(--clg-typography-pal-letter-spacing-100));
+  --clg-typography-sem-marketing-display-desktop-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-desktop-emphasis-base-letter-spacing: calc((var(--clg-typography-sem-marketing-display-desktop-base-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-display-desktop-emphasis-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-desktop-emphasis-large-letter-spacing: calc((var(--clg-typography-sem-marketing-display-desktop-large-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-display-desktop-emphasis-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-marketing-display-desktop-emphasis-larger-letter-spacing: calc((var(--clg-typography-sem-marketing-display-desktop-larger-font-size) * var(--clg-typography-pal-emphasis-size-100)) * var(--clg-typography-pal-letter-spacing-700));
+  --clg-typography-sem-marketing-display-desktop-emphasis-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-mobile-smallest-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-mobile-smaller-letter-spacing: calc(var(--clg-typography-sem-product-body-mobile-smaller-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-mobile-smaller-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-mobile-small-letter-spacing: calc(var(--clg-typography-sem-product-body-mobile-small-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-mobile-small-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-mobile-base-letter-spacing: calc(var(--clg-typography-sem-product-body-mobile-base-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-mobile-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-mobile-large-letter-spacing: calc(var(--clg-typography-sem-product-body-mobile-large-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-mobile-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-desktop-smallest-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-desktop-smaller-letter-spacing: calc(var(--clg-typography-sem-product-body-desktop-smaller-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-desktop-smaller-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-desktop-small-letter-spacing: calc(var(--clg-typography-sem-product-body-desktop-small-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-desktop-small-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-desktop-base-letter-spacing: calc(var(--clg-typography-sem-product-body-desktop-base-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-desktop-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-body-desktop-large-letter-spacing: calc(var(--clg-typography-sem-product-body-desktop-large-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-body-desktop-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-mobile-smallest-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-mobile-small-letter-spacing: calc(var(--clg-typography-sem-product-title-mobile-small-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-mobile-small-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-mobile-base-letter-spacing: calc(var(--clg-typography-sem-product-title-mobile-base-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-mobile-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-mobile-large-letter-spacing: calc(var(--clg-typography-sem-product-title-mobile-large-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-mobile-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-mobile-larger-letter-spacing: calc(var(--clg-typography-sem-product-title-mobile-larger-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-mobile-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-desktop-smallest-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-desktop-small-letter-spacing: calc(var(--clg-typography-sem-product-title-desktop-small-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-desktop-small-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-desktop-base-letter-spacing: calc(var(--clg-typography-sem-product-title-desktop-base-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-desktop-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-desktop-large-letter-spacing: calc(var(--clg-typography-sem-product-title-desktop-large-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-desktop-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-title-desktop-larger-letter-spacing: calc(var(--clg-typography-sem-product-title-desktop-larger-font-size) * var(--clg-typography-pal-family-sans-serif-letter-spacing));
+  --clg-typography-sem-product-title-desktop-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-heading-mobile-small-letter-spacing: calc(var(--clg-typography-sem-product-heading-mobile-small-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-heading-mobile-small-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-heading-mobile-base-letter-spacing: calc(var(--clg-typography-sem-product-heading-mobile-base-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-heading-mobile-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-heading-mobile-large-letter-spacing: calc(var(--clg-typography-sem-product-heading-mobile-large-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-heading-mobile-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-heading-desktop-small-letter-spacing: calc(var(--clg-typography-sem-product-heading-desktop-small-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-heading-desktop-small-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-heading-desktop-base-letter-spacing: calc(var(--clg-typography-sem-product-heading-desktop-base-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-heading-desktop-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-heading-desktop-large-letter-spacing: calc(var(--clg-typography-sem-product-heading-desktop-large-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-heading-desktop-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-display-mobile-base-letter-spacing: calc(var(--clg-typography-sem-product-display-mobile-base-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-display-mobile-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-display-mobile-large-letter-spacing: calc(var(--clg-typography-sem-product-display-mobile-large-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-display-mobile-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-display-mobile-larger-letter-spacing: calc(var(--clg-typography-sem-product-display-mobile-larger-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-display-mobile-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-display-desktop-base-letter-spacing: calc(var(--clg-typography-sem-product-display-desktop-base-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-display-desktop-base-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-display-desktop-large-letter-spacing: calc(var(--clg-typography-sem-product-display-desktop-large-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-display-desktop-large-font-color: var(--clg-color-sem-text-primary);
+  --clg-typography-sem-product-display-desktop-larger-letter-spacing: calc(var(--clg-typography-sem-product-display-desktop-larger-font-size) * var(--clg-typography-pal-family-serif-letter-spacing));
+  --clg-typography-sem-product-display-desktop-larger-font-color: var(--clg-color-sem-text-primary);
+  --clg-shape-sem-border-radius-base: var(--clg-shape-pal-border-radius-100); /* Use as the base border radius for elements such as cards and containers that set apart content such as panels and pop overs. */
+  --clg-shape-sem-border-radius-card: var(--clg-shape-pal-border-radius-100); /* Use for the border radius of cards. */
+  --clg-shape-app-signal-border-radius: var(--clg-shape-pal-border-radius-200);
+  --clg-shape-app-indicator-border-radius: var(--clg-shape-pal-border-radius-200);
+  --clg-color-app-tooltip-text: var(--clg-color-sem-text-on-surface-strong); /* Use for the text of tooltips. */
+  --clg-color-app-text-selection-handle: var(--clg-color-sem-text-primary); /* Use as the handle color for when a text is selected. */
+  --clg-color-app-tabs-selected-highlight-background: var(--clg-color-sem-background-surface-brand-dark);
+  --clg-color-app-tabs-selected-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-tabs-disabled-text: var(--clg-color-sem-text-disabled);
+  --clg-color-app-tabs-text: var(--clg-color-sem-text-secondary);
+  --clg-color-app-signal-urgency-strong-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-signal-urgency-background: var(--clg-color-app-signal-background);
+  --clg-color-app-signal-trust-subtle-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-signal-trust-strong-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-signal-trust-strong-background: var(--clg-color-sem-background-surface-trust-light);
+  --clg-color-app-signal-trust-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-signal-trust-background: var(--clg-color-app-signal-background);
+  --clg-color-app-signal-subtle-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-signal-strong-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-signal-promote-strong-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-signal-promote-strong-background: var(--clg-color-sem-background-surface-promote-light);
+  --clg-color-app-signal-promote-background: var(--clg-color-app-signal-background);
+  --clg-color-app-signal-highlight-strong-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-signal-highlight-strong-background: var(--clg-color-sem-background-surface-highlight-dark);
+  --clg-color-app-signal-highlight-background: var(--clg-color-app-signal-background);
+  --clg-color-app-signal-ad-subtle-text: var(--clg-color-sem-text-secondary);
+  --clg-color-app-signal-ad-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-signal-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-signal-border: var(--clg-color-sem-border-divider);
+  --clg-color-app-sheet-handle: var(--clg-color-sem-text-placeholder);
+  --clg-color-app-transparent-gradient-end: var(--clg-color-sem-background-elevation-0);
+  --clg-color-app-scroll-overlay-background-end: var(--clg-color-sem-background-elevation-0);
+  --clg-color-app-progress-bar-unselected-background: var(--clg-color-app-progress-bar-background); /* Use for the non-filled area of a selectable progress bar that isn't selected. */
+  --clg-color-app-progress-bar-selected-review-stars-fill: var(--clg-color-app-progress-bar-review-stars-fill); /* Use for the filled area of a selected progress bar when used to visualize review stars. */
+  --clg-color-app-progress-bar-review-stars-background: var(--clg-color-app-progress-bar-background); /* Use for the background of a progress bar when used to visualize review stars. */
+  --clg-color-app-menu-item-selected-text: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-menu-item-selected-background: var(--clg-color-sem-background-surface-selected-subtle);
+  --clg-color-app-menu-item-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-menu-background: var(--clg-color-sem-background-elevation-3);
+  --clg-color-app-input-selectable-selected-text: var(--clg-color-sem-text-on-surface-strong); /* Use as the color of the check icon in a checkbox. */
+  --clg-color-app-input-selectable-selected-border: var(--clg-color-sem-border-selected); /* Use as a border for a selected input such as a checkbox or radiobutton. */
+  --clg-color-app-input-selectable-selected-background: var(--clg-color-sem-background-surface-selected-strong); /* Use as a background for a selected input such as a checkbox or radiobutton. */
+  --clg-color-app-input-selectable-error-selected-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-input-selectable-error-selected-border: var(--clg-color-sem-border-critical);
+  --clg-color-app-input-selectable-error-selected-background: var(--clg-color-sem-background-surface-critical-strong);
+  --clg-color-app-input-search-pressed-border: var(--clg-color-app-input-search-border); /* Use as a border for pressed search inputs. */
+  --clg-color-app-input-search-text: var(--clg-color-sem-text-on-surface-subtle); /* Use for the text of search inputs. */
+  --clg-color-app-input-focused-border: var(--clg-color-sem-border-focused);
+  --clg-color-app-input-error-icon-foreground: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-input-error-icon-background: var(--clg-color-sem-text-critical); /* Must match the text */
+  --clg-color-app-input-error-text: var(--clg-color-sem-text-critical);
+  --clg-color-app-input-error-background: var(--clg-color-sem-background-surface-critical-subtle);
+  --clg-color-app-input-disabled-text: var(--clg-color-sem-text-on-surface-unavailable-subtle);
+  --clg-color-app-input-disabled-background: var(--clg-color-sem-background-surface-unavailable-subtle);
+  --clg-color-app-input-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-input-border: var(--clg-color-sem-border-selectable);
+  --clg-color-app-indicator-warning-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-indicator-warning-background: var(--clg-color-sem-background-surface-warning-light);
+  --clg-color-app-indicator-success-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-indicator-important-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-indicator-highlight-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-indicator-highlight-background: var(--clg-color-sem-background-surface-highlight-dark);
+  --clg-color-app-indicator-critical-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-indicator-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-indicator-border: var(--clg-color-sem-background-elevation-0);
+  --clg-color-app-drag-and-drop-hovered-background: var(--clg-color-sem-background-surface-hovered-subtle);
+  --clg-color-app-drag-and-drop-disabled-background: var(--clg-color-sem-background-surface-unavailable-subtle);
+  --clg-color-app-chip-selectable-selected-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-chip-selectable-disabled-selected-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-chip-selectable-disabled-text: var(--clg-color-sem-text-on-surface-unavailable-subtle);
+  --clg-color-app-chip-selectable-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-chip-removable-pressed-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-chip-removable-disabled-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-chip-removable-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-chip-removable-background: var(--clg-color-sem-background-surface-selected-strong);
+  --clg-color-app-carousel-dots-v2-container-background: var(--clg-color-sem-background-scrim);
+  --clg-color-app-carousel-dots-inactive-border: var(--clg-color-sem-border-selectable);
+  --clg-color-app-carousel-dots-active-border: var(--clg-color-sem-border-selected);
+  --clg-color-app-carousel-dots-active-background: var(--clg-color-sem-background-surface-selected-strong);
+  --clg-color-app-button-transparent-on-surface-subtle-hovered-background: var(--clg-color-sem-background-surface-hovered-subtle);
+  --clg-color-app-button-transparent-on-surface-subtle-disabled-text: var(--clg-color-app-button-transparent-disabled-text);
+  --clg-color-app-button-transparent-on-surface-subtle-text: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-button-transparent-on-surface-strong-disabled-text: var(--clg-color-app-button-transparent-disabled-text);
+  --clg-color-app-button-transparent-on-surface-strong-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-button-transparent-on-surface-light-disabled-text: var(--clg-color-app-button-transparent-disabled-text);
+  --clg-color-app-button-transparent-on-surface-light-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-transparent-on-surface-dark-disabled-text: var(--clg-color-app-button-transparent-disabled-text);
+  --clg-color-app-button-transparent-on-surface-dark-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-transparent-hovered-background: var(--clg-color-sem-background-surface-hovered-subtle);
+  --clg-color-app-button-transparent-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-text-secondary-on-surface-light-pressed-text: var(--clg-color-app-button-text-secondary-on-surface-light-text);
+  --clg-color-app-button-text-secondary-on-surface-light-hovered-text: var(--clg-color-app-button-text-secondary-on-surface-light-text);
+  --clg-color-app-button-text-secondary-on-surface-dark-pressed-text: var(--clg-color-app-button-text-secondary-on-surface-dark-text);
+  --clg-color-app-button-text-secondary-on-surface-dark-hovered-text: var(--clg-color-app-button-text-secondary-on-surface-dark-text);
+  --clg-color-app-button-text-secondary-disabled-text: var(--clg-color-sem-text-disabled);
+  --clg-color-app-button-text-secondary-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-text-primary-on-surface-light-pressed-text: var(--clg-color-app-button-text-primary-on-surface-light-text);
+  --clg-color-app-button-text-primary-on-surface-light-hovered-text: var(--clg-color-app-button-text-primary-on-surface-light-text);
+  --clg-color-app-button-text-primary-on-surface-dark-pressed-text: var(--clg-color-app-button-text-primary-on-surface-dark-text);
+  --clg-color-app-button-text-primary-on-surface-dark-hovered-text: var(--clg-color-app-button-text-primary-on-surface-dark-text);
+  --clg-color-app-button-text-primary-disabled-text: var(--clg-color-sem-text-disabled);
+  --clg-color-app-button-text-primary-text: var(--clg-color-sem-text-action);
+  --clg-color-app-button-tertiary-on-surface-subtle-pressed-text: var(--clg-color-app-button-tertiary-on-surface-subtle-text);
+  --clg-color-app-button-tertiary-on-surface-subtle-hovered-text: var(--clg-color-app-button-tertiary-on-surface-subtle-text);
+  --clg-color-app-button-tertiary-on-surface-subtle-disabled-text: var(--clg-color-app-button-tertiary-disabled-text);
+  --clg-color-app-button-tertiary-on-surface-subtle-disabled-background: var(--clg-color-app-button-tertiary-on-surface-subtle-background);
+  --clg-color-app-button-tertiary-on-surface-strong-pressed-text: var(--clg-color-app-button-tertiary-on-surface-strong-text);
+  --clg-color-app-button-tertiary-on-surface-strong-hovered-text: var(--clg-color-app-button-tertiary-on-surface-strong-text);
+  --clg-color-app-button-tertiary-on-surface-strong-disabled-text: var(--clg-color-app-button-tertiary-disabled-text);
+  --clg-color-app-button-tertiary-on-surface-strong-disabled-background: var(--clg-color-app-button-tertiary-on-surface-strong-background);
+  --clg-color-app-button-tertiary-on-surface-light-disabled-text: var(--clg-color-app-button-tertiary-disabled-text);
+  --clg-color-app-button-tertiary-on-surface-light-disabled-background: var(--clg-color-app-button-tertiary-on-surface-light-background);
+  --clg-color-app-button-tertiary-on-surface-light-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-tertiary-on-surface-dark-disabled-text: var(--clg-color-app-button-tertiary-disabled-text);
+  --clg-color-app-button-tertiary-on-surface-dark-disabled-background: var(--clg-color-app-button-tertiary-on-surface-dark-background);
+  --clg-color-app-button-tertiary-on-surface-dark-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-tertiary-text: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-button-selectable-selected-border: var(--clg-color-sem-border-selected);
+  --clg-color-app-button-selectable-filter-selected-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-button-selectable-filter-selected-background: var(--clg-color-sem-background-surface-selected-strong);
+  --clg-color-app-button-selectable-filter-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-selectable-text: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-button-selectable-background: var(--clg-color-app-button-tertiary-background);
+  --clg-color-app-button-secondary-pressed-border: var(--clg-color-app-button-secondary-border);
+  --clg-color-app-button-secondary-on-surface-subtle-pressed-border: var(--clg-color-app-button-secondary-on-surface-subtle-border);
+  --clg-color-app-button-secondary-on-surface-subtle-hovered-border: var(--clg-color-app-button-secondary-on-surface-subtle-border);
+  --clg-color-app-button-secondary-on-surface-subtle-text: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-button-secondary-on-surface-strong-pressed-border: var(--clg-color-app-button-secondary-on-surface-strong-border);
+  --clg-color-app-button-secondary-on-surface-strong-hovered-border: var(--clg-color-app-button-secondary-on-surface-strong-border);
+  --clg-color-app-button-secondary-on-surface-strong-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-button-secondary-on-surface-light-pressed-border: var(--clg-color-app-button-secondary-on-surface-light-border);
+  --clg-color-app-button-secondary-on-surface-light-hovered-border: var(--clg-color-app-button-secondary-on-surface-light-border);
+  --clg-color-app-button-secondary-on-surface-light-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-secondary-on-surface-dark-pressed-border: var(--clg-color-app-button-secondary-on-surface-dark-border);
+  --clg-color-app-button-secondary-on-surface-dark-hovered-border: var(--clg-color-app-button-secondary-on-surface-dark-border);
+  --clg-color-app-button-secondary-on-surface-dark-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-secondary-hovered-border: var(--clg-color-app-button-secondary-border);
+  --clg-color-app-button-secondary-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-primary-on-surface-subtle-pressed-text: var(--clg-color-app-button-primary-on-surface-subtle-text);
+  --clg-color-app-button-primary-on-surface-subtle-hovered-text: var(--clg-color-app-button-primary-on-surface-subtle-text);
+  --clg-color-app-button-primary-on-surface-subtle-disabled-text: var(--clg-color-app-button-primary-on-surface-subtle-text);
+  --clg-color-app-button-primary-on-surface-strong-pressed-text: var(--clg-color-app-button-primary-on-surface-strong-text);
+  --clg-color-app-button-primary-on-surface-strong-hovered-text: var(--clg-color-app-button-primary-on-surface-strong-text);
+  --clg-color-app-button-primary-on-surface-strong-disabled-text: var(--clg-color-app-button-primary-on-surface-strong-text);
+  --clg-color-app-button-primary-on-surface-light-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-primary-on-surface-dark-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-primary-text: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-button-primary-background: var(--clg-color-sem-background-surface-contrast-strong);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-hovered-background: var(--clg-color-sem-background-surface-hovered-subtle);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-disabled-icon: var(--clg-color-app-button-icon-transparent-disabled-icon);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-icon: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-button-icon-transparent-on-surface-strong-disabled-icon: var(--clg-color-app-button-icon-transparent-disabled-icon);
+  --clg-color-app-button-icon-transparent-on-surface-strong-icon: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-button-icon-transparent-on-surface-light-disabled-icon: var(--clg-color-app-button-icon-transparent-disabled-icon);
+  --clg-color-app-button-icon-transparent-on-surface-light-icon: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-icon-transparent-on-surface-dark-disabled-icon: var(--clg-color-app-button-icon-transparent-disabled-icon);
+  --clg-color-app-button-icon-transparent-on-surface-dark-icon: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-icon-transparent-hovered-background: var(--clg-color-sem-background-surface-hovered-subtle);
+  --clg-color-app-button-icon-transparent-icon: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-icon-tertiary-on-surface-light-disabled-icon: var(--clg-color-app-button-icon-tertiary-disabled-icon);
+  --clg-color-app-button-icon-tertiary-on-surface-light-disabled-background: var(--clg-color-app-button-icon-tertiary-on-surface-light-background);
+  --clg-color-app-button-icon-tertiary-on-surface-light-icon: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-disabled-icon: var(--clg-color-app-button-icon-tertiary-disabled-icon);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-disabled-background: var(--clg-color-app-button-icon-tertiary-on-surface-dark-background);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-icon: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-icon-tertiary-icon: var(--clg-color-sem-text-on-surface-subtle);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-pressed-border: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-border);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-hovered-border: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-border);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-hovered-background: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-background);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-disabled-background: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-background);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-icon: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-pressed-border: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-border);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-hovered-border: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-border);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-hovered-background: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-background);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-disabled-background: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-background);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-icon: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-icon-secondary-subtle-hovered-background: var(--clg-color-app-button-icon-secondary-subtle-background);
+  --clg-color-app-button-icon-secondary-subtle-disabled-background: var(--clg-color-app-button-icon-secondary-subtle-background);
+  --clg-color-app-button-icon-secondary-subtle-icon: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-icon-secondary-subtle-border: var(--clg-color-sem-border-selectable);
+  --clg-color-app-button-icon-secondary-strong-pressed-border: var(--clg-color-app-button-icon-secondary-strong-border);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-pressed-border: var(--clg-color-app-button-icon-secondary-strong-on-surface-light-border);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-hovered-border: var(--clg-color-app-button-icon-secondary-strong-on-surface-light-border);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-icon: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-pressed-border: var(--clg-color-app-button-icon-secondary-strong-on-surface-dark-border);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-hovered-border: var(--clg-color-app-button-icon-secondary-strong-on-surface-dark-border);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-icon: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-icon-secondary-strong-hovered-border: var(--clg-color-app-button-icon-secondary-strong-border);
+  --clg-color-app-button-icon-secondary-strong-icon: var(--clg-color-sem-text-primary);
+  --clg-color-app-button-icon-primary-on-surface-light-icon: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-button-icon-primary-on-surface-dark-icon: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-button-icon-primary-icon: var(--clg-color-sem-text-on-surface-strong);
+  --clg-color-app-button-favorite-selected-pressed-background: var(--clg-color-app-button-favorite-pressed-background);
+  --clg-color-app-button-favorite-selected-icon: var(--clg-color-sem-icon-favorite);
+  --clg-color-app-button-favorite-on-surface-light-selected-pressed-background: var(--clg-color-app-button-favorite-on-surface-light-pressed-background);
+  --clg-color-app-button-favorite-on-surface-light-selected-icon: var(--clg-color-sem-icon-favorite-dark);
+  --clg-color-app-button-favorite-on-surface-light-selected-border: var(--clg-color-app-button-favorite-on-surface-light-border);
+  --clg-color-app-button-favorite-on-surface-light-background: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-background);
+  --clg-color-app-button-favorite-on-surface-dark-selected-pressed-background: var(--clg-color-app-button-favorite-on-surface-dark-pressed-background);
+  --clg-color-app-button-favorite-on-surface-dark-selected-icon: var(--clg-color-sem-icon-favorite-light);
+  --clg-color-app-button-favorite-on-surface-dark-selected-border: var(--clg-color-app-button-favorite-on-surface-dark-border);
+  --clg-color-app-button-favorite-on-surface-dark-background: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-background);
+  --clg-color-app-button-favorite-border: var(--clg-color-sem-border-divider);
+  --clg-color-app-button-favorite-background: var(--clg-color-app-button-icon-secondary-subtle-background);
+  --clg-color-app-brand-icon-success-02-foreground: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-brand-icon-success-01-foreground: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-brand-icon-success-01-background: var(--clg-color-sem-background-surface-feedback-light);
+  --clg-color-app-brand-icon-error-02-foreground: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-brand-icon-error-02-background: var(--clg-color-sem-background-surface-critical-dark);
+  --clg-color-app-brand-icon-error-01-foreground: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-brand-icon-error-01-background: var(--clg-color-sem-background-surface-warning-light);
+  --clg-color-app-brand-icon-empty-foreground: var(--clg-color-sem-text-primary);
+  --clg-color-app-bottom-nav-item-selected-text: var(--clg-color-sem-text-primary); /* Use for the color of the text and icon of a selected item/target in the bottom nav. */
+  --clg-color-app-bottom-nav-item-text: var(--clg-color-sem-text-secondary); /* Use for the color of the text and icon of an item/target in the bottom nav. */
+  --clg-color-app-bottom-nav-background: var(--clg-color-sem-background-elevation-3); /* Use for the background of the entire bottom navigation bar. */
+  --clg-color-app-badge-ad-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-badge-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-avatar-shop-icon: var(--clg-color-sem-text-secondary);
+  --clg-color-app-avatar-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-avatar-border: var(--clg-color-sem-background-elevation-0);
+  --clg-color-app-avatar-background: var(--clg-color-sem-background-surface-placeholder-subtle);
+  --clg-color-app-alert-toast-neutral-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-alert-toast-neutral-icon-foreground: var(--clg-color-sem-text-primary);
+  --clg-color-app-alert-toast-neutral-icon-background: var(--clg-color-sem-background-surface-informational-subtle);
+  --clg-color-app-alert-toast-neutral-background: var(--clg-color-sem-background-elevation-2);
+  --clg-color-app-alert-toast-critical-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-toast-critical-icon-foreground: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-alert-toast-critical-background: var(--clg-color-sem-background-surface-critical-dark);
+  --clg-color-app-alert-banner-subtle-warning-icon-foreground: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-alert-banner-subtle-warning-icon-background: var(--clg-color-sem-background-surface-warning-light);
+  --clg-color-app-alert-banner-subtle-success-icon-foreground: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-banner-subtle-success-icon-background: var(--clg-color-sem-background-surface-success-dark);
+  --clg-color-app-alert-banner-subtle-neutral-icon-foreground: var(--clg-color-sem-text-primary);
+  --clg-color-app-alert-banner-subtle-neutral-icon-background: var(--clg-color-sem-background-surface-informational-subtle);
+  --clg-color-app-alert-banner-subtle-highlight-icon-foreground: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-banner-subtle-highlight-icon-background: var(--clg-color-sem-background-surface-highlight-dark);
+  --clg-color-app-alert-banner-subtle-critical-icon-foreground: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-banner-subtle-critical-icon-background: var(--clg-color-sem-background-surface-critical-dark);
+  --clg-color-app-alert-banner-subtle-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-alert-banner-subtle-border: var(--clg-color-sem-border-divider);
+  --clg-color-app-alert-banner-subtle-background: var(--clg-color-sem-background-elevation-0);
+  --clg-color-app-alert-banner-strong-warning-text: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-alert-banner-strong-warning-background: var(--clg-color-sem-background-surface-warning-light);
+  --clg-color-app-alert-banner-strong-success-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-banner-strong-success-background: var(--clg-color-sem-background-surface-success-dark);
+  --clg-color-app-alert-banner-strong-neutral-text: var(--clg-color-sem-text-primary);
+  --clg-color-app-alert-banner-strong-neutral-background: var(--clg-color-sem-background-surface-informational-subtle);
+  --clg-color-app-alert-banner-strong-icon-foreground: var(--clg-color-sem-text-on-surface-light);
+  --clg-color-app-alert-banner-strong-highlight-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-banner-strong-highlight-background: var(--clg-color-sem-background-surface-highlight-dark);
+  --clg-color-app-alert-banner-strong-critical-text: var(--clg-color-sem-text-on-surface-dark);
+  --clg-color-app-alert-banner-strong-critical-background: var(--clg-color-sem-background-surface-critical-dark);
+  --clg-shape-app-popover-border-radius: var(--clg-shape-sem-border-radius-base);
+  --clg-shape-app-menu-border-radius: var(--clg-shape-sem-border-radius-base);
+  --clg-shape-app-dialog-border-radius: var(--clg-shape-sem-border-radius-largest); /* The corner radius for Dialogs. Can also be used for Sheets. */
+  --clg-shape-app-badge-border-radius: var(--clg-shape-sem-border-radius-base);
+  --clg-color-app-signal-urgency-border: var(--clg-color-app-signal-border);
+  --clg-color-app-signal-trust-border: var(--clg-color-app-signal-border);
+  --clg-color-app-signal-promote-border: var(--clg-color-app-signal-border);
+  --clg-color-app-signal-highlight-border: var(--clg-color-app-signal-border);
+  --clg-color-app-input-search-pressed-text: var(--clg-color-app-input-search-text); /* Use for the text of pressed search inputs. */
+  --clg-color-app-input-hovered-text: var(--clg-color-app-input-text);
+  --clg-color-app-input-focused-text: var(--clg-color-app-input-text);
+  --clg-color-app-input-disabled-border: var(--clg-color-app-input-border);
+  --clg-color-app-chip-selectable-selected-pressed-text: var(--clg-color-app-chip-selectable-selected-text);
+  --clg-color-app-chip-selectable-pressed-text: var(--clg-color-app-chip-selectable-text);
+  --clg-color-app-button-transparent-pressed-text: var(--clg-color-app-button-transparent-text);
+  --clg-color-app-button-transparent-on-surface-subtle-pressed-text: var(--clg-color-app-button-transparent-on-surface-subtle-text);
+  --clg-color-app-button-transparent-on-surface-subtle-hovered-text: var(--clg-color-app-button-transparent-on-surface-subtle-text);
+  --clg-color-app-button-transparent-on-surface-strong-pressed-text: var(--clg-color-app-button-transparent-on-surface-strong-text);
+  --clg-color-app-button-transparent-on-surface-strong-hovered-text: var(--clg-color-app-button-transparent-on-surface-strong-text);
+  --clg-color-app-button-transparent-on-surface-light-pressed-text: var(--clg-color-app-button-transparent-on-surface-light-text);
+  --clg-color-app-button-transparent-on-surface-light-hovered-text: var(--clg-color-app-button-transparent-on-surface-light-text);
+  --clg-color-app-button-transparent-on-surface-dark-pressed-text: var(--clg-color-app-button-transparent-on-surface-dark-text);
+  --clg-color-app-button-transparent-on-surface-dark-hovered-text: var(--clg-color-app-button-transparent-on-surface-dark-text);
+  --clg-color-app-button-transparent-hovered-text: var(--clg-color-app-button-transparent-text);
+  --clg-color-app-button-text-secondary-pressed-text: var(--clg-color-app-button-text-secondary-text);
+  --clg-color-app-button-text-secondary-hovered-text: var(--clg-color-app-button-text-secondary-text);
+  --clg-color-app-button-text-primary-pressed-text: var(--clg-color-app-button-text-primary-text);
+  --clg-color-app-button-text-primary-hovered-text: var(--clg-color-app-button-text-primary-text);
+  --clg-color-app-button-tertiary-pressed-text: var(--clg-color-app-button-tertiary-text);
+  --clg-color-app-button-tertiary-on-surface-light-pressed-text: var(--clg-color-app-button-tertiary-on-surface-light-text);
+  --clg-color-app-button-tertiary-on-surface-light-hovered-text: var(--clg-color-app-button-tertiary-on-surface-light-text);
+  --clg-color-app-button-tertiary-on-surface-dark-pressed-text: var(--clg-color-app-button-tertiary-on-surface-dark-text);
+  --clg-color-app-button-tertiary-on-surface-dark-hovered-text: var(--clg-color-app-button-tertiary-on-surface-dark-text);
+  --clg-color-app-button-tertiary-hovered-text: var(--clg-color-app-button-tertiary-text);
+  --clg-color-app-button-selectable-selected-text: var(--clg-color-app-button-selectable-text);
+  --clg-color-app-button-selectable-selected-background: var(--clg-color-app-button-selectable-background);
+  --clg-color-app-button-secondary-pressed-text: var(--clg-color-app-button-secondary-text);
+  --clg-color-app-button-secondary-on-surface-subtle-pressed-text: var(--clg-color-app-button-secondary-on-surface-subtle-text);
+  --clg-color-app-button-secondary-on-surface-subtle-hovered-text: var(--clg-color-app-button-secondary-on-surface-subtle-text);
+  --clg-color-app-button-secondary-on-surface-strong-pressed-text: var(--clg-color-app-button-secondary-on-surface-strong-text);
+  --clg-color-app-button-secondary-on-surface-strong-hovered-text: var(--clg-color-app-button-secondary-on-surface-strong-text);
+  --clg-color-app-button-secondary-on-surface-light-pressed-text: var(--clg-color-app-button-secondary-on-surface-light-text);
+  --clg-color-app-button-secondary-on-surface-light-hovered-text: var(--clg-color-app-button-secondary-on-surface-light-text);
+  --clg-color-app-button-secondary-on-surface-dark-pressed-text: var(--clg-color-app-button-secondary-on-surface-dark-text);
+  --clg-color-app-button-secondary-on-surface-dark-hovered-text: var(--clg-color-app-button-secondary-on-surface-dark-text);
+  --clg-color-app-button-secondary-hovered-text: var(--clg-color-app-button-secondary-text);
+  --clg-color-app-button-primary-pressed-text: var(--clg-color-app-button-primary-text);
+  --clg-color-app-button-primary-on-surface-light-pressed-text: var(--clg-color-app-button-primary-on-surface-light-text);
+  --clg-color-app-button-primary-on-surface-light-hovered-text: var(--clg-color-app-button-primary-on-surface-light-text);
+  --clg-color-app-button-primary-on-surface-light-disabled-text: var(--clg-color-app-button-primary-on-surface-light-text);
+  --clg-color-app-button-primary-on-surface-dark-pressed-text: var(--clg-color-app-button-primary-on-surface-dark-text);
+  --clg-color-app-button-primary-on-surface-dark-hovered-text: var(--clg-color-app-button-primary-on-surface-dark-text);
+  --clg-color-app-button-primary-on-surface-dark-disabled-text: var(--clg-color-app-button-primary-on-surface-dark-text);
+  --clg-color-app-button-primary-hovered-text: var(--clg-color-app-button-primary-text);
+  --clg-color-app-button-primary-disabled-text: var(--clg-color-app-button-primary-text);
+  --clg-color-app-button-icon-transparent-pressed-icon: var(--clg-color-app-button-icon-transparent-icon);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-pressed-icon: var(--clg-color-app-button-icon-transparent-on-surface-subtle-icon);
+  --clg-color-app-button-icon-transparent-on-surface-subtle-hovered-icon: var(--clg-color-app-button-icon-transparent-on-surface-subtle-icon);
+  --clg-color-app-button-icon-transparent-on-surface-strong-pressed-icon: var(--clg-color-app-button-icon-transparent-on-surface-strong-icon);
+  --clg-color-app-button-icon-transparent-on-surface-strong-hovered-icon: var(--clg-color-app-button-icon-transparent-on-surface-strong-icon);
+  --clg-color-app-button-icon-transparent-on-surface-light-pressed-icon: var(--clg-color-app-button-icon-transparent-on-surface-light-icon);
+  --clg-color-app-button-icon-transparent-on-surface-light-hovered-icon: var(--clg-color-app-button-icon-transparent-on-surface-light-icon);
+  --clg-color-app-button-icon-transparent-on-surface-dark-pressed-icon: var(--clg-color-app-button-icon-transparent-on-surface-dark-icon);
+  --clg-color-app-button-icon-transparent-on-surface-dark-hovered-icon: var(--clg-color-app-button-icon-transparent-on-surface-dark-icon);
+  --clg-color-app-button-icon-transparent-hovered-icon: var(--clg-color-app-button-icon-transparent-icon);
+  --clg-color-app-button-icon-tertiary-pressed-icon: var(--clg-color-app-button-icon-tertiary-icon);
+  --clg-color-app-button-icon-tertiary-on-surface-light-pressed-icon: var(--clg-color-app-button-icon-tertiary-on-surface-light-icon);
+  --clg-color-app-button-icon-tertiary-on-surface-light-hovered-icon: var(--clg-color-app-button-icon-tertiary-on-surface-light-icon);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-pressed-icon: var(--clg-color-app-button-icon-tertiary-on-surface-dark-icon);
+  --clg-color-app-button-icon-tertiary-on-surface-dark-hovered-icon: var(--clg-color-app-button-icon-tertiary-on-surface-dark-icon);
+  --clg-color-app-button-icon-tertiary-hovered-icon: var(--clg-color-app-button-icon-tertiary-icon);
+  --clg-color-app-button-icon-secondary-subtle-pressed-icon: var(--clg-color-app-button-icon-secondary-subtle-icon);
+  --clg-color-app-button-icon-secondary-subtle-pressed-border: var(--clg-color-app-button-icon-secondary-subtle-border);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-pressed-icon: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-icon);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-light-hovered-icon: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-icon);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-pressed-icon: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-icon);
+  --clg-color-app-button-icon-secondary-subtle-on-surface-dark-hovered-icon: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-icon);
+  --clg-color-app-button-icon-secondary-subtle-hovered-icon: var(--clg-color-app-button-icon-secondary-subtle-icon);
+  --clg-color-app-button-icon-secondary-subtle-hovered-border: var(--clg-color-app-button-icon-secondary-subtle-border);
+  --clg-color-app-button-icon-secondary-strong-pressed-icon: var(--clg-color-app-button-icon-secondary-strong-icon);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-pressed-icon: var(--clg-color-app-button-icon-secondary-strong-on-surface-light-icon);
+  --clg-color-app-button-icon-secondary-strong-on-surface-light-hovered-icon: var(--clg-color-app-button-icon-secondary-strong-on-surface-light-icon);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-pressed-icon: var(--clg-color-app-button-icon-secondary-strong-on-surface-dark-icon);
+  --clg-color-app-button-icon-secondary-strong-on-surface-dark-hovered-icon: var(--clg-color-app-button-icon-secondary-strong-on-surface-dark-icon);
+  --clg-color-app-button-icon-secondary-strong-hovered-icon: var(--clg-color-app-button-icon-secondary-strong-icon);
+  --clg-color-app-button-icon-primary-pressed-icon: var(--clg-color-app-button-icon-primary-icon);
+  --clg-color-app-button-icon-primary-on-surface-light-pressed-icon: var(--clg-color-app-button-icon-primary-on-surface-light-icon);
+  --clg-color-app-button-icon-primary-on-surface-light-hovered-icon: var(--clg-color-app-button-icon-primary-on-surface-light-icon);
+  --clg-color-app-button-icon-primary-on-surface-light-disabled-icon: var(--clg-color-app-button-icon-primary-on-surface-light-icon);
+  --clg-color-app-button-icon-primary-on-surface-dark-pressed-icon: var(--clg-color-app-button-icon-primary-on-surface-dark-icon);
+  --clg-color-app-button-icon-primary-on-surface-dark-hovered-icon: var(--clg-color-app-button-icon-primary-on-surface-dark-icon);
+  --clg-color-app-button-icon-primary-on-surface-dark-disabled-icon: var(--clg-color-app-button-icon-primary-on-surface-dark-icon);
+  --clg-color-app-button-icon-primary-hovered-icon: var(--clg-color-app-button-icon-primary-icon);
+  --clg-color-app-button-icon-primary-disabled-icon: var(--clg-color-app-button-icon-primary-icon);
+  --clg-color-app-button-favorite-selected-pressed-icon: var(--clg-color-app-button-favorite-selected-icon);
+  --clg-color-app-button-favorite-selected-border: var(--clg-color-app-button-favorite-border);
+  --clg-color-app-button-favorite-selected-background: var(--clg-color-app-button-favorite-background);
+  --clg-color-app-button-favorite-on-surface-light-selected-pressed-icon: var(--clg-color-app-button-favorite-on-surface-light-selected-icon);
+  --clg-color-app-button-favorite-on-surface-light-selected-background: var(--clg-color-app-button-favorite-on-surface-light-background);
+  --clg-color-app-button-favorite-on-surface-light-pressed-border: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-pressed-border);
+  --clg-color-app-button-favorite-on-surface-light-icon: var(--clg-color-app-button-icon-secondary-subtle-on-surface-light-icon);
+  --clg-color-app-button-favorite-on-surface-dark-selected-pressed-icon: var(--clg-color-app-button-favorite-on-surface-dark-selected-icon);
+  --clg-color-app-button-favorite-on-surface-dark-selected-background: var(--clg-color-app-button-favorite-on-surface-dark-background);
+  --clg-color-app-button-favorite-on-surface-dark-pressed-border: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-pressed-border);
+  --clg-color-app-button-favorite-on-surface-dark-icon: var(--clg-color-app-button-icon-secondary-subtle-on-surface-dark-icon);
+  --clg-color-app-button-favorite-icon: var(--clg-color-app-button-icon-secondary-subtle-icon);
+  --clg-color-app-bottom-nav-item-pressed-text: var(--clg-color-app-bottom-nav-item-text); /* Use for the color of the text and icon of a pressed item/target in the bottom nav. */
+  --clg-color-app-button-favorite-pressed-icon: var(--clg-color-app-button-icon-secondary-subtle-pressed-icon);
+  --clg-color-app-button-favorite-pressed-border: var(--clg-color-app-button-icon-secondary-subtle-pressed-border);
+  --clg-color-app-button-favorite-on-surface-light-selected-pressed-border: var(--clg-color-app-button-favorite-on-surface-light-pressed-border);
+  --clg-color-app-button-favorite-on-surface-light-pressed-icon: var(--clg-color-app-button-favorite-on-surface-light-icon);
+  --clg-color-app-button-favorite-on-surface-dark-selected-pressed-border: var(--clg-color-app-button-favorite-on-surface-dark-pressed-border);
+  --clg-color-app-button-favorite-on-surface-dark-pressed-icon: var(--clg-color-app-button-favorite-on-surface-dark-icon);
+  --clg-color-app-button-favorite-selected-pressed-border: var(--clg-color-app-button-favorite-pressed-border);
+  --clg-typography-sem-marketing-heading-mobile-base-composite: var(--clg-typography-sem-marketing-heading-mobile-base-font-weight) var(--clg-typography-sem-marketing-heading-mobile-base-font-size)/var(--clg-typography-sem-marketing-heading-mobile-base-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-heading-mobile-large-composite: var(--clg-typography-sem-marketing-heading-mobile-large-font-weight) var(--clg-typography-sem-marketing-heading-mobile-large-font-size)/var(--clg-typography-sem-marketing-heading-mobile-large-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-heading-mobile-emphasis-base-composite: var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-font-weight) var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-font-size)/var(--clg-typography-sem-marketing-heading-mobile-emphasis-base-line-height) var(--clg-typography-pal-family-serif-light-italic);
+  --clg-typography-sem-marketing-heading-mobile-emphasis-large-composite: var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-font-weight) var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-font-size)/var(--clg-typography-sem-marketing-heading-mobile-emphasis-large-line-height) var(--clg-typography-pal-family-serif-light-italic);
+  --clg-typography-sem-marketing-display-mobile-base-composite: var(--clg-typography-sem-marketing-display-mobile-base-font-weight) var(--clg-typography-sem-marketing-display-mobile-base-font-size)/var(--clg-typography-sem-marketing-display-mobile-base-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-mobile-large-composite: var(--clg-typography-sem-marketing-display-mobile-large-font-weight) var(--clg-typography-sem-marketing-display-mobile-large-font-size)/var(--clg-typography-sem-marketing-display-mobile-large-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-mobile-larger-composite: var(--clg-typography-sem-marketing-display-mobile-larger-font-weight) var(--clg-typography-sem-marketing-display-mobile-larger-font-size)/var(--clg-typography-sem-marketing-display-mobile-larger-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-marketing-display-mobile-emphasis-base-composite: var(--clg-typography-sem-marketing-display-mobile-emphasis-base-font-weight) var(--clg-typography-sem-marketing-display-mobile-emphasis-base-font-size)/var(--clg-typography-sem-marketing-display-mobile-emphasis-base-line-height) var(--clg-typography-pal-family-serif-light-italic);
+  --clg-typography-sem-marketing-display-mobile-emphasis-large-composite: var(--clg-typography-sem-marketing-display-mobile-emphasis-large-font-weight) var(--clg-typography-sem-marketing-display-mobile-emphasis-large-font-size)/var(--clg-typography-sem-marketing-display-mobile-emphasis-large-line-height) var(--clg-typography-pal-family-serif-light-italic);
+  --clg-typography-sem-marketing-display-mobile-emphasis-larger-composite: var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-font-weight) var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-font-size)/var(--clg-typography-sem-marketing-display-mobile-emphasis-larger-line-height) var(--clg-typography-pal-family-serif-light-italic);
+  --clg-typography-sem-product-body-mobile-smallest-composite: var(--clg-typography-sem-product-body-mobile-smallest-font-weight) var(--clg-typography-sem-product-body-mobile-smallest-font-size)/var(--clg-typography-sem-product-body-mobile-smallest-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-smaller-composite: var(--clg-typography-sem-product-body-mobile-smaller-font-weight) var(--clg-typography-sem-product-body-mobile-smaller-font-size)/var(--clg-typography-sem-product-body-mobile-smaller-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-small-tight-composite: var(--clg-typography-pal-weight-400) var(--clg-typography-sem-product-body-mobile-small-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-small-composite: var(--clg-typography-sem-product-body-mobile-small-font-weight) var(--clg-typography-sem-product-body-mobile-small-font-size)/var(--clg-typography-sem-product-body-mobile-small-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-base-tight-composite: var(--clg-typography-pal-weight-400) var(--clg-typography-sem-product-body-mobile-base-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-base-composite: var(--clg-typography-sem-product-body-mobile-base-font-weight) var(--clg-typography-sem-product-body-mobile-base-font-size)/var(--clg-typography-sem-product-body-mobile-base-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-large-tight-composite: var(--clg-typography-sem-product-body-mobile-large-font-weight) var(--clg-typography-sem-product-body-mobile-large-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-mobile-large-composite: var(--clg-typography-sem-product-body-mobile-large-font-weight) var(--clg-typography-sem-product-body-mobile-large-font-size)/var(--clg-typography-sem-product-body-mobile-large-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-smallest-composite: var(--clg-typography-sem-product-body-desktop-smallest-font-weight) var(--clg-typography-sem-product-body-desktop-smallest-font-size)/var(--clg-typography-sem-product-body-desktop-smallest-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-smaller-composite: var(--clg-typography-sem-product-body-desktop-smaller-font-weight) var(--clg-typography-sem-product-body-desktop-smaller-font-size)/var(--clg-typography-sem-product-body-desktop-smaller-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-small-tight-composite: var(--clg-typography-sem-product-body-desktop-small-font-weight) var(--clg-typography-sem-product-body-desktop-small-font-size)/var(--clg-typography-sem-product-body-desktop-small-tight-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-small-composite: var(--clg-typography-sem-product-body-desktop-small-font-weight) var(--clg-typography-sem-product-body-desktop-small-font-size)/var(--clg-typography-sem-product-body-desktop-small-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-base-tight-composite: var(--clg-typography-sem-product-body-desktop-base-font-weight) var(--clg-typography-sem-product-body-desktop-base-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-body-desktop-base-composite: var(--clg-typography-sem-product-body-desktop-base-font-weight) var(--clg-typography-sem-product-body-desktop-base-font-size)/var(--clg-typography-sem-product-body-desktop-base-line-height) var(--clg-typography-pal-family-sans-serif-regular); /* This is the default body style on desktop. */
+  --clg-typography-sem-product-body-desktop-large-tight-composite: var(--clg-typography-sem-product-body-desktop-large-font-weight) var(--clg-typography-sem-product-body-desktop-large-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-regular); /* This is the body style on desktop, with a tighter line height. */
+  --clg-typography-sem-product-body-desktop-large-composite: var(--clg-typography-sem-product-body-desktop-large-font-weight) var(--clg-typography-sem-product-body-desktop-large-font-size)/var(--clg-typography-sem-product-body-desktop-large-line-height) var(--clg-typography-pal-family-sans-serif-regular);
+  --clg-typography-sem-product-title-mobile-smallest-composite: var(--clg-typography-sem-product-title-mobile-smallest-font-weight) var(--clg-typography-sem-product-title-mobile-smallest-font-size)/var(--clg-typography-sem-product-title-mobile-smallest-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-mobile-small-tight-composite: var(--clg-typography-sem-product-title-mobile-small-font-weight) var(--clg-typography-sem-product-title-mobile-small-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-mobile-small-composite: var(--clg-typography-sem-product-title-mobile-small-font-weight) var(--clg-typography-sem-product-title-mobile-small-font-size)/var(--clg-typography-sem-product-title-mobile-small-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-mobile-base-composite: var(--clg-typography-pal-weight-700) var(--clg-typography-sem-product-title-mobile-base-font-size)/var(--clg-typography-pal-line-height-300) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-mobile-large-tight-composite: var(--clg-typography-pal-weight-700) var(--clg-typography-sem-product-title-mobile-large-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-mobile-large-composite: var(--clg-typography-sem-product-title-mobile-large-font-weight) var(--clg-typography-sem-product-title-mobile-large-font-size)/var(--clg-typography-sem-product-title-mobile-large-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-mobile-larger-composite: var(--clg-typography-sem-product-title-mobile-larger-font-weight) var(--clg-typography-sem-product-title-mobile-larger-font-size)/var(--clg-typography-sem-product-title-mobile-larger-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-desktop-smallest-composite: var(--clg-typography-sem-product-title-desktop-smallest-font-weight) var(--clg-typography-sem-product-title-desktop-smallest-font-size)/var(--clg-typography-sem-product-title-desktop-smallest-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-desktop-small-tight-composite: var(--clg-typography-sem-product-title-desktop-small-font-weight) var(--clg-typography-sem-product-title-desktop-small-font-size)/var(--clg-typography-sem-product-title-desktop-small-tight-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-desktop-small-composite: var(--clg-typography-sem-product-title-desktop-small-font-weight) var(--clg-typography-sem-product-title-desktop-small-font-size)/var(--clg-typography-sem-product-title-desktop-small-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-desktop-base-composite: var(--clg-typography-sem-product-title-desktop-base-font-weight) var(--clg-typography-sem-product-title-desktop-base-font-size)/var(--clg-typography-sem-product-title-desktop-base-line-height) var(--clg-typography-pal-family-sans-serif-bold); /* This is the default title style on desktop. */
+  --clg-typography-sem-product-title-desktop-large-tight-composite: var(--clg-typography-pal-weight-700) var(--clg-typography-sem-product-title-desktop-large-font-size)/var(--clg-typography-pal-line-height-200) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-desktop-large-composite: var(--clg-typography-sem-product-title-desktop-large-font-weight) var(--clg-typography-sem-product-title-desktop-large-font-size)/var(--clg-typography-sem-product-title-desktop-large-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-title-desktop-larger-composite: var(--clg-typography-sem-product-title-desktop-larger-font-weight) var(--clg-typography-sem-product-title-desktop-larger-font-size)/var(--clg-typography-sem-product-title-desktop-larger-line-height) var(--clg-typography-pal-family-sans-serif-bold);
+  --clg-typography-sem-product-heading-mobile-small-tight-composite: var(--clg-typography-pal-weight-400) var(--clg-typography-sem-product-heading-mobile-small-font-size)/var(--clg-typography-pal-line-height-050) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-heading-mobile-small-composite: var(--clg-typography-sem-product-heading-mobile-small-font-weight) var(--clg-typography-sem-product-heading-mobile-small-font-size)/var(--clg-typography-sem-product-heading-mobile-small-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-heading-mobile-base-composite: var(--clg-typography-sem-product-heading-mobile-base-font-weight) var(--clg-typography-sem-product-heading-mobile-base-font-size)/var(--clg-typography-sem-product-heading-mobile-base-line-height) var(--clg-typography-pal-family-serif-regular); /* This is the default heading style, displayed on mobile web or native apps. */
+  --clg-typography-sem-product-heading-mobile-large-composite: var(--clg-typography-sem-product-heading-mobile-large-font-weight) var(--clg-typography-sem-product-heading-mobile-large-font-size)/var(--clg-typography-sem-product-heading-mobile-large-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-heading-desktop-small-tight-composite: var(--clg-typography-pal-weight-400) var(--clg-typography-sem-product-heading-desktop-small-font-size)/var(--clg-typography-pal-line-height-050) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-heading-desktop-small-composite: var(--clg-typography-sem-product-heading-desktop-small-font-weight) var(--clg-typography-sem-product-heading-desktop-small-font-size)/var(--clg-typography-sem-product-heading-desktop-small-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-heading-desktop-base-composite: var(--clg-typography-sem-product-heading-desktop-base-font-weight) var(--clg-typography-sem-product-heading-desktop-base-font-size)/var(--clg-typography-sem-product-heading-desktop-base-line-height) var(--clg-typography-pal-family-serif-regular); /* This is the default heading style on desktop. */
+  --clg-typography-sem-product-heading-desktop-large-composite: var(--clg-typography-sem-product-heading-desktop-large-font-weight) var(--clg-typography-sem-product-heading-desktop-large-font-size)/var(--clg-typography-sem-product-heading-desktop-large-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-display-mobile-base-composite: var(--clg-typography-sem-product-display-mobile-base-font-weight) var(--clg-typography-sem-product-display-mobile-base-font-size)/var(--clg-typography-sem-product-display-mobile-base-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-display-mobile-large-composite: var(--clg-typography-sem-product-display-mobile-large-font-weight) var(--clg-typography-sem-product-display-mobile-large-font-size)/var(--clg-typography-sem-product-display-mobile-large-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-display-mobile-larger-composite: var(--clg-typography-sem-product-display-mobile-larger-font-weight) var(--clg-typography-sem-product-display-mobile-larger-font-size)/var(--clg-typography-sem-product-display-mobile-larger-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-display-desktop-base-composite: var(--clg-typography-sem-product-display-desktop-base-font-weight) var(--clg-typography-sem-product-display-desktop-base-font-size)/var(--clg-typography-sem-product-display-desktop-base-line-height) var(--clg-typography-pal-family-serif-regular); /* This is the default display style on desktop. */
+  --clg-typography-sem-product-display-desktop-large-composite: var(--clg-typography-sem-product-display-desktop-large-font-weight) var(--clg-typography-sem-product-display-desktop-large-font-size)/var(--clg-typography-sem-product-display-desktop-large-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-product-display-desktop-larger-composite: var(--clg-typography-sem-product-display-desktop-larger-font-weight) var(--clg-typography-sem-product-display-desktop-larger-font-size)/var(--clg-typography-sem-product-display-desktop-larger-line-height) var(--clg-typography-pal-family-serif-regular);
+  --clg-typography-sem-marketing-heading-desktop-base-composite: var(--clg-typography-sem-marketing-heading-desktop-base-font-weight) var(--clg-typography-sem-marketing-heading-desktop-base-font-size)/var(--clg-typography-sem-marketing-heading-desktop-base-line-height) var(--clg-typography-sem-marketing-heading-desktop-base-font-family);
+  --clg-typography-sem-marketing-heading-desktop-large-composite: var(--clg-typography-sem-marketing-heading-desktop-large-font-weight) var(--clg-typography-sem-marketing-heading-desktop-large-font-size)/var(--clg-typography-sem-marketing-heading-desktop-large-line-height) var(--clg-typography-sem-marketing-heading-desktop-large-font-family);
+  --clg-typography-sem-marketing-heading-desktop-emphasis-base-composite: var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-font-weight) var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-font-size)/var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-line-height) var(--clg-typography-sem-marketing-heading-desktop-emphasis-base-font-family);
+  --clg-typography-sem-marketing-heading-desktop-emphasis-large-composite: var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-font-weight) var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-font-size)/var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-line-height) var(--clg-typography-sem-marketing-heading-desktop-emphasis-large-font-family);
+  --clg-typography-sem-marketing-display-desktop-base-composite: var(--clg-typography-sem-marketing-display-desktop-base-font-weight) var(--clg-typography-sem-marketing-display-desktop-base-font-size)/var(--clg-typography-sem-marketing-display-desktop-base-line-height) var(--clg-typography-sem-marketing-display-desktop-base-font-family);
+  --clg-typography-sem-marketing-display-desktop-large-composite: var(--clg-typography-sem-marketing-display-desktop-large-font-weight) var(--clg-typography-sem-marketing-display-desktop-large-font-size)/var(--clg-typography-sem-marketing-display-desktop-large-line-height) var(--clg-typography-sem-marketing-display-desktop-large-font-family);
+  --clg-typography-sem-marketing-display-desktop-larger-composite: var(--clg-typography-sem-marketing-display-desktop-larger-font-weight) var(--clg-typography-sem-marketing-display-desktop-larger-font-size)/var(--clg-typography-sem-marketing-display-desktop-larger-line-height) var(--clg-typography-sem-marketing-display-desktop-larger-font-family);
+  --clg-typography-sem-marketing-display-desktop-emphasis-base-composite: var(--clg-typography-sem-marketing-display-desktop-emphasis-base-font-weight) var(--clg-typography-sem-marketing-display-desktop-emphasis-base-font-size)/var(--clg-typography-sem-marketing-display-desktop-emphasis-base-line-height) var(--clg-typography-sem-marketing-display-desktop-emphasis-base-font-family);
+  --clg-typography-sem-marketing-display-desktop-emphasis-large-composite: var(--clg-typography-sem-marketing-display-desktop-emphasis-large-font-weight) var(--clg-typography-sem-marketing-display-desktop-emphasis-large-font-size)/var(--clg-typography-sem-marketing-display-desktop-emphasis-large-line-height) var(--clg-typography-sem-marketing-display-desktop-emphasis-large-font-family);
+  --clg-typography-sem-marketing-display-desktop-emphasis-larger-composite: var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-font-weight) var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-font-size)/var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-line-height) var(--clg-typography-sem-marketing-display-desktop-emphasis-larger-font-family);
+}

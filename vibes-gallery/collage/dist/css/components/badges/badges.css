@@ -1,0 +1,96 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+/** Output only the focus state box-shadow property */
+/** Ouputs an entire focus state rule with selectors based on the parameters */
+.wt-badge {
+  background-color: var(--clg-color-app-badge-background, #FFFFFF);
+  border-radius: var(--clg-shape-app-badge-border-radius, 12px);
+  color: var(--clg-color-sem-text-primary, #222222);
+  display: inline-block;
+  word-break: break-word;
+  line-height: 1;
+  font-size: var(--clg-typography-sem-product-body-desktop-small-font-size, 12.99px);
+  font-weight: normal;
+  padding-top: var(--clg-dimension-pal-spacing-100, 6px);
+  padding-bottom: var(--clg-dimension-pal-spacing-100, 6px);
+  padding-left: var(--clg-dimension-app-badge-padding-horizontal, 8px);
+  padding-right: var(--clg-dimension-app-badge-padding-horizontal, 8px);
+  min-width: 25px;
+}
+.wt-badge.wt-badge--promoted {
+  background-color: var(--clg-color-app-badge-ad-background, #595959);
+  color: var(--clg-color-app-badge-ad-text, #FFFFFF);
+}
+.wt-badge.wt-badge--default {
+  background-color: var(--clg-color-app-badge-background, #FFFFFF);
+}
+.wt-badge.wt-badge--statusInformational {
+  background-color: var(--clg-color-sem-background-surface-informational-subtle, #EAEAEA);
+  color: var(--clg-color-sem-text-on-surface-subtle, #222222);
+}
+.wt-badge.wt-badge--statusRecommendation {
+  background-color: var(--clg-color-sem-background-surface-recommendation-light, #FCC7A2);
+  color: var(--clg-color-sem-text-on-surface-light, #222222);
+}
+.wt-badge.wt-badge--notificationTertiary {
+  background-color: var(--clg-color-sem-background-surface-notification-tertiary-strong, #222222);
+  color: var(--clg-color-sem-text-on-surface-strong, #FFFFFF);
+}
+.wt-badge.wt-badge--notificationSecondary {
+  background-color: var(--clg-color-sem-background-surface-notification-secondary-strong, #3B67D9);
+  color: var(--clg-color-sem-text-on-surface-strong, #FFFFFF);
+}
+.wt-badge.wt-badge--notificationPrimary {
+  background-color: var(--clg-color-sem-background-surface-notification-primary-strong, #CF4018);
+  color: var(--clg-color-sem-text-on-surface-strong, #FFFFFF);
+}
+.wt-badge.wt-badge--statusValue {
+  background-color: var(--clg-color-sem-background-surface-monetary-value-light, #A0E193);
+  color: var(--clg-color-sem-text-on-surface-light, #222222);
+}
+.wt-badge.wt-badge--outset-top-right {
+  position: absolute;
+  top: calc(-1 * (var(--clg-dimension-pal-spacing-100, 6px) - var(--clg-shape-sem-border-width-base, 2px)));
+  right: calc(-1 * (var(--clg-dimension-pal-spacing-100, 6px) - var(--clg-shape-sem-border-width-base, 2px)));
+  border: var(--clg-shape-sem-border-width-base, 2px) solid var(--clg-color-app-badge-border, #FFFFFF);
+}
+.wt-badge.wt-badge--small {
+  font-size: 11px;
+  font-weight: bold;
+  min-width: 17px;
+  padding-top: var(--clg-dimension-pal-spacing-050, 3px);
+  padding-bottom: var(--clg-dimension-pal-spacing-050, 3px);
+  padding-left: var(--clg-dimension-app-badge-small-padding-horizontal, 6px);
+  padding-right: var(--clg-dimension-app-badge-small-padding-horizontal, 6px);
+}
+.wt-badge.wt-badge--small.wt-badge--outset-top-right {
+  position: absolute;
+  top: calc(-1 * (var(--clg-dimension-pal-spacing-050, 3px) - var(--clg-shape-sem-border-width-base, 2px)));
+  right: calc(-1 * (var(--clg-dimension-pal-spacing-050, 3px) - var(--clg-shape-sem-border-width-base, 2px)));
+}
+.wt-badge.wt-badge--border {
+  border: var(--clg-shape-sem-border-width-base, 2px) solid var(--clg-color-app-badge-border, #FFFFFF);
+}
+.wt-badge.wt-badge--default.wt-badge--border {
+  border: var(--clg-shape-sem-border-width-thin, 1px) solid var(--clg-color-app-input-border, #949494);
+}
+.wt-badge .wt-badge__icon {
+  margin-right: var(--clg-dimension-pal-spacing-050, 3px);
+  margin-bottom: calc(var(--clg-dimension-pal-spacing-100, 6px) / 3);
+}
+.wt-badge.wt-badge--outset-top-right.wt-badge--notification--dot {
+  min-width: 0;
+  padding: 0;
+  width: var(--clg-dimension-app-badge-dot-size, 10px);
+  height: var(--clg-dimension-app-badge-dot-size, 10px);
+}
+.wt-badge.wt-badge--outset-top-right.wt-badge--notification--dot.wt-badge--outset-top-right {
+  top: var(--clg-shape-sem-border-width-base, 2px);
+  right: calc(-1 * (var(--clg-shape-sem-border-width-base, 2px) + 1px));
+}

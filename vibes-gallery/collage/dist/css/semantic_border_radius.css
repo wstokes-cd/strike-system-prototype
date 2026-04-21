@@ -1,0 +1,35 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 10 Feb 2026 22:22:44 GMT
+ */
+.wt-sem-border-radius-base {
+  border-radius: var(--clg-shape-sem-border-radius-base, 12px) !important;
+}
+
+.wt-sem-border-radius-card {
+  border-radius: var(--clg-shape-sem-border-radius-card, 12px) !important;
+}
+
+.wt-sem-border-radius-full {
+  border-radius: var(--clg-shape-sem-border-radius-full, 999999px) !important;
+}
+
+.wt-sem-border-radius-larger {
+  border-radius: var(--clg-shape-sem-border-radius-larger, 16px) !important;
+}
+
+.wt-sem-border-radius-largest {
+  border-radius: var(--clg-shape-sem-border-radius-largest, 24px) !important;
+}
+
+.wt-sem-border-radius-small {
+  border-radius: var(--clg-shape-sem-border-radius-small, 8px) !important;
+}
+
+.wt-sem-border-radius-smaller {
+  border-radius: var(--clg-shape-sem-border-radius-smaller, 4px) !important;
+}
+
+.wt-sem-border-radius-smallest {
+  border-radius: var(--clg-shape-sem-border-radius-smallest, 2px) !important;
+}
