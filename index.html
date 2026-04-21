@@ -6,325 +6,389 @@
     <title>Account status — Etsy</title>
     <script src="vibes-gallery/collage/setup.js"></script>
     <style>
-      body { margin: 0; }
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #fff; color: #222; }
 
-      .page-shell {
+      .page-frame {
         display: flex;
+        width: 100%;
         min-height: 100vh;
+        overflow: hidden;
       }
 
-      /* --- Left settings nav (matches Figma "Your shop health" section) --- */
-      .settings-nav {
-        width: 240px;
-        min-width: 240px;
-        background: var(--clg-color-bg-warm, #FAF8F5);
-        border-right: 1px solid var(--clg-color-border-default, #E0DAD6);
-        padding: 24px 16px;
+      /* === Icon nav rail (collapsed, like Figma) === */
+      .icon-rail {
+        width: 60px;
+        min-width: 60px;
+        background: #FAF8F5;
+        border-right: 1px solid #E0DAD6;
         display: flex;
         flex-direction: column;
-        gap: 8px;
-        overflow-y: auto;
-      }
-      .settings-nav .nav-group-title {
-        font-size: 12px;
-        font-weight: 500;
-        color: #757575;
-        text-transform: none;
-        letter-spacing: 0.02em;
-        margin-top: 16px;
-        margin-bottom: 4px;
-        padding: 0 12px;
-      }
-      .settings-nav .nav-group-title:first-child { margin-top: 0; }
-      .settings-nav a {
-        display: block;
-        padding: 8px 12px;
-        border-radius: 8px;
-        font-size: 14px;
-        color: #222;
-        text-decoration: none;
-        line-height: 1.4;
-      }
-      .settings-nav a:hover { background: rgba(0,0,0,0.04); }
-      .settings-nav a.active {
-        background: #F0ECE8;
-        font-weight: 600;
-      }
-      .settings-nav .shop-badge {
-        display: flex;
         align-items: center;
-        gap: 8px;
-        padding: 12px;
-        border-top: 1px solid #E0DAD6;
-        margin-top: auto;
+        padding: 14px 0;
+        gap: 4px;
       }
-      .settings-nav .shop-badge .avatar {
-        width: 32px; height: 32px;
-        border-radius: 50%;
-        background: #E0DAD6;
-      }
-
-      /* --- Main content pane --- */
-      .content-pane {
-        flex: 1;
-        background: #fff;
-        max-width: 980px;
-        padding: 32px 48px 64px;
-      }
-
-      /* --- Account Health module card --- */
-      .health-card {
-        border: 1px solid #E0DAD6;
-        border-radius: 12px;
-        padding: 24px 28px;
-        margin-bottom: 24px;
-      }
-      .health-card .status-header {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        margin-bottom: 12px;
-      }
-      .health-card .status-desc {
-        font-size: 14px;
-        color: #595959;
-      }
-
-      /* --- Runway row --- */
-      .runways-row {
-        display: flex;
-        gap: 24px;
-        margin-top: 20px;
-        padding-top: 20px;
-        border-top: 1px solid #EFECEA;
-      }
-      .runway-col { flex: 1; }
-      .runway-col .runway-label {
-        font-size: 13px;
-        font-weight: 600;
-        color: #222;
-        margin-bottom: 6px;
-      }
-      .runway-col .runway-detail {
-        font-size: 12px;
-        color: #757575;
-        margin-top: 4px;
-      }
-
-      /* --- Tier bar --- */
-      .tier-bar { display: flex; gap: 3px; margin-top: 6px; }
-      .tier-bar .seg {
-        flex: 1;
-        height: 5px;
-        border-radius: 3px;
-        background: #EFECEA;
-      }
-      .tier-bar.large .seg { height: 7px; }
-      .tier-bar .seg.fill-green  { background: #2F8A48; }
-      .tier-bar .seg.fill-yellow { background: #E5A300; }
-      .tier-bar .seg.fill-red    { background: #C4320A; }
-
-      /* --- Action cards --- */
-      .action-card {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        border: 1px solid #E0DAD6;
-        border-radius: 12px;
-        padding: 16px 20px;
-        margin-bottom: 12px;
-      }
-      .action-card .action-icon {
-        width: 44px; height: 44px;
-        border-radius: 8px;
+      .icon-rail .rail-logo {
+        width: 28px; height: 28px;
+        margin-bottom: 20px;
         display: flex; align-items: center; justify-content: center;
+      }
+      .icon-rail .rail-logo svg { width: 24px; height: 24px; }
+      .icon-rail .rail-item {
+        width: 36px; height: 36px;
+        border-radius: 6px;
+        display: flex; align-items: center; justify-content: center;
+        color: #665E5C;
+        cursor: pointer;
+        position: relative;
+        font-size: 16px;
+      }
+      .icon-rail .rail-item:hover { background: #EFECEA; }
+      .icon-rail .rail-item.active { background: #EFECEA; color: #312B36; }
+      .icon-rail .rail-item .notif-dot {
+        position: absolute; top: 4px; right: 4px;
+        width: 6px; height: 6px; border-radius: 50%;
+        background: #F1641E;
+      }
+      .icon-rail .rail-spacer { flex: 1; }
+      .icon-rail .rail-avatar {
+        width: 20px; height: 20px; border-radius: 50%;
+        background: #ccc;
+      }
+
+      /* === Main body (top bar + content) === */
+      .main-body { flex: 1; display: flex; flex-direction: column; }
+
+      /* === Top bar === */
+      .top-bar {
+        height: 60px;
+        border-bottom: 1px solid #EFECEA;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        justify-content: space-between;
+        background: #fff;
         flex-shrink: 0;
       }
-      .action-card .action-icon.verify { background: #F0ECE8; }
-      .action-card .action-icon.quiz   { background: #EEF4FF; }
-      .action-card .action-icon.appeal { background: #F0ECE8; }
-      .action-card .action-body { flex: 1; }
-      .action-card .action-title-row {
+      .top-bar .search-trigger {
         display: flex; align-items: center; gap: 8px;
-        margin-bottom: 2px;
+        color: #665E5C; font-size: 14px; cursor: pointer;
       }
-      .action-card .action-title {
-        font-size: 14px; font-weight: 600; color: #222;
+      .top-bar .search-trigger .kbd {
+        display: inline-flex; align-items: center; gap: 2px;
       }
-      .action-card .action-sub {
-        font-size: 13px; color: #595959;
+      .top-bar .search-trigger .kbd span {
+        background: #EFECEA; border-radius: 4px;
+        padding: 2px 5px; font-size: 12px; color: #665E5C;
       }
-
-      /* --- Education section --- */
-      .education-section { margin-top: 32px; }
-      .edu-cards { display: flex; gap: 16px; margin-top: 12px; }
-      .edu-card {
-        flex: 1;
-        border: 1px solid #E0DAD6;
-        border-radius: 12px;
-        overflow: hidden;
-        text-decoration: none; color: #222;
+      .top-bar .top-right {
+        display: flex; align-items: center; gap: 8px;
       }
-      .edu-card .edu-img {
-        height: 120px;
+      .top-bar .top-icon {
+        width: 40px; height: 40px; border-radius: 6px;
         display: flex; align-items: center; justify-content: center;
-        font-size: 32px;
+        cursor: pointer; color: #312B36; font-size: 18px;
+        position: relative;
       }
-      .edu-card .edu-body { padding: 12px 16px; }
-      .edu-card .edu-body h4 { font-size: 14px; font-weight: 600; margin: 0 0 4px; }
-      .edu-card .edu-body p  { font-size: 12px; color: #595959; margin: 0; line-height: 1.5; }
+      .top-bar .top-icon:hover { background: #F9F6F4; }
+      .top-bar .top-icon .notif-dot {
+        position: absolute; top: 6px; right: 8px;
+        width: 6px; height: 6px; border-radius: 50%;
+        background: #F1641E;
+      }
 
-      /* --- Prototype controls --- */
-      .proto-controls {
-        margin-top: 48px;
-        padding: 20px 24px;
-        background: #F3F5FF;
-        border: 1px solid #C5CEFF;
+      /* === Content area below top bar === */
+      .below-bar { display: flex; flex: 1; overflow-y: auto; }
+
+      /* === Left settings text menu === */
+      .settings-menu {
+        width: 225px;
+        min-width: 225px;
+        padding: 32px 0 32px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .settings-menu .menu-group { margin-bottom: 4px; }
+      .settings-menu .menu-title {
+        font-size: 11px; font-weight: 400; color: #665E5C;
+        padding: 8px 12px 4px; letter-spacing: 0;
+      }
+      .settings-menu .menu-item {
+        display: block; padding: 6px 12px;
+        font-size: 14px; color: #2E203C; text-decoration: none;
+        border-radius: 6px; line-height: 1.3; cursor: pointer;
+      }
+      .settings-menu .menu-item:hover { background: #F9F6F4; }
+      .settings-menu .menu-item.active { background: #F9F6F4; font-weight: 600; }
+
+      /* === Content pane === */
+      .content-pane {
+        flex: 1;
+        max-width: 909px;
+        padding: 32px 36px 64px;
+      }
+
+      .page-title {
+        font-size: 26px; font-weight: 700; letter-spacing: -0.02em;
+        margin-bottom: 6px; line-height: 1.3;
+      }
+      .page-subtitle {
+        font-size: 16px; color: #222; line-height: 1.3;
+        margin-bottom: 32px; max-width: 540px;
+        letter-spacing: -0.01em;
+      }
+      .page-subtitle a { color: #222; text-decoration: underline; }
+
+      /* === Health panel (replaces gauge) === */
+      .health-panel {
+        border: 1px solid #E0DAD6;
+        border-radius: 8px;
+        padding: 24px;
+        margin-bottom: 24px;
+      }
+      .health-panel .status-row {
+        display: flex; align-items: center; gap: 16px;
+        margin-bottom: 14px;
+      }
+      .health-panel .status-desc { font-size: 16px; color: #222; line-height: 1.3; }
+
+      /* Overall tier bar */
+      .tier-bar { display: flex; gap: 3px; }
+      .tier-bar.lg .seg { height: 8px; }
+      .tier-bar .seg {
+        flex: 1; height: 5px; border-radius: 3px;
+        background: #EFECEA;
+      }
+      .seg.g { background: #2F8A48; }
+      .seg.y { background: #E5A300; }
+      .seg.r { background: #C4320A; }
+
+      .runways-row {
+        display: flex; gap: 24px;
+        margin-top: 20px; padding-top: 20px;
+        border-top: 1px solid #EFECEA;
+      }
+      .runway { flex: 1; }
+      .runway .rw-label { font-size: 13px; font-weight: 600; color: #222; margin-bottom: 6px; }
+      .runway .rw-detail { font-size: 12px; color: #665E5C; margin-top: 4px; }
+
+      .alert-bar {
+        margin-top: 16px; padding: 12px 16px;
+        border-radius: 8px; font-size: 13px; font-weight: 500;
+        background: #FEF0EE; border: 1px solid #F5C5BB; color: #8B1A00;
+      }
+
+      .panel-footer {
+        display: flex; justify-content: space-between; align-items: center;
+        margin-top: 14px;
+      }
+      .panel-footer .vr-btn {
+        font-size: 14px; font-weight: 700; color: #312B36;
+        background: rgba(51,20,0,0.05);
+        border: none; border-radius: 18px;
+        padding: 8px 16px; cursor: pointer;
+        letter-spacing: -0.01em;
+      }
+      .panel-footer .vr-btn:hover { background: rgba(51,20,0,0.10); }
+      .panel-footer .refresh-ts { font-size: 13px; color: #665E5C; }
+
+      /* === Action cards === */
+      .action-card {
+        display: flex; align-items: center; gap: 12px;
+        border: 1px solid #E0DAD6; border-radius: 12px;
+        padding: 24px; margin-bottom: 12px;
+      }
+      .action-card .ac-icon {
+        width: 48px; height: 48px; border-radius: 10px;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 22px; flex-shrink: 0;
+        background: #F0ECE8;
+      }
+      .action-card .ac-body { flex: 1; }
+      .action-card .ac-title-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+      .action-card .ac-title { font-size: 14px; font-weight: 700; color: #222; }
+      .action-card .ac-deadline {
+        font-size: 11px; font-weight: 600; padding: 2px 8px;
+        border-radius: 4px;
+      }
+      .ac-deadline.crit { background: #FEF0EE; color: #C4320A; }
+      .ac-deadline.warn { background: #FFF7E0; color: #9A6B00; }
+      .ac-deadline.info { background: #EEF4FF; color: #1A56DB; }
+      .action-card .ac-sub { font-size: 14px; color: #665E5C; line-height: 1.3; }
+      .action-card .ac-btn {
+        font-size: 14px; font-weight: 700; color: #312B36;
+        border: 1.5px solid #312B36; background: none;
+        border-radius: 18px; padding: 8px 16px; cursor: pointer;
+        white-space: nowrap; letter-spacing: -0.01em;
+      }
+      .action-card .ac-btn:hover { background: #F9F6F4; }
+
+      /* === Education === */
+      .edu-section { margin-top: 32px; }
+      .edu-section .edu-title {
+        font-size: 18px; font-weight: 700; color: #222;
+        display: flex; align-items: center; gap: 8px;
+        margin-bottom: 12px; letter-spacing: -0.01em;
+      }
+      .edu-row { display: flex; gap: 12px; }
+      .edu-card {
+        flex: 1; border: 1px solid #E0DAD6; border-radius: 12px;
+        overflow: hidden; text-decoration: none; color: #222;
+        display: flex; align-items: center; padding: 12px 24px;
+        gap: 16px;
+      }
+      .edu-card:hover { background: #FAFAFA; }
+      .edu-card .edu-icon {
+        width: 124px; height: 124px; border-radius: 8px;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 48px; flex-shrink: 0;
+      }
+      .edu-card .edu-body { flex: 1; }
+      .edu-card .edu-body h4 { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+      .edu-card .edu-body p  { font-size: 13px; color: #665E5C; line-height: 1.4; }
+      .edu-card .edu-ext { color: #665E5C; font-size: 16px; flex-shrink: 0; }
+
+      /* === Proto controls === */
+      .proto-box {
+        margin-top: 48px; padding: 20px 24px;
+        background: #F8F6FF; border: 1px solid #DDD6FE;
         border-radius: 12px;
       }
-      .proto-controls h3 { font-size: 14px; font-weight: 600; margin: 0 0 4px; }
-      .proto-controls p  { font-size: 13px; color: #595959; margin: 0 0 12px; }
-      .proto-controls .btn-row { display: flex; flex-wrap: wrap; gap: 8px; }
-
-      /* --- Footer --- */
-      .page-footer {
-        display: flex; justify-content: space-between; align-items: center;
-        padding: 16px 48px;
-        border-top: 1px solid #E0DAD6;
-        font-size: 12px; color: #757575;
+      .proto-box h3 { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+      .proto-box p  { font-size: 13px; color: #665E5C; margin-bottom: 12px; }
+      .proto-box .btn-row { display: flex; flex-wrap: wrap; gap: 8px; }
+      .proto-box .sbtn {
+        font-size: 13px; padding: 6px 14px; border-radius: 18px;
+        border: 1.5px solid #E0DAD6; background: #fff;
+        cursor: pointer; font-weight: 600; color: #312B36;
       }
-      .page-footer a { color: #757575; text-decoration: underline; margin-left: 16px; }
-
-      /* --- Alert banner for severe tiers --- */
-      .alert-banner {
-        margin-top: 16px;
-        padding: 12px 16px;
-        border-radius: 8px;
-        font-size: 13px;
-        font-weight: 500;
-      }
-      .alert-banner.critical {
-        background: #FEF0EE;
-        border: 1px solid #F5C5BB;
-        color: #8B1A00;
-      }
-
-      .refresh-ts {
-        display: flex; justify-content: flex-end;
-        margin-top: 12px;
-        font-size: 12px; color: #999;
-      }
-
-      @media (max-width: 768px) {
-        .settings-nav { display: none; }
-        .content-pane { padding: 24px 16px 48px; }
-        .runways-row { flex-direction: column; gap: 16px; }
-        .edu-cards { flex-direction: column; }
-      }
+      .proto-box .sbtn:hover { background: #F9F6F4; }
+      .proto-box .sbtn.on { background: #312B36; color: #fff; border-color: #312B36; }
     </style>
   </head>
   <body>
-    <div class="page-shell">
+    <div class="page-frame">
 
-      <!-- ===== LEFT NAV (from Figma "Settings" layout) ===== -->
-      <nav class="settings-nav">
-        <div class="nav-group-title">Etsy account settings</div>
-        <a href="#">Your Etsy profile</a>
-        <a href="#">Global preferences</a>
-        <a href="#">Notifications</a>
-        <a href="#">Addresses</a>
-        <a href="#">Cards & wallets</a>
-
-        <div class="nav-group-title">Security</div>
-        <a href="#">Sign in & security</a>
-        <a href="#">Recovery & backup</a>
-        <a href="#">Privacy and sharing</a>
-
-        <div class="nav-group-title">Your Etsy shop</div>
-        <a href="#">Shop basics</a>
-        <a href="#">Shop team</a>
-        <a href="#">Processing time</a>
-        <a href="#">Shop policies</a>
-        <a href="#">Shop status</a>
-
-        <div class="nav-group-title">Your shop health</div>
-        <a href="#" class="active">Account status</a>
-        <a href="#">Compliance</a>
-
-        <div class="nav-group-title">Shop finances</div>
-        <a href="#">Finances & billing</a>
-        <a href="#">Legal & tax information</a>
-
-        <div class="shop-badge">
-          <div class="avatar"></div>
-          <span style="font-size:13px;font-weight:500;">Aria's Art Finds</span>
+      <!-- === ICON RAIL NAV === -->
+      <nav class="icon-rail">
+        <div class="rail-logo">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="#F1641E"/><text x="7" y="16" font-size="11" font-weight="700" fill="#fff">E</text></svg>
         </div>
+        <div class="rail-item" title="Home">🏠</div>
+        <div class="rail-item" title="Orders"><span>📦</span><div class="notif-dot"></div></div>
+        <div class="rail-item" title="Messages"><span>💬</span><div class="notif-dot"></div></div>
+        <div class="rail-item" title="Listings">📋</div>
+        <div class="rail-item" title="Insights">📊</div>
+        <div class="rail-item" title="Marketing">📣</div>
+        <div class="rail-item" title="Finances">🏦</div>
+        <div class="rail-item" title="More">⊞</div>
+        <div class="rail-spacer"></div>
+        <div class="rail-item active" title="Settings">⚙️</div>
+        <div class="rail-item" title="Profile"><div class="rail-avatar"></div></div>
       </nav>
 
-      <!-- ===== MAIN CONTENT (Account status page) ===== -->
-      <main class="content-pane">
-        <h1 class="wt-text-heading wt-mb-xs-1">Account status</h1>
-        <p style="font-size:15px;color:#595959;margin:0 0 24px;line-height:1.7;max-width:640px;">
-          This status is affected by any actions that Etsy has taken when your account or
-          content don't follow our standards.
-          <a href="#" style="color:#222;text-decoration:underline;">Learn more about Account status</a>
-        </p>
+      <!-- === MAIN BODY === -->
+      <div class="main-body">
 
-        <!-- ====== ACCOUNT HEALTH MODULE (our runway bars replace the gauge) ====== -->
-        <div class="health-card" id="health-card"></div>
-
-        <!-- ====== ACTION ITEMS ====== -->
-        <div id="action-items"></div>
-
-        <!-- ====== EDUCATION SECTION (from Figma) ====== -->
-        <div class="education-section">
-          <a href="#" style="font-size:15px;font-weight:600;color:#222;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
-            Learn about policies
-            <span style="font-size:12px;">›</span>
-          </a>
-          <div class="edu-cards">
-            <a href="#" class="edu-card">
-              <div class="edu-img" style="background:#EFE7FB;">📜</div>
-              <div class="edu-body">
-                <h4>The Ultimate Guide to Etsy Policy</h4>
-                <p>Learn why policies are created, how to avoid listing removals, and what we're doing to increase transparency.</p>
-              </div>
-            </a>
-            <a href="#" class="edu-card">
-              <div class="edu-img" style="background:#FDEBD0;">✋</div>
-              <div class="edu-body">
-                <h4>Etsy's Creativity Standards Policy</h4>
-                <p>Understand what can and can't be sold on Etsy, the marketplace for original items from real people.</p>
-              </div>
-            </a>
-            <a href="#" class="edu-card">
-              <div class="edu-img" style="background:#D5F0E3;">🎨</div>
-              <div class="edu-body">
-                <h4>4 Best Practices for Listings on Etsy</h4>
-                <p>What to know when listing your items, along with actions you can take to avoid policy missteps.</p>
-              </div>
-            </a>
+        <!-- Top bar -->
+        <header class="top-bar">
+          <div class="search-trigger">
+            🔍 <span>Search Settings</span>
+            <div class="kbd"><span>⌘</span><span>K</span></div>
           </div>
-        </div>
+          <div class="top-right">
+            <div class="top-icon">🔔<div class="notif-dot"></div></div>
+            <div class="top-icon">💡</div>
+          </div>
+        </header>
 
-        <!-- ====== PROTOTYPE CONTROLS ====== -->
-        <div class="proto-controls">
-          <h3>Prototype controls</h3>
-          <p>Select a scenario to preview what different sellers see.</p>
-          <div class="btn-row" id="scenario-buttons"></div>
-        </div>
-      </main>
-    </div>
+        <!-- Below top bar: settings menu + content -->
+        <div class="below-bar">
 
-    <!-- Footer -->
-    <div class="page-footer">
-      <span>🇺🇸 United States | English (US) | $ (USD)</span>
-      <span>
-        © 2026 Etsy, Inc.
-        <a href="#">Terms of Use</a>
-        <a href="#">Privacy</a>
-        <a href="#">Help Center</a>
-      </span>
+          <!-- Left settings text menu -->
+          <aside class="settings-menu">
+            <div class="menu-group">
+              <div class="menu-title">Etsy account settings</div>
+              <a class="menu-item" href="#">Your Etsy profile</a>
+              <a class="menu-item" href="#">Global preferences</a>
+              <a class="menu-item" href="#">Notifications</a>
+              <a class="menu-item" href="#">Addresses</a>
+              <a class="menu-item" href="#">Cards &amp; wallets</a>
+            </div>
+            <div class="menu-group">
+              <div class="menu-title">Security</div>
+              <a class="menu-item" href="#">Sign in &amp; Security</a>
+              <a class="menu-item" href="#">Recovery &amp; Backup</a>
+              <a class="menu-item" href="#">Privacy and sharing</a>
+            </div>
+            <div class="menu-group">
+              <div class="menu-title">Your Etsy shop</div>
+              <a class="menu-item" href="#">Shop basics</a>
+              <a class="menu-item" href="#">Shop team</a>
+              <a class="menu-item" href="#">Processing time</a>
+              <a class="menu-item" href="#">Shop policies</a>
+              <a class="menu-item" href="#">Shop status</a>
+            </div>
+            <div class="menu-group">
+              <div class="menu-title">Your shop health</div>
+              <a class="menu-item active" href="#">Account status</a>
+              <a class="menu-item" href="#">Compliance</a>
+            </div>
+            <div class="menu-group">
+              <div class="menu-title">Shop finances</div>
+              <a class="menu-item" href="#">Payment settings</a>
+              <a class="menu-item" href="#">Legal &amp; tax information</a>
+            </div>
+          </aside>
+
+          <!-- Content pane -->
+          <main class="content-pane">
+            <h1 class="page-title">Account status</h1>
+            <p class="page-subtitle">
+              This status is affected by any actions that Etsy has taken when your account or
+              content don't follow our standards. <a href="#">Learn more about Account status</a>
+            </p>
+
+            <!-- Health panel -->
+            <div class="health-panel" id="health-panel"></div>
+
+            <!-- Action cards -->
+            <div id="action-items"></div>
+
+            <!-- Education section -->
+            <div class="edu-section">
+              <div class="edu-title">Learn about policies <span style="font-size:14px;">›</span></div>
+              <div class="edu-row">
+                <a href="#" class="edu-card">
+                  <div class="edu-icon" style="background:#EDE4F7;">📜</div>
+                  <div class="edu-body">
+                    <h4>The Ultimate Guide to Etsy Policy</h4>
+                    <p>Learn why policies are created, how to avoid listing removals, and what we're doing to increase transparency.</p>
+                  </div>
+                  <span class="edu-ext">↗</span>
+                </a>
+                <a href="#" class="edu-card">
+                  <div class="edu-icon" style="background:#FDE8D8;">✋</div>
+                  <div class="edu-body">
+                    <h4>Etsy's Creativity Standards Policy</h4>
+                    <p>Understand what can and can't be sold on Etsy, the marketplace for original items from real people.</p>
+                  </div>
+                  <span class="edu-ext">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Proto controls -->
+            <div class="proto-box">
+              <h3>Prototype controls</h3>
+              <p>Select a scenario to preview what different sellers see.</p>
+              <div class="btn-row" id="scenario-buttons"></div>
+            </div>
+          </main>
+        </div>
+      </div>
     </div>
 
     <script>
@@ -337,7 +401,7 @@
         'ROS':           { color: 'critical', label: 'Suspended' },
       };
 
-      const TIER_DESCRIPTIONS = {
+      const TIER_DESC = {
         'Good standing': 'No recent policy actions on your account.',
         'Awareness':     'You have a recent policy action. No impact to your shop.',
         'Education':     'Multiple policy actions on your account. Review them to keep your shop in good standing.',
@@ -346,11 +410,7 @@
         'ROS':           'Your account has been suspended due to repeated policy violations.',
       };
 
-      const RUNWAY_LABELS = {
-        nhm: 'Handmade policy',
-        ip: 'Intellectual property',
-        prohibited: 'Marketplace policies'
-      };
+      const RW = { nhm: 'Handmade policy', ip: 'Intellectual property', prohibited: 'Marketplace policies' };
 
       const SCENARIOS = [
         {
@@ -359,7 +419,7 @@
           ip:  { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           actions: [
-            { type: 'appeal', category: 'nhm', title: 'Review and appeal listing removed', sub: 'Your listing was removed due to a Creativity Standards violation', deadline: 'Appeal until Jul 2, 2026', cta: 'View details' },
+            { type: 'appeal', title: 'Review and appeal listing removed', sub: 'Your listing was removed due to a Creativity Standards violation', deadline: 'Appeal until Jul 2, 2026', cat: 'nhm', cta: 'File an appeal' },
           ],
         },
         {
@@ -368,8 +428,8 @@
           ip:  { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           actions: [
-            { type: 'quiz', category: 'nhm', title: 'Learn about Handmade Policy', sub: 'Complete this course to demonstrate understanding of our handmade requirements', deadline: '10 days left', cta: 'Take quiz' },
-            { type: 'appeal', category: 'nhm', title: 'Review 3 removed listings', sub: 'These listings were removed for not meeting handmade standards', deadline: 'Appeal until Jun 15, 2026', cta: 'View details' },
+            { type: 'quiz', title: 'Learn about Handmade Policy', sub: 'Remove 10 violation points by learning about our policies', deadline: '10 days left', cat: 'nhm', cta: 'Take quiz' },
+            { type: 'appeal', title: 'Review 3 removed listings', sub: 'These listings were removed for not meeting handmade standards', deadline: 'Appeal until Jun 15, 2026', cat: 'nhm', cta: 'View details' },
           ],
         },
         {
@@ -378,19 +438,19 @@
           ip:  { tier: 'Education', pts: 100, strikes: 4, detail: '4 DMCA takedowns' },
           prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           actions: [
-            { type: 'quiz', category: 'ip', title: 'Learn about Intellectual Property Policy', sub: 'Complete this course to understand IP rights on Etsy', deadline: '10 days left', cta: 'Take quiz' },
-            { type: 'appeal', category: 'ip', title: 'Review 4 DMCA takedown notices', sub: 'Your listings were removed following rights holder complaints', deadline: 'Appeal until May 30, 2026', cta: 'View details' },
+            { type: 'quiz', title: 'Learn about Intellectual Property Policy', sub: 'Remove 10 violation points by learning about our policies', deadline: '10 days left', cat: 'ip', cta: 'Take quiz' },
+            { type: 'appeal', title: 'Review 4 DMCA takedown notices', sub: 'Your listings were removed following rights holder complaints', deadline: 'Appeal until May 30, 2026', cat: 'ip', cta: 'View details' },
           ],
         },
         {
-          name: 'Multi-runway (Restriction)',
+          name: 'Multi-runway severe',
           nhm: { tier: 'Education', pts: 50, strikes: 2, detail: '2 listings removed' },
           ip:  { tier: 'Restriction', pts: 225, strikes: 9, detail: '9 DMCA takedowns' },
           prohibited: { tier: 'Awareness', pts: 34, strikes: 1, detail: '1 listing removed' },
           actions: [
-            { type: 'verify', category: null, title: 'Verify your identity', sub: 'Due to multiple violations, we need to verify your identity to continue selling', deadline: '2 days left', cta: 'Verify' },
-            { type: 'quiz', category: 'ip', title: 'Learn about Intellectual Property Policy', sub: 'Complete this course to restore new listing creation', deadline: '10 days left', cta: 'Take quiz' },
-            { type: 'appeal', category: 'ip', title: 'Review 9 DMCA takedown notices', sub: 'Your listings were removed following rights holder complaints', deadline: 'Appeal until May 15, 2026', cta: 'View details' },
+            { type: 'verify', title: 'Verify your identity', sub: 'Due to multiple log in locations, we have placed your account on hold until you re-verify your identity.', deadline: '2 days left', cat: null, cta: 'Verify' },
+            { type: 'quiz', title: 'Learn about Intellectual Property Policy', sub: 'Remove 10 violation points by learning about our policies', deadline: '10 days left', cat: 'ip', cta: 'Take quiz' },
+            { type: 'appeal', title: 'Review and appeal listing removed', sub: 'Your listing was removed due to a Creativity Standards violation', deadline: 'Appeal until Jul 2, 2026', cat: 'ip', cta: 'File an appeal' },
           ],
         },
         {
@@ -399,7 +459,7 @@
           ip:  { tier: 'Final Warning', pts: 500, strikes: 1, detail: '1 confirmed counterfeit' },
           prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           actions: [
-            { type: 'appeal', category: 'ip', title: 'Review suspected counterfeit finding', sub: 'Your listings were flagged for suspected counterfeit activity. This is a serious violation.', deadline: 'Appeal until May 20, 2026', cta: 'View details' },
+            { type: 'appeal', title: 'Review suspected counterfeit finding', sub: 'Your listings were flagged for suspected counterfeit activity. This is a serious violation.', deadline: 'Appeal until May 20, 2026', cat: 'ip', cta: 'View details' },
           ],
         },
         {
@@ -408,151 +468,117 @@
           ip:  { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           prohibited: { tier: 'Good standing', pts: 0, strikes: 0, detail: null },
           actions: [
-            { type: 'quiz', category: 'nhm', title: 'Learn about Handmade Policy', sub: 'Complete this course to restore new listing creation', deadline: '10 days left', cta: 'Take quiz' },
-            { type: 'appeal', category: 'nhm', title: 'Review 10 removed listings', sub: 'These listings were removed in a policy review for not meeting handmade requirements', deadline: 'Appeal until Jun 1, 2026', cta: 'View details' },
+            { type: 'quiz', title: 'Learn about Handmade Policy', sub: 'Complete this course to restore new listing creation', deadline: '10 days left', cat: 'nhm', cta: 'Take quiz' },
+            { type: 'appeal', title: 'Review 10 removed listings', sub: 'These listings were removed in a policy review for not meeting handmade requirements', deadline: 'Appeal until Jun 1, 2026', cat: 'nhm', cta: 'View details' },
           ],
         },
       ];
 
-      function getWorstTier(scenario) {
-        const order = ['Good standing', 'Awareness', 'Education', 'Restriction', 'Final Warning', 'ROS'];
-        const tiers = [scenario.nhm.tier, scenario.ip.tier, scenario.prohibited.tier];
-        let worst = 0;
-        tiers.forEach(t => { const idx = order.indexOf(t); if (idx > worst) worst = idx; });
-        return order[worst];
+      function worst(s) {
+        const o = ['Good standing','Awareness','Education','Restriction','Final Warning','ROS'];
+        let w = 0;
+        [s.nhm.tier, s.ip.tier, s.prohibited.tier].forEach(t => { const i = o.indexOf(t); if (i > w) w = i; });
+        return o[w];
       }
 
-      function fillClass(tier) {
-        const order = ['Good standing', 'Awareness', 'Education', 'Restriction', 'Final Warning', 'ROS'];
-        const idx = order.indexOf(tier);
-        if (idx <= 1) return 'fill-green';
-        if (idx <= 2) return 'fill-yellow';
-        return 'fill-red';
+      function fc(tier) {
+        const o = ['Good standing','Awareness','Education','Restriction','Final Warning','ROS'];
+        const i = o.indexOf(tier);
+        return i <= 1 ? 'g' : i <= 2 ? 'y' : 'r';
       }
 
-      function renderTierBar(tier, large) {
-        const steps = ['Good standing', 'Awareness', 'Education', 'Restriction', 'Final Warning'];
-        const currentIdx = steps.indexOf(tier);
-        if (currentIdx === -1 && tier === 'ROS') return '';
-        const cls = fillClass(tier);
-        let html = `<div class="tier-bar${large ? ' large' : ''}">`;
-        steps.forEach((_, i) => {
-          html += `<div class="seg${i <= currentIdx ? ' ' + cls : ''}"></div>`;
+      function bar(tier, large) {
+        const steps = ['Good standing','Awareness','Education','Restriction','Final Warning'];
+        const ci = tier === 'ROS' ? 5 : steps.indexOf(tier);
+        if (ci === -1) return '';
+        const c = fc(tier);
+        let h = `<div class="tier-bar${large?' lg':''}">`;
+        steps.forEach((_,i) => { h += `<div class="seg${i <= ci ? ' '+c : ''}"></div>`; });
+        h += '</div>';
+        return h;
+      }
+
+      function renderPanel(s) {
+        const w = worst(s);
+        const info = TIERS[w];
+        let h = '';
+
+        h += '<div class="status-row">';
+        h += `<clg-status-indicator color="${info.color}" size="large">${info.label}</clg-status-indicator>`;
+        h += `<span class="status-desc">${TIER_DESC[w]}</span>`;
+        h += '</div>';
+        h += bar(w, true);
+
+        h += '<div class="runways-row">';
+        ['nhm','ip','prohibited'].forEach(k => {
+          const d = s[k], ri = TIERS[d.tier];
+          h += '<div class="runway">';
+          h += `<div class="rw-label">${RW[k]}</div>`;
+          h += `<clg-status-indicator color="${ri.color}">${ri.label}</clg-status-indicator>`;
+          h += bar(d.tier, false);
+          if (d.detail) h += `<div class="rw-detail">${d.detail}</div>`;
+          h += '</div>';
         });
-        html += '</div>';
-        return html;
-      }
+        h += '</div>';
 
-      function renderHealthCard(scenario) {
-        const el = document.getElementById('health-card');
-        const worst = getWorstTier(scenario);
-        const info = TIERS[worst];
-        const desc = TIER_DESCRIPTIONS[worst];
-
-        let html = '';
-
-        // Status header: pill + description
-        html += '<div class="status-header">';
-        html += `<clg-status-indicator color="${info.color}" size="large">${info.label}</clg-status-indicator>`;
-        html += `<span class="status-desc">${desc}</span>`;
-        html += '</div>';
-
-        // Overall tier bar
-        html += renderTierBar(worst, true);
-
-        // Three runway columns
-        html += '<div class="runways-row">';
-        ['nhm', 'ip', 'prohibited'].forEach(key => {
-          const data = scenario[key];
-          const rInfo = TIERS[data.tier];
-          html += '<div class="runway-col">';
-          html += `<div class="runway-label">${RUNWAY_LABELS[key]}</div>`;
-          html += `<clg-status-indicator color="${rInfo.color}">${rInfo.label}</clg-status-indicator>`;
-          html += renderTierBar(data.tier, false);
-          if (data.detail) {
-            html += `<div class="runway-detail">${data.detail}</div>`;
-          }
-          html += '</div>';
-        });
-        html += '</div>';
-
-        // Alert banner for severe tiers
-        if (['Restriction', 'Final Warning', 'ROS'].includes(worst)) {
-          const msg = worst === 'Final Warning'
-            ? 'Any further violations may result in permanent closure of your shop.'
-            : worst === 'ROS'
-            ? 'Your selling privileges have been revoked.'
+        if (['Restriction','Final Warning','ROS'].includes(w)) {
+          const msg = w === 'Final Warning' ? 'Any further violations may result in permanent closure of your shop.'
+            : w === 'ROS' ? 'Your selling privileges have been revoked.'
             : 'New listing creation is paused. Complete the actions below to restore full access to your shop.';
-          html += `<div class="alert-banner critical">${msg}</div>`;
+          h += `<div class="alert-bar">${msg}</div>`;
         }
 
-        // "Your violation records" link + timestamp
-        html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;">';
-        html += '<a href="#" style="font-size:13px;color:#222;font-weight:500;border:1px solid #E0DAD6;border-radius:20px;padding:6px 14px;text-decoration:none;">Your violation records</a>';
-        html += '<span class="refresh-ts" style="margin:0;">last refreshed on 04/20/2026 ⓘ</span>';
-        html += '</div>';
+        h += '<div class="panel-footer">';
+        h += '<button class="vr-btn">All violations</button>';
+        h += '<span class="refresh-ts">last refreshed on 04/20/2026 ⓘ</span>';
+        h += '</div>';
 
-        el.innerHTML = html;
+        document.getElementById('health-panel').innerHTML = h;
       }
 
-      function renderActions(scenario) {
+      function renderActions(s) {
         const el = document.getElementById('action-items');
-        if (!scenario.actions || !scenario.actions.length) { el.innerHTML = ''; return; }
-
-        let html = '';
-        scenario.actions.forEach(action => {
-          let indicatorColor = 'success';
-          if (action.category === 'nhm') indicatorColor = TIERS[scenario.nhm.tier].color;
-          else if (action.category === 'ip') indicatorColor = TIERS[scenario.ip.tier].color;
-          else if (action.category === 'prohibited') indicatorColor = TIERS[scenario.prohibited.tier].color;
-          else indicatorColor = TIERS[getWorstTier(scenario)].color;
-
-          const iconClass = action.type === 'verify' ? 'verify' : action.type === 'quiz' ? 'quiz' : 'appeal';
-          const iconEmoji = action.type === 'verify' ? '🔒' : action.type === 'quiz' ? 'ℹ️' : '📄';
-
-          html += '<div class="action-card">';
-          html += `<div class="action-icon ${iconClass}">${iconEmoji}</div>`;
-          html += '<div class="action-body">';
-          html += '<div class="action-title-row">';
-          html += `<span class="action-title">${action.title}</span>`;
-          html += `<clg-status-indicator color="${indicatorColor}">${action.deadline}</clg-status-indicator>`;
-          html += '</div>';
-          html += `<span class="action-sub">${action.sub}</span>`;
-          html += '</div>';
-          html += `<clg-button variant="secondary" size="small">${action.cta}</clg-button>`;
-          html += '</div>';
+        if (!s.actions?.length) { el.innerHTML = ''; return; }
+        let h = '';
+        s.actions.forEach(a => {
+          const dcls = a.deadline.includes('days left') ? 'crit' : 'info';
+          const icon = a.type === 'verify' ? '👤' : a.type === 'quiz' ? '💡' : '🖼️';
+          h += '<div class="action-card">';
+          h += `<div class="ac-icon">${icon}</div>`;
+          h += '<div class="ac-body">';
+          h += '<div class="ac-title-row">';
+          h += `<span class="ac-title">${a.title}</span>`;
+          h += `<span class="ac-deadline ${dcls}">${a.deadline}</span>`;
+          h += '</div>';
+          h += `<span class="ac-sub">${a.sub}</span>`;
+          h += '</div>';
+          h += `<button class="ac-btn">${a.cta}</button>`;
+          h += '</div>';
         });
-
-        el.innerHTML = html;
+        el.innerHTML = h;
       }
 
-      function renderScenario(idx) {
-        const scenario = SCENARIOS[idx];
-        renderHealthCard(scenario);
-        renderActions(scenario);
-        document.querySelectorAll('#scenario-buttons clg-button').forEach((btn, i) => {
-          btn.setAttribute('variant', i === idx ? 'primary' : 'secondary');
+      function show(i) {
+        renderPanel(SCENARIOS[i]);
+        renderActions(SCENARIOS[i]);
+        document.querySelectorAll('#scenario-buttons .sbtn').forEach((b,j) => {
+          b.classList.toggle('on', j === i);
         });
       }
 
       function init() {
-        const btnContainer = document.getElementById('scenario-buttons');
-        SCENARIOS.forEach((s, i) => {
-          const btn = document.createElement('clg-button');
-          btn.setAttribute('variant', i === 0 ? 'primary' : 'secondary');
-          btn.setAttribute('size', 'small');
-          btn.textContent = s.name;
-          btn.addEventListener('click', () => renderScenario(i));
-          btnContainer.appendChild(btn);
+        const c = document.getElementById('scenario-buttons');
+        SCENARIOS.forEach((s,i) => {
+          const b = document.createElement('button');
+          b.className = 'sbtn' + (i === 0 ? ' on' : '');
+          b.textContent = s.name;
+          b.onclick = () => show(i);
+          c.appendChild(b);
         });
-        renderScenario(0);
+        show(0);
       }
 
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-      } else {
-        init();
-      }
+      document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
     </script>
   </body>
 </html>
