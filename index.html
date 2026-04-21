@@ -252,6 +252,155 @@
       .edu-card .edu-body p  { font-size: 13px; color: #665E5C; line-height: 1.4; }
       .edu-card .edu-ext { color: #665E5C; font-size: 16px; flex-shrink: 0; }
 
+      /* === Side sheet overlay === */
+      .sheet-scrim {
+        position: fixed; inset: 0;
+        background: rgba(35,20,16,0.62);
+        z-index: 100;
+        display: none;
+      }
+      .sheet-scrim.open { display: block; }
+      .side-sheet {
+        position: fixed; top: 0; right: 0; bottom: 0;
+        width: 700px; max-width: 90vw;
+        background: #fff; z-index: 101;
+        border-radius: 24px 0 0 24px;
+        border-left: 1px solid #EFECEA;
+        display: none; flex-direction: column;
+        overflow: hidden;
+      }
+      .side-sheet.open { display: flex; }
+      .sheet-header {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 24px 28px 16px;
+        border-bottom: 1px solid #EFECEA;
+      }
+      .sheet-header .sheet-label { font-size: 11px; color: #665E5C; margin-bottom: 4px; }
+      .sheet-header .sheet-title { font-size: 22px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+      .sheet-close {
+        width: 36px; height: 36px; border-radius: 50%;
+        border: 1px solid #E0DAD6; background: #fff;
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer; font-size: 16px; flex-shrink: 0;
+      }
+      .sheet-close:hover { background: #F9F6F4; }
+      .sheet-body { flex: 1; overflow-y: auto; padding: 24px 28px; }
+      .sheet-footer {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 16px 28px;
+        border-top: 1px solid #EFECEA;
+      }
+      .sheet-footer .sf-btn {
+        font-size: 14px; font-weight: 700; padding: 10px 20px;
+        border-radius: 20px; cursor: pointer; letter-spacing: -0.01em;
+      }
+      .sf-btn.tertiary { border: 1px solid #E0DAD6; background: #fff; color: #312B36; }
+      .sf-btn.tertiary:hover { background: #F9F6F4; }
+      .sf-btn.secondary { border: 1.5px solid #312B36; background: #fff; color: #312B36; }
+      .sf-btn.secondary:hover { background: #F9F6F4; }
+      .sf-btn.primary { border: none; background: #312B36; color: #fff; }
+      .sf-btn.primary:hover { background: #1a1020; }
+
+      /* Sheet content styles */
+      .violation-detail .vd-status-row {
+        display: flex; align-items: center; gap: 8px;
+        font-size: 13px; color: #665E5C; margin-bottom: 20px;
+      }
+      .vd-status-row .vd-dot { width: 8px; height: 8px; border-radius: 50%; background: #C4320A; }
+      .vd-status-row .vd-chip {
+        font-size: 11px; font-weight: 600; padding: 2px 8px;
+        border-radius: 4px; background: #F9F6F4; color: #312B36;
+      }
+      .vd-listing {
+        display: flex; align-items: center; gap: 12px;
+        padding: 16px 0; border-bottom: 1px solid #EFECEA;
+        margin-bottom: 20px;
+      }
+      .vd-listing .vd-thumb {
+        width: 48px; height: 48px; border-radius: 6px;
+        background: #EFECEA; flex-shrink: 0;
+      }
+      .vd-listing .vd-name { font-size: 14px; font-weight: 600; }
+      .vd-listing .vd-link { font-size: 13px; color: #312B36; text-decoration: underline; }
+      .vd-listing .vd-badge {
+        margin-left: auto; font-size: 11px; font-weight: 700;
+        padding: 3px 10px; border-radius: 4px;
+        background: #C4320A; color: #fff;
+      }
+      .vd-section-title { font-size: 16px; font-weight: 700; margin: 20px 0 12px; }
+      .vd-section-title a { color: #312B36; text-decoration: underline; }
+      .vd-reason { display: flex; gap: 10px; margin-bottom: 12px; font-size: 14px; color: #222; line-height: 1.5; }
+      .vd-reason .vd-arrow { color: #665E5C; flex-shrink: 0; }
+      .vd-reason strong { display: block; margin-bottom: 2px; }
+      .vd-next-title { font-size: 16px; font-weight: 700; margin: 24px 0 8px; }
+      .vd-next-list { padding-left: 20px; font-size: 14px; color: #222; line-height: 1.8; }
+
+      /* Quiz sheet */
+      .quiz-info-bar {
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 8px 0; margin-bottom: 16px;
+        font-size: 11px; font-weight: 600; text-transform: uppercase;
+        color: #665E5C; letter-spacing: 0.05em;
+        border-bottom: 1px solid #EFECEA;
+      }
+      .quiz-content-area {
+        background: #FAF8F5; border-radius: 12px;
+        padding: 32px; min-height: 280px;
+        display: flex; flex-direction: column; gap: 16px;
+      }
+      .quiz-q { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+      .quiz-option {
+        display: flex; align-items: flex-start; gap: 10px;
+        padding: 12px 16px; border: 1.5px solid #E0DAD6;
+        border-radius: 10px; cursor: pointer; font-size: 14px; line-height: 1.4;
+      }
+      .quiz-option:hover { border-color: #312B36; }
+      .quiz-option.selected { border-color: #312B36; background: #F9F6F4; }
+      .quiz-radio {
+        width: 18px; height: 18px; border-radius: 50%;
+        border: 2px solid #E0DAD6; flex-shrink: 0; margin-top: 1px;
+      }
+      .quiz-option.selected .quiz-radio { border-color: #312B36; background: #312B36; }
+
+      /* === Violation records page === */
+      .records-page { display: none; }
+      .records-page.open { display: block; }
+      .records-back {
+        display: flex; align-items: center; gap: 6px;
+        font-size: 14px; color: #312B36; cursor: pointer;
+        margin-bottom: 24px; background: none; border: none;
+        font-weight: 500;
+      }
+      .records-back:hover { text-decoration: underline; }
+      .records-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+      .records-table th {
+        text-align: left; padding: 10px 12px;
+        font-weight: 600; color: #665E5C; font-size: 12px;
+        border-bottom: 2px solid #E0DAD6;
+      }
+      .records-table td {
+        padding: 16px 12px; border-bottom: 1px solid #EFECEA;
+        vertical-align: top;
+      }
+      .records-table .rec-id { font-weight: 600; }
+      .records-table .rec-status { display: flex; align-items: center; gap: 6px; }
+      .rec-status .s-dot { width: 8px; height: 8px; border-radius: 50%; }
+      .rec-status .s-dot.enforced { background: #C4320A; }
+      .rec-status .s-dot.expired { background: #999; }
+      .rec-chip {
+        font-size: 11px; font-weight: 600; padding: 2px 8px;
+        border-radius: 4px; display: inline-block;
+      }
+      .rec-chip.not-started { background: #F9F6F4; color: #312B36; }
+      .rec-chip.unavailable { background: #FEF0EE; color: #C4320A; }
+      .records-table .rec-btn {
+        font-size: 13px; font-weight: 700; color: #312B36;
+        border: 1.5px solid #312B36; background: none;
+        border-radius: 18px; padding: 6px 14px; cursor: pointer;
+        white-space: nowrap;
+      }
+      .records-table .rec-btn:hover { background: #F9F6F4; }
+
       /* === Proto controls === */
       .proto-box {
         margin-top: 48px; padding: 20px 24px;
@@ -336,7 +485,7 @@
             </div>
             <div class="menu-group">
               <div class="menu-title">Your shop health</div>
-              <a class="menu-item active" href="#">Account status</a>
+              <a class="menu-item active" href="#" onclick="event.preventDefault(); closeRecords(); closeSheet();">Account status</a>
               <a class="menu-item" href="#">Compliance</a>
             </div>
             <div class="menu-group">
@@ -390,8 +539,41 @@
               <div class="btn-row" id="scenario-buttons"></div>
             </div>
           </main>
+
+          <!-- Violation records (replaces content pane) -->
+          <div class="records-page" id="records-page" style="flex:1;max-width:909px;padding:32px 36px 64px;">
+            <button class="records-back" onclick="closeRecords()">
+              ← Back to Account status
+            </button>
+            <h1 class="page-title">Violation records</h1>
+            <p class="page-subtitle">Find out if your listings aren't following our policies, and learn how it may affect your shop.</p>
+            <div style="display:flex;gap:16px;margin-bottom:20px;align-items:center;">
+              <div style="flex:1;position:relative;">
+                <input type="text" placeholder="Search for listings or policies" style="width:100%;padding:10px 14px 10px 36px;border:1px solid #E0DAD6;border-radius:8px;font-size:14px;background:#fff;">
+                <clg-icon name="search" size="smaller" style="position:absolute;left:12px;top:12px;--clg-icon-color:#665E5C"></clg-icon>
+              </div>
+              <span style="font-size:13px;color:#665E5C;">Time period: <strong>Last year</strong> ▾</span>
+              <span style="font-size:13px;color:#665E5C;">Appeal status: <strong>All</strong> ▾</span>
+            </div>
+            <table class="records-table" id="records-table-body"></table>
+          </div>
+
         </div>
       </div>
+    </div>
+
+    <!-- Side sheet overlay -->
+    <div class="sheet-scrim" id="sheet-scrim" onclick="closeSheet()"></div>
+    <div class="side-sheet" id="side-sheet">
+      <div class="sheet-header">
+        <div>
+          <div class="sheet-label" id="sheet-label"></div>
+          <div class="sheet-title" id="sheet-title"></div>
+        </div>
+        <button class="sheet-close" onclick="closeSheet()">✕</button>
+      </div>
+      <div class="sheet-body" id="sheet-body"></div>
+      <div class="sheet-footer" id="sheet-footer"></div>
     </div>
 
     <script>
@@ -501,6 +683,179 @@
         return h;
       }
 
+      let currentScenarioIdx = 0;
+
+      /* ---- Side sheet ---- */
+      function openSheet(type, action) {
+        document.getElementById('sheet-scrim').classList.add('open');
+        document.getElementById('side-sheet').classList.add('open');
+        if (type === 'quiz') renderQuizSheet(action);
+        else if (type === 'violation') renderViolationSheet(action);
+        else if (type === 'verify') renderVerifySheet();
+      }
+      function closeSheet() {
+        document.getElementById('sheet-scrim').classList.remove('open');
+        document.getElementById('side-sheet').classList.remove('open');
+      }
+
+      function renderQuizSheet(action) {
+        const policyName = action.title.replace('Learn about ', '');
+        document.getElementById('sheet-label').textContent = 'Modifier';
+        document.getElementById('sheet-title').innerHTML = `<clg-icon name="lightbulb" size="small"></clg-icon> ${policyName} quiz`;
+        document.getElementById('sheet-body').innerHTML = `
+          <div class="quiz-info-bar"><span>INFORMATION</span><span>All ▾</span></div>
+          <div class="quiz-content-area">
+            <div class="quiz-q">Question 1: Who can report an IP infringement to Etsy?</div>
+            <div class="quiz-option" onclick="selectQuiz(this)">
+              <div class="quiz-radio"></div>
+              <div>Any Etsy seller who thinks their work has been copied</div>
+            </div>
+            <div class="quiz-option" onclick="selectQuiz(this)">
+              <div class="quiz-radio"></div>
+              <div>Any Etsy buyer who spots something suspicious</div>
+            </div>
+            <div class="quiz-option selected" onclick="selectQuiz(this)">
+              <div class="quiz-radio"></div>
+              <div>Only the intellectual property owner, or someone they've officially authorized</div>
+            </div>
+            <div class="quiz-option" onclick="selectQuiz(this)">
+              <div class="quiz-radio"></div>
+              <div>Etsy's Trust & Safety team, acting on your behalf</div>
+            </div>
+          </div>`;
+        document.getElementById('sheet-footer').innerHTML = `
+          <button class="sf-btn tertiary">Learn about the policy</button>
+          <div style="display:flex;gap:8px;">
+            <button class="sf-btn secondary" onclick="closeSheet()">Next</button>
+            <button class="sf-btn primary" onclick="closeSheet()">Done</button>
+          </div>`;
+      }
+
+      function selectQuiz(el) {
+        el.closest('.quiz-content-area').querySelectorAll('.quiz-option').forEach(o => o.classList.remove('selected'));
+        el.classList.add('selected');
+      }
+
+      function renderViolationSheet(action) {
+        document.getElementById('sheet-label').textContent = '';
+        document.getElementById('sheet-title').innerHTML = `⚠️ Listing violation details`;
+        const isCS = action.cat === 'nhm';
+        const policyName = isCS ? 'Creativity Standards' : action.cat === 'ip' ? 'Intellectual Property' : 'Marketplace Policies';
+        document.getElementById('sheet-body').innerHTML = `
+          <div class="violation-detail">
+            <div class="vd-status-row">
+              Record status: <div class="vd-dot"></div> <strong>Enforced</strong>
+              &nbsp;&nbsp;Appeal status: <span class="vd-chip">Not started</span>
+            </div>
+            <div class="vd-listing">
+              <div class="vd-thumb"></div>
+              <div>
+                <div class="vd-name">1970s J&G Meakin Studio Milk Jug and Saucer</div>
+                <a href="#" class="vd-link">View listing</a>
+              </div>
+              <span class="vd-badge">Removed</span>
+            </div>
+            <div class="vd-section-title">Here's why this doesn't meet our <a href="#">${policyName}</a></div>
+            ${isCS ? `
+            <div class="vd-reason"><span class="vd-arrow">→</span><div><strong>This item isn't unique to your shop</strong>We found the item in your listing on 1+ other sites, such as: www.taobao.com/list/item/745382271039.htm</div></div>
+            <div class="vd-reason"><span class="vd-arrow">→</span><div><strong>Can't sell commercial items with minor changes</strong>We don't allow commercial items with surface-only changes, like mass-made stickers or personalized packaging.</div></div>
+            ` : `
+            <div class="vd-reason"><span class="vd-arrow">→</span><div><strong>Intellectual property complaint received</strong>The rights holder has filed a formal complaint regarding this listing.</div></div>
+            `}
+            <div class="vd-next-title">What you can do next:</div>
+            <ul class="vd-next-list">
+              <li>Update any similar listings to make sure they're following our ${policyName}.</li>
+              <li>You can submit an appeal for up to 90 days after the listing was removed.</li>
+              <li>Keep in mind, if your shop has multiple policy violations, we may remove any Star Seller badges you have or suspend your account.</li>
+            </ul>
+          </div>`;
+        document.getElementById('sheet-footer').innerHTML = `
+          <button class="sf-btn tertiary">Review listing</button>
+          <div style="display:flex;gap:8px;">
+            <button class="sf-btn secondary" onclick="closeSheet()">Done</button>
+            <button class="sf-btn primary" onclick="closeSheet()">File an appeal</button>
+          </div>`;
+      }
+
+      function renderVerifySheet() {
+        document.getElementById('sheet-label').textContent = '';
+        document.getElementById('sheet-title').innerHTML = `🔒 Verify your identity`;
+        document.getElementById('sheet-body').innerHTML = `
+          <div style="padding:24px 0;">
+            <p style="font-size:15px;line-height:1.6;margin-bottom:20px;">Due to multiple log in locations, we have placed your account on hold until you re-verify your identity.</p>
+            <p style="font-size:15px;line-height:1.6;margin-bottom:20px;">Please verify your identity to restore full access to your shop. This process typically takes 1–2 business days.</p>
+            <div style="background:#FAF8F5;border-radius:12px;padding:24px;margin-top:16px;">
+              <p style="font-size:14px;font-weight:700;margin-bottom:8px;">What you'll need:</p>
+              <ul style="font-size:14px;line-height:1.8;padding-left:20px;color:#222;">
+                <li>A government-issued photo ID</li>
+                <li>A selfie for identity confirmation</li>
+                <li>Access to your registered email address</li>
+              </ul>
+            </div>
+          </div>`;
+        document.getElementById('sheet-footer').innerHTML = `
+          <div></div>
+          <button class="sf-btn primary" onclick="closeSheet()">Start verification</button>`;
+      }
+
+      /* ---- Violation records page ---- */
+      function openRecords() {
+        document.querySelector('.content-pane').style.display = 'none';
+        const rp = document.getElementById('records-page');
+        rp.classList.add('open');
+        rp.style.display = 'block';
+        renderRecordsTable();
+      }
+      function closeRecords() {
+        document.querySelector('.content-pane').style.display = '';
+        document.getElementById('records-page').classList.remove('open');
+        document.getElementById('records-page').style.display = 'none';
+      }
+
+      function renderRecordsTable() {
+        const s = SCENARIOS[currentScenarioIdx];
+        const records = [];
+        [['nhm','Creativity Standards','Listing policy violation'],
+         ['ip','Intellectual Property','Listing policy violation'],
+         ['prohibited','Community Standards','Messages violation']].forEach(([key, reason, subtype]) => {
+          const d = s[key];
+          for (let i = 0; i < d.strikes; i++) {
+            records.push({
+              id: '1939749248' + (84 + records.length),
+              date: 'Apr 2, 2026',
+              reason, subtype,
+              enforcement: key === 'prohibited' ? 'Unable to send messages for 30 days' : 'Listing suppressed from search for 90 days',
+              points: '+25',
+              status: i === 0 ? 'Enforced' : (Math.random() > 0.5 ? 'Enforced' : 'Expired'),
+              appeal: i === 0 ? 'Not started' : 'Unavailable',
+              resolution: i === 0 ? 'Jul 2, 2026' : 'Feb 2, 2026',
+            });
+          }
+        });
+
+        let h = `<thead><tr>
+          <th>Record ID</th><th>Violation reason</th><th>Enforcement type</th>
+          <th>Record status</th><th>Appeal status</th><th>Resolution available</th><th>Actions</th>
+        </tr></thead><tbody>`;
+        records.forEach(r => {
+          const dotCls = r.status === 'Enforced' ? 'enforced' : 'expired';
+          const chipCls = r.appeal === 'Not started' ? 'not-started' : 'unavailable';
+          const btnLabel = r.appeal === 'Not started' ? 'View details & appeal' : (r.status === 'Enforced' ? 'View details & resolve' : 'View details');
+          h += `<tr>
+            <td class="rec-id">${r.id}<br><span style="font-weight:400;color:#665E5C">${r.date}</span></td>
+            <td>${r.reason}<br><span style="color:#665E5C">${r.subtype}</span></td>
+            <td>${r.enforcement}<br><span style="color:#665E5C">${r.points} points</span></td>
+            <td><div class="rec-status"><div class="s-dot ${dotCls}"></div>${r.status}</div></td>
+            <td><span class="rec-chip ${chipCls}">${r.appeal}</span></td>
+            <td>${r.resolution}</td>
+            <td><button class="rec-btn" onclick="openSheet('violation',{cat:'${r.reason.includes('Creativity') ? 'nhm' : r.reason.includes('Intellectual') ? 'ip' : 'prohibited'}',title:'${r.reason}'})">${btnLabel}</button></td>
+          </tr>`;
+        });
+        h += '</tbody>';
+        document.getElementById('records-table-body').innerHTML = h;
+      }
+
+      /* ---- Render main views ---- */
       function renderPanel(s) {
         const w = worst(s);
         const info = TIERS[w];
@@ -515,7 +870,8 @@
         h += '<div class="runways-row">';
         ['nhm','ip','prohibited'].forEach(k => {
           const d = s[k], ri = TIERS[d.tier];
-          h += '<div class="runway">';
+          const clickable = d.strikes > 0 ? ' style="cursor:pointer" onclick="openRecords()"' : '';
+          h += `<div class="runway"${clickable}>`;
           h += `<div class="rw-label">${RW[k]}</div>`;
           h += `<clg-status-indicator color="${ri.color}">${ri.label}</clg-status-indicator>`;
           h += bar(d.tier, false);
@@ -532,7 +888,7 @@
         }
 
         h += '<div class="panel-footer">';
-        h += '<button class="vr-btn">All violations</button>';
+        h += '<button class="vr-btn" onclick="openRecords()">All violations</button>';
         h += '<span class="refresh-ts">last refreshed on 04/20/2026 ⓘ</span>';
         h += '</div>';
 
@@ -543,14 +899,15 @@
         const el = document.getElementById('action-items');
         if (!s.actions?.length) { el.innerHTML = ''; return; }
         let h = '';
-        s.actions.forEach(a => {
+        s.actions.forEach((a, idx) => {
           const dcls = a.deadline.includes('days left') ? 'crit' : 'info';
           const icon = a.type === 'verify'
             ? '<clg-icon name="userprofile" size="small"></clg-icon>'
             : a.type === 'quiz'
             ? '<clg-icon name="lightbulb" size="small"></clg-icon>'
             : '<clg-icon name="image" size="small"></clg-icon>';
-          h += '<div class="action-card">';
+          const sheetType = a.type === 'quiz' ? 'quiz' : a.type === 'verify' ? 'verify' : 'violation';
+          h += `<div class="action-card" style="cursor:pointer" onclick="openSheet('${sheetType}', SCENARIOS[currentScenarioIdx].actions[${idx}])">`;
           h += `<div class="ac-icon">${icon}</div>`;
           h += '<div class="ac-body">';
           h += '<div class="ac-title-row">';
@@ -559,13 +916,16 @@
           h += '</div>';
           h += `<span class="ac-sub">${a.sub}</span>`;
           h += '</div>';
-          h += `<button class="ac-btn">${a.cta}</button>`;
+          h += `<button class="ac-btn" onclick="event.stopPropagation(); openSheet('${sheetType}', SCENARIOS[currentScenarioIdx].actions[${idx}])">${a.cta}</button>`;
           h += '</div>';
         });
         el.innerHTML = h;
       }
 
       function show(i) {
+        currentScenarioIdx = i;
+        closeRecords();
+        closeSheet();
         renderPanel(SCENARIOS[i]);
         renderActions(SCENARIOS[i]);
         document.querySelectorAll('#scenario-buttons .sbtn').forEach((b,j) => {
